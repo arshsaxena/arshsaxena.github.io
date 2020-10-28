@@ -1,22 +1,40 @@
 @font-face {
     font-family: "SF Pro Text";
-    src: url('first-page/fonts/font.otf')
+    src: url('resources/first-page/fonts/font.otf')
 }
 body{
-    background-image: url(first-page/imgs/arsh-image-transparent.jpg);
+    background-image: url(resources/first-page/imgs/arsh-image-transparent.jpg);
     background-color: #424649;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: SF Pro Text;
     float: right;
-    width: 43%;
+    width: 50%;
+}
+.navbar{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.gallery{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    
+}
+.maindiv{
     text-align: left;
     color: white;
-    vertical-align: middle;
+    position: fixed;
+    top: 52%;
+    left: 52%;
+    right: 5%;
+    transform: translate(5%, -50%);
 }
 .namehead{
     color: white;
-    margin-top: 100px;
     font-size: 50px;
     letter-spacing: 4px;
     font-weight: 900;
