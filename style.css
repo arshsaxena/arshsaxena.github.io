@@ -3,13 +3,17 @@ body{
     background-color: #424649;
     background-repeat: no-repeat;
     background-size: 100%;
-    font-family: SF Pro Text;
-    src: url(first-page/fonts/font.otf);
+    /*font-family: SF Pro Text;
+    src: url(first-page/fonts/font.otf);*/
     float: right;
     width: 43%;
     text-align: left;
     color: white;
     vertical-align: middle;
+}
+@font-face {
+    font-family: SF Pro Text;
+    src: url(first-page/fonts/font.otf)
 }
 .namehead{
     color: white;
