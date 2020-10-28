@@ -1,6 +1,6 @@
 @font-face {
-    font-family: SF Pro Text;
-    src: url(first-page/fonts/font.otf)
+    font-family: "SF Pro Text";
+    src: url('first-page/fonts/font.otf')
 }
 body{
     background-image: url(first-page/imgs/arsh-image-transparent.jpg);
