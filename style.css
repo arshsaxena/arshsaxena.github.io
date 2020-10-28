@@ -1,0 +1,52 @@
+body{
+    background-image: url(first-page/imgs/arsh-image-transparent.jpg);
+    background-color: #424649;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: url(fonts/SF-Pro-Text-Regular.otf);
+    float: right;
+    width: 43%;
+    text-align: left;
+    color: white;
+    vertical-align: middle;
+}
+.namehead{
+    color: white;
+    margin-top: 100px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+.at{
+    color: rgb(255, 52, 52);
+}
+.dot{
+    color: rgb(255, 52, 52);
+}
+.namehead-description{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
+.description{
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #d6d5d5;
+    
+}
+.indian{
+    font-weight: bolder;
+}
+.in{
+    color: orangered;
+}
+.di{
+    color: white;
+}
+.an{
+    color: green;
+}
+.social-links{
+    text-align: left;
+    font-size: 30px;
+}
