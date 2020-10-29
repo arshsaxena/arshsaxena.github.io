@@ -27,7 +27,7 @@ a{
 .maindiv{
     text-align: left;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 52%;
     left: 52%;
     right: 5%;
