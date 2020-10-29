@@ -12,18 +12,18 @@ body{
     float: right;
     width: 50%;
 }
-/* .navbar{
+.navdiv{
     text-align: right;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
-a{
+.gallery{
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-size: 20px;
     
-} */
+}
 .maindiv{
     text-align: left;
     color: white;
