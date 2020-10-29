@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('resources/first-page/fonts/font.otf')
+}
+body{
+    background-color: #424649;
+    color: white;
+    font-family: SF Pro Text;
+}
+.mainheading{
+    font-weight: 900;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.github-screenshot{
+    width: 100%;
+    border-radius: 50px;
+}
+.livehead{
+    font-size: 30px;
+}

@@ -24,6 +24,7 @@ body{
 .chhota-baccha img{
     height: 270px;
     border-radius: 35px;
+    image-orientation: from-image;
 }
 .thoda-bada-baccha{
     margin-top: 0px;
@@ -34,6 +35,7 @@ body{
 .thoda-bada-baccha img{
     height: 350px;
     border-radius: 25px;
+    image-orientation: from-image;
 }
 .thoda-sa-aur-bada-baccha{
     margin-top: 0px;
@@ -44,10 +46,5 @@ body{
 .thoda-sa-aur-bada-baccha img{
     height: 315px;
     border-radius: 25px;
-}
-.instagram-frames{
-    margin-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 30px;
+    image-orientation: from-image;
 }

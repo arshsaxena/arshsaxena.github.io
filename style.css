@@ -15,7 +15,7 @@ body{
 .navbar{
     text-align: right;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 12px;
 }
 a{
     text-decoration: none;
@@ -40,15 +40,15 @@ a{
     font-weight: 900;
 }
 .at{
-    color: rgb(255, 52, 52);
+    color: lawngreen;
 }
 .dot{
-    color: rgb(255, 52, 52);
+    color: lawngreen;
 }
 .namehead-description{
     font-size: 30px;
     letter-spacing: 2px;
-    font-weight: 550;
+    font-weight: 590;
 }
 .description{
     font-size: 23px;
