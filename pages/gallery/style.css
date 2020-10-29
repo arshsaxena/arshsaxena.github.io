@@ -6,6 +6,16 @@ body{
     background-color: #424649;
     color: white;
     font-family: SF Pro Text;
+    text-decoration: none;
+}
+.back-arrow-button{
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
 }
 .mainheading{
     font-weight: 900;
@@ -14,6 +24,10 @@ body{
     margin-top: 0;
     letter-spacing: 2px;
     margin-bottom: 0;
+    color: lawngreen;
+}
+.head{
+    color: gold;
 }
 .chhota-baccha{
     margin-top: 0px;
@@ -45,6 +59,39 @@ body{
 }
 .thoda-sa-aur-bada-baccha img{
     height: 315px;
+    border-radius: 25px;
+    image-orientation: from-image;
+}
+.ekdum-latest{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.ekdum-latest img{
+    height: 290px;
+    border-radius: 25px;
+    image-orientation: from-image;
+}
+.great-grandparents{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.great-grandparents img{
+    height: 225px;
+    border-radius: 25px;
+    image-orientation: from-image;
+}
+.family{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.family img{
+    height: 240px;
     border-radius: 25px;
     image-orientation: from-image;
 }

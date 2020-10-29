@@ -1,11 +1,20 @@
 @font-face {
     font-family: "SF Pro Text";
-    src: url('../../resources/first-page/fonts/font.otf')
+    src: url('resources/first-page/fonts/font.otf')
 }
 body{
     background-color: #424649;
     color: white;
     font-family: SF Pro Text;
+}
+.back-arrow-button{
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
 }
 .mainheading{
     font-weight: 900;
@@ -14,11 +23,31 @@ body{
     margin-top: 0;
     letter-spacing: 2px;
     margin-bottom: 0;
+    color: lawngreen;
+}
+.link-to-profile{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+.link-to-profile a{
+    text-align: center;
+    text-decoration: none;
+    color: skyblue;
+}
+.head{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: gold;
 }
 .github-screenshot{
-    width: 100%;
-    border-radius: 50px;
-}
-.livehead{
-    font-size: 30px;
+    width: 85%;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: black;
 }
