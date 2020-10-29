@@ -16,12 +16,14 @@ body{
     text-align: right;
     margin-top: 10px;
     margin-right: 0px;
-}
-.gallery{
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
     font-size: 20px;
+}
+}
+.gallery{
+
     
 }
 .maindiv{
