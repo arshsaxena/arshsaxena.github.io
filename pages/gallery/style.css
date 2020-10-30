@@ -39,6 +39,15 @@ body{
     height: 270px;
     border-radius: 35px;
     image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.chhota-baccha img:hover{
+    height: 290px;
+    transform: scale(1.11); 
+    border-radius: 35px;
+    image-orientation: from-image;
 }
 .thoda-bada-baccha{
     margin-top: 0px;
@@ -49,6 +58,15 @@ body{
 .thoda-bada-baccha img{
     height: 350px;
     border-radius: 25px;
+    image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.thoda-bada-baccha img:hover{
+    height: 375px;
+    transform: scale(1.11); 
+    border-radius: 35px;
     image-orientation: from-image;
 }
 .thoda-sa-aur-bada-baccha{
@@ -61,6 +79,15 @@ body{
     height: 315px;
     border-radius: 25px;
     image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.thoda-sa-aur-bada-baccha img:hover{
+    height: 350px;
+    transform: scale(1.11); 
+    border-radius: 35px;
+    image-orientation: from-image;
 }
 .ekdum-latest{
     margin-top: 0px;
@@ -72,6 +99,15 @@ body{
     height: 290px;
     border-radius: 25px;
     image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.ekdum-latest img:hover{
+    height: 345px;
+    transform: scale(1.11); 
+    border-radius: 35px;
+    image-orientation: from-image;
 }
 .great-grandparents{
     margin-top: 0px;
@@ -80,8 +116,17 @@ body{
     font-size: 30px;
 }
 .great-grandparents img{
-    height: 225px;
+    height: 220px;
     border-radius: 25px;
+    image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.great-grandparents img:hover{
+    height: 245px;
+    transform: scale(1.11); 
+    border-radius: 35px;
     image-orientation: from-image;
 }
 .family{
@@ -91,7 +136,16 @@ body{
     font-size: 30px;
 }
 .family img{
-    height: 240px;
+    height: 250px;
     border-radius: 25px;
+    image-orientation: from-image;
+    transition-property: height transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.family img:hover{
+    height: 275px;
+    transform: scale(1.11); 
+    border-radius: 35px;
     image-orientation: from-image;
 }

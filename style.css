@@ -72,3 +72,11 @@ a{
     text-align: left;
     font-size: 30px;
 }
+.social-links img{
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.social-links img:hover{
+    transform: scale(1.6)
+}

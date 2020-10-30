@@ -39,10 +39,29 @@ body{
     text-decoration: none;
     color: skyblue;
 }
+.link-to-profile a{
+    text-align: center;
+    text-decoration: none;
+    color: skyblue;
+    transition-property: font-size;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.link-to-profile a:hover{
+    font-size: 40px;
+}
 .head{
     font-size: 30px;
     letter-spacing: 1px;
     color: gold;
+}
+a img{
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+a img:hover{
+    transform: scale(1.13);
 }
 .github-screenshot{
     width: 85%;
