@@ -1,8 +1,14 @@
 @font-face {
     font-family: "SF Pro Text";
-    src: url('resources/first-page/fonts/font.otf');
-    src: url('resources/first-page/fonts/font-bold.otf');
-    src: url('resources/first-page/fonts/font-italic.otf');
+    src: url('../../resources/first-page/fonts/font.otf');
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
+    src: url('../../resources/first-page/fonts/font-bold.otf');
+}
+@font-face{
+    font-family: "SF Pro Italic";
+    src: url('../../resources/first-page/fonts/font-italic.otf');
 }
 body{
     background-image: url(resources/first-page/imgs/arsh-image-transparent.jpg);
@@ -13,6 +19,9 @@ body{
     font-family: SF Pro Text;
     float: right;
     width: 50%;
+}
+b{
+    font-family: SF Pro Text Bold;
 }
 .navbar{
     text-align: right;

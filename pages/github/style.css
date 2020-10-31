@@ -1,13 +1,22 @@
 @font-face {
     font-family: "SF Pro Text";
     src: url('../../resources/first-page/fonts/font.otf');
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
     src: url('../../resources/first-page/fonts/font-bold.otf');
+}
+@font-face{
+    font-family: "SF Pro Italic";
     src: url('../../resources/first-page/fonts/font-italic.otf');
 }
 body{
     background-color: #424649;
     color: white;
     font-family: SF Pro Text;
+}
+b{
+    font-family: SF Pro Text Bold;
 }
 .back-arrow-button{
     font-weight: 900;
