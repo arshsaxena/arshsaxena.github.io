@@ -1,6 +1,8 @@
 @font-face {
     font-family: "SF Pro Text";
-    src: url('../../resources/first-page/fonts/font.otf')
+    src: url('../../resources/first-page/fonts/font.otf');
+    src: url('../../resources/first-page/fonts/font-bold.otf');
+    src: url('../../resources/first-page/fonts/font-italic.otf');
 }
 body{
     background-color: #424649;

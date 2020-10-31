@@ -1,6 +1,8 @@
 @font-face {
     font-family: "SF Pro Text";
-    src: url('../../resources/first-page/fonts/font.otf')
+    src: url('../../resources/first-page/fonts/font.otf');
+    src: url('../../resources/first-page/fonts/font-bold.otf');
+    src: url('../../resources/first-page/fonts/font-italic.otf');
 }
 body{
     background-color: #424649;
@@ -61,10 +63,11 @@ a img{
     transition-timing-function: ease-in-out;
 }
 a img:hover{
-    transform: scale(1.13);
+    transform: scale(1.13); 
+    cursor: default;
 }
 .github-screenshot{
-    width: 85%;
+    width: 1133.05px;
     border-radius: 35px;
     border-style: solid;
     border-width: 25px;
