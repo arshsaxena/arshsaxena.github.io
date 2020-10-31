@@ -47,7 +47,7 @@ b{
     font-size: 30px;
 }
 .chhota-baccha img{
-    height: 270px;
+    height: 240px;
     border-radius: 35px;
     image-orientation: from-image;
     transition-property: height transform;
@@ -55,8 +55,8 @@ b{
     transition-timing-function: ease-in-out;
 }
 .chhota-baccha img:hover{
-    height: 290px;
-    transform: scale(1.11); 
+    height: 263px;
+    transform: scale(1.1); 
     border-radius: 35px;
     image-orientation: from-image;
 }
