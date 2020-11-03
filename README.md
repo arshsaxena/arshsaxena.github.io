@@ -1,5 +1,5 @@
 # arshsaxena.github.io
-<p>This reopsitory contains codes and resources of my offical website, <a href="https://arshsaxena.github.io">https://arshsaxena.github.io</a>.
+<p align="justify">This reopsitory contains codes and resources of my offical website, <a href="https://arshsaxena.github.io">https://arshsaxena.github.io</a>.
 <br>
 Website may not function properply below 1366x768 resolution.
 <br><br>
