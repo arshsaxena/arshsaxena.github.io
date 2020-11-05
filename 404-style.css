@@ -1,3 +1,75 @@
-h1{
-    color: red;
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('../../resources/first-page/fonts/font.otf');
+}
+@font-face{
+    font-family: "SF Pro Text Bold";
+    src: url('../../resources/first-page/fonts/font-bold.otf');
+}
+@font-face{
+    font-family: "SF Pro Italic";
+    src: url('../../resources/first-page/fonts/font-italic.otf');
+}
+body{
+    background-image: url(resources/first-page/imgs/arsh-image-transparent.jpg);
+    background-color: #424649;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: SF Pro Text;
+    float: right;
+    width: 50%;
+}
+b{
+    font-family: SF Pro Text Bold;
+}
+.navbar{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.maindiv{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    right: 5%;
+    transform: translate(5%, -50%);
+}
+.error-description{
+    font-weight: 900;
+    font-size: 53px;
+    letter-spacing: 2px;
+    color: #d6d5d5;
+}
+.home-page{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    padding: 10px;
+    transition-property: font-size;
+    transition-timing-function: ease-in-out;
+    transition-duration: 500ms;
+}
+.home-page:hover{
+    font-size: 40px;
+}
+.social-links{
+    text-align: center;
+    font-size: 30px;
+}
+.social-links img{
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.social-links img:hover{
+    transform: scale(1.6)
 }
