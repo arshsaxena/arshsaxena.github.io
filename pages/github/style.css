@@ -73,7 +73,6 @@ a img{
 }
 a img:hover{
     transform: scale(1.13); 
-    cursor: default;
 }
 .github-screenshot{
     width: 1133.05px;
