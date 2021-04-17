@@ -1,0 +1,95 @@
+html{
+    background-color: #1d1d1f;
+    list-style-type: none;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.main-div{
+    max-width: 850px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 15px;
+}
+.h1{
+    margin: 0;
+    padding-bottom: 0 !important;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 17px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+ul li a{
+    color: #2997ff;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+
+/* Mobiles and some tabs */
+@media only screen and (max-device-width: 823px) {
+    html{
+        background-color: #1d1d1f;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    a{
+        text-decoration: none;
+    }
+    .main-div{
+        max-width: 980px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        background-color: #111111;
+        border-radius: 15px;
+    }
+    .h1{
+        margin: 0;
+        text-align: center !important;
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+    ul li{
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    ul li a{
+        color: #2997ff;
+    }
+    ul li a:hover{
+        text-decoration: underline;
+    }
+}

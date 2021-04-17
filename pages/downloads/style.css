@@ -1,0 +1,183 @@
+html{
+    background-color: #1d1d1f;
+    list-style-type: none;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: SF-Pro-Text;
+    overflow-x: hidden;
+}
+b{
+    font-family: SF-Pro-Text-Bold;
+}
+a{
+    text-decoration: none;
+}
+.maindiv{
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+.maindiv a{
+    color: #2997ff;
+    font-size: 17px;
+}
+.maindiv a:hover{
+    text-decoration: underline;
+}
+.maindiv .h3-header{
+    font-size: 21px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(51, 51, 51);
+    border-width: 1px;  
+}
+.favorite{
+        border-bottom-style: solid;
+    border-bottom-color: rgb(51, 51, 51);
+    border-width: 1px;
+}
+.fav-head{
+    padding-bottom: 20px;
+    font-size: 17px;
+    display: flex;
+}
+.fav-wallpapers div{
+    padding-right: 2.5px;
+    padding-left: 2.5;
+}
+.fav-name{
+    letter-spacing: 0;
+    text-align: left;
+    width: 50%;
+}
+.fav-last-updated{
+    font-size: 12.5px;
+    color: lawngreen;
+}
+.fav-size{
+    text-align: right;
+    width: 25%;
+}
+.fav-download{
+    text-align: right;
+    width: 25%;
+}
+.fav-download button{
+    font-family: SF-Pro-Text;
+    background-color: #1d1d1f;
+    border-color: transparent;
+    padding: 5px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.fav-download button:hover{
+    background-color: green !important;
+}
+.fav-download button:hover a{
+    color: white !important;
+}
+.mac, .windows, .linux, .ios, .android{
+    border-bottom-style: solid;
+    border-bottom-color: rgb(51, 51, 51);
+    border-width: 1px;
+    padding-bottom: 20px;
+}
+.android-tv{
+    border-bottom-style: none;
+    padding-bottom: 50px;
+}
+.list{
+    max-width: 980px;
+    width: 100%;
+    column-count: 3;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.list ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+.category-headers{
+    font-size: 19px;
+}
+.list li ul li{
+    padding-bottom: 5px;
+}
+
+/* Mobiles and some tabs */
+@media only screen and (max-device-width: 823px) {
+    html{
+        background-color: #1d1d1f;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .maindiv{
+        max-width: 800px;
+        width: 90%;
+        margin: 20px;
+    }
+    .maindiv h3{
+        font-size: 26px;
+        color: white;
+        padding-bottom: 10px;
+        border-width: 1px;
+    }
+    .fav-head{
+        font-size: 17px;
+        display: block;
+        padding-bottom: 20px !important;
+    }
+    .fav-head div{
+        width: 100%;
+    }
+    .fav-name{
+        font-size: 19px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    .fav-size{
+        text-align: left;
+    }
+    .fav-last-updated{
+        text-align: left;
+        font-size: 14px;
+    }
+    .fav-download{
+        text-align: left;
+    }
+    .fav-download button{
+        margin-top: 10px;
+    }
+    .list{
+        display: inline;
+    }
+    ul{
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+    }
+    .category-headers{
+        font-size: 19px;
+    }
+    li{
+        padding-bottom: 5px;
+    }
+}

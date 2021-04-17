@@ -1,64 +1,184 @@
 <!DOCTYPE html>
-<html lang="en" spellcheck="true">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery | Arsh Saxena | Welcome to my official website!</title>
-    <meta name="description" content="Namaste. I am Arsh Saxena, an Indian, a student, a coder, a vlogger, and a video editor. Welcome to my website! @arsh.saxena02 I am Arsh, this is my official website desgined and published by me. I am an Indian. I have just begun coding. I am a student. I love tech. Follow me anywhere. More updates coming and improvements on the website coming soon. Stay tuned! Gallery GitHub">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
+    <title>Gallery | Arsh Saxena</title>
+
+    <meta name="description" content="Gallery | Arsh Saxena | See Arsh Saxena's gallery.">
     <meta name="author" content="Arsh Saxena">
     <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student">
+
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="../../resources/first-page/icons/arsh.png">
+    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
+    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
 </head>
 <body>
-    <a href="../../index.html" class="back-arrow-button">←</a>
-    <p class="mainheading">Arsh's Gallery</p>
-    <div>
-        <div class="chhota-baccha" id="chhota-baccha">
-            <span class="head">Chhota baccha😘</span> <br>
-            <img src="../../resources/gallery/chhota-baccha/arsh-billi.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-cute.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-bed-laughing.png" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-blue-cap-blanket.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-lotus-temple2.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-white-brown.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-lotus-temple1.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-under-table.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-red-shirt-laughing.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-try-to-walk.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-chair laughing.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-on-bed-blue.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-red-sofa1.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-red-sofa2.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-on-yellow-bear.jpg" alt="">
-            <img src="../../resources/gallery/chhota-baccha/arsh-face-flag.jpg" alt="">
-        </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <nav class="nav" id="nav"> 
+        </nav>
         <br>
-        <div class="thoda-bada-baccha" id="thoda-bada-baccha">
-            <span class="head">Thoda bada baccha😉</span> <br>
-            <img src="../../resources/gallery/thoda-bada-baccha/arsh-red-black.jpg" alt="">
-            <img src="../../resources/gallery/thoda-bada-baccha/arsh-schoolbag-closeup.jpg" alt="">
-            <img src="../../resources/gallery/thoda-bada-baccha/arsh-mathura-blue.jpg" alt="">
-        </div>
-        <br>
-        <div class="thoda-sa-aur-bada-baccha" id="thoda-sa-aur-bada-baccha">
-            <span class="head">Thoda sa aur bada baccha😛</span> <br>
-            <img src="../../resources/gallery/thoda-sa-aur-bada-baccha/arsh-edited.jpg" alt="">
-            <img src="../../resources/gallery/thoda-sa-aur-bada-baccha/arsh-blazer.jpg" alt="">
-            <img src="../../resources/gallery/thoda-sa-aur-bada-baccha/arsh-with-bashu.jpg" alt="">
-            <img src="../../resources/gallery/thoda-sa-aur-bada-baccha/arsh-portrait-bike.jpg" alt="">
-            <img src="../../resources/gallery/thoda-sa-aur-bada-baccha/arsh-portrait-terrace.jpg" alt="">
-        </div>
-        <br>
-        <div class="ekdum-latest" id="ekdum-latest">
-            <span class="head">Ekdum latest😉</span> <br>
-            <img src="../../resources/gallery/ekdum-latest/arsh-jan-flag.JPG" alt="">
-            <img src="../../resources/gallery/ekdum-latest/arsh-ikea1.jpg" alt="">
-            <img src="../../resources/gallery/ekdum-latest/arsh-nov19.jpg" alt="">
-            <img src="../../resources/gallery/ekdum-latest/arsh-ikea2.jpg" alt="">
-            <img src="../../resources/gallery/ekdum-latest/arsh-feb-unedited.jpg" alt="">
-            <img src="../../resources/gallery/ekdum-latest/arsh-jan-train.jpg" alt="">
+        <div class="main-div">
+            <a href="https://instagram.com/arsh.saxena02" target="_blank"><h1><img src="/resources/first-page/icons/instagram.svg" alt="">arsh.saxena02</h1></a>
+            <div class="row-for-pc"> 
+                <div class="column">
+                    <img src="/resources/gallery/arsh-bed-laughing.png" alt="arsh-img-column-1-photo-1">
+                    <img src="/resources/gallery/arsh-billi.jpg" alt="arsh-img-column-1-photo-2">
+                    <img src="/resources/gallery/arsh-blue-cap-blanket.jpg" alt="arsh-img-column-1-photo-3">
+                    <img src="/resources/gallery/arsh-cute.jpg" alt="arsh-img-column-1-photo-4">
+                    <img src="/resources/gallery/arsh-red-sofa2.jpg" alt="arsh-img-column-1-photo-5">
+                    <img src="/resources/gallery/arsh-on-bed-blue.jpg" alt="arsh-img-column-1-photo-6">
+                    <img src="/resources/gallery/arsh-on-yellow-bear.jpg" alt="arsh-img-column-1-photo-7">
+                    <img src="/resources/gallery/arsh-lotus-temple1.jpg" alt="arsh-img-column-1-photo-8">
+                    <img src="/resources/gallery/arsh-try-to-walk.jpg" alt="arsh-img-column-1-photo-9">
+                    <img src="/resources/gallery/arsh-under-table.jpg" alt="arsh-img-column-1-photo-10">
+                    <img src="/resources/gallery/arsh-white-brown.jpg" alt="arsh-img-column-1-photo-11">
+                    <img src="/resources/gallery/arsh-red-shirt-laughing.jpg" alt="arsh-img-column-1-photo-12">
+                    <img src="/resources/gallery/arsh-red-sofa1.jpg" alt="arsh-img-column-1-photo-13">
+                    <img src="/resources/gallery/arsh-lotus-temple2.jpg" alt="arsh-img-column-1-photo-14">
+                    <img src="/resources/gallery/arsh-chair laughing.jpg" alt="arsh-img-column-1-photo-15">
+                    <img src="/resources/gallery/arsh-red-chair.jpg" alt="arsh-img-column-1-photo-16">
+                </div>
+                <div class="column">
+                    <img src="/resources/gallery/arsh-white-kurta.jpg" alt="arsh-img-column-2-photo-1">
+                    <img src="/resources/gallery/arsh-bed-cycle.jpg" alt="arsh-img-column-2-photo-2">
+                    <img src="/resources/gallery/arsh-blue-jacket.jpg" alt="arsh-img-column-2-photo-3">
+                    <img src="/resources/gallery/arsh-face-flag.jpg" alt="arsh-img-column-2-photo-4">
+                    <img src="/resources/gallery/arsh-mathura-blue.jpg" alt="arsh-img-column-2-photo-5">
+                    <img src="/resources/gallery/arsh-red-black.jpg" alt="arsh-img-column-2-photo-6">
+                    <img src="/resources/gallery/arsh-coat.jpg" alt="arsh-img-column-2-photo-7">
+                    <img src="/resources/gallery/arsh-car-eon.jpg" alt="arsh-img-column-2-photo-8">
+                    <img src="/resources/gallery/arsh-schoolbag-closeup.jpg" alt="arsh-img-column-2-photo-9">
+                    <img src="/resources/gallery/arsh-mirror-selfie.jpg" alt="arsh-img-column-2-photo-10">
+                    <img src="/resources/gallery/arsh-blazer.jpg" alt="arsh-img-column-2-photo-11">
+                    <img src="/resources/gallery/arsh-blue-white-bed.jpg" alt="arsh-img-column-2-photo-12">
+                </div>  
+                <div class="column">
+                    <img src="/resources/gallery/arsh-selfie-home.jpg" alt="arsh-img-column-3-photo-1">
+                    <img src="/resources/gallery/arsh-nainital-mirror-selfie.jpg" alt="arsh-img-column-3-photo-2">
+                    <img src="/resources/gallery/arsh-party.jpg" alt="arsh-img-column-3-photo-3">
+                    <img src="/resources/gallery/arsh-boat1.jpg" alt="arsh-img-column-3-photo-4">
+                    <img src="/resources/gallery/arsh-boat2.jpg" alt="arsh-img-column-3-photo-5">
+                    <img src="/resources/gallery/arsh-portrait-bike.jpg" alt="arsh-img-column-3-photo-6">
+                    <img src="/resources/gallery/arsh-portrait-terrace.jpg" alt="arsh-img-column-3-photo-7">
+                    <img src="/resources/gallery/arsh-balcony.jpg" alt="arsh-img-column-3-photo-8">
+                    <img src="/resources/gallery/arsh-shop-selfie.jpg" alt="arsh-img-column-3-photo-9">
+                    <img src="/resources/gallery/arsh-with-bashu.jpg" alt="arsh-img-column-3-photo-10">
+                    <img src="/resources/gallery/arsh-ramoji.jpg" alt="arsh-img-column-3-photo-11">
+                    <img src="/resources/gallery/arsh-golconda1.jpg" alt="arsh-img-column-3-photo-12">
+                </div>
+                <div class="column">
+                    <img src="/resources/gallery/arsh-nov19.jpg" alt="arsh-img-column-4-photo-1">
+                    <img src="/resources/gallery/arsh-mountain-top.jpg" alt="arsh-img-column-4-photo-2">
+                    <img src="/resources/gallery/arsh-jan-flag.JPG" alt="arsh-img-column-4-photo-3">
+                    <img src="/resources/gallery/arsh-jan-train.jpg" alt="arsh-img-column-4-photo-4">
+                    <img src="/resources/gallery/arsh-feb-unedited.jpg" alt="arsh-img-column-4-photo-5">
+                    <img src="/resources/gallery/arsh-ikea1.jpg" alt="arsh-img-column-4-photo-6">
+                    <img src="/resources/gallery/arsh-ikea2.jpg" alt="arsh-img-column-4-photo-7">
+                    <img src="/resources/gallery/arsh-hoel-taj1.jpg" alt="arsh-img-column-4-photo-8">
+                    <img src="/resources/gallery/arsh-hotel-taj2.jpg" alt="arsh-img-column-4-photo-9">
+                    <img src="/resources/gallery/arsh-golconda4.jpg" alt="arsh-img-column-4-photo-10">
+                    <img src="/resources/gallery/arsh-golconda3.jpg" alt="arsh-img-column-4-photo-11">
+                    <img src="/resources/gallery/arsh-golconda2.jpg" alt="arsh-img-column-4-photo-12">
+                    <img src="/resources/gallery/arsh-house-top.jpg" alt="arsh-img-column-4-photo-13">
+                </div>
+            </div>
+            <div class="row-for-mobile"> 
+                <div class="column" style="padding-left: 4px; padding-right: 2px;">
+                    <img src="/resources/gallery/arsh-bed-laughing.png" alt="arsh-img-column-1-photo-1">
+                    <img src="/resources/gallery/arsh-billi.jpg" alt="arsh-img-column-1-photo-2">
+                    <img src="/resources/gallery/arsh-blue-cap-blanket.jpg" alt="arsh-img-column-1-photo-3">
+                    <img src="/resources/gallery/arsh-cute.jpg" alt="arsh-img-column-1-photo-4">
+                    <img src="/resources/gallery/arsh-red-sofa2.jpg" alt="arsh-img-column-1-photo-5">
+                    <img src="/resources/gallery/arsh-on-bed-blue.jpg" alt="arsh-img-column-1-photo-6">
+                    <img src="/resources/gallery/arsh-on-yellow-bear.jpg" alt="arsh-img-column-1-photo-7">
+                    <img src="/resources/gallery/arsh-lotus-temple1.jpg" alt="arsh-img-column-1-photo-8">
+                    <img src="/resources/gallery/arsh-try-to-walk.jpg" alt="arsh-img-column-1-photo-9">
+                    <img src="/resources/gallery/arsh-under-table.jpg" alt="arsh-img-column-1-photo-10">
+                    <img src="/resources/gallery/arsh-white-brown.jpg" alt="arsh-img-column-1-photo-11">
+                    <img src="/resources/gallery/arsh-red-shirt-laughing.jpg" alt="arsh-img-column-1-photo-12">
+                    <img src="/resources/gallery/arsh-red-sofa1.jpg" alt="arsh-img-column-1-photo-13">
+                    <img src="/resources/gallery/arsh-lotus-temple2.jpg" alt="arsh-img-column-1-photo-14">
+                    <img src="/resources/gallery/arsh-chair laughing.jpg" alt="arsh-img-column-1-photo-15">
+                    <img src="/resources/gallery/arsh-red-chair.jpg" alt="arsh-img-column-1-photo-16">
+                    <img src="/resources/gallery/arsh-white-kurta.jpg" alt="arsh-img-column-2-photo-1">
+                    <img src="/resources/gallery/arsh-bed-cycle.jpg" alt="arsh-img-column-2-photo-2">
+                    <img src="/resources/gallery/arsh-blue-jacket.jpg" alt="arsh-img-column-2-photo-3">
+                    <img src="/resources/gallery/arsh-face-flag.jpg" alt="arsh-img-column-2-photo-4">
+                    <img src="/resources/gallery/arsh-mathura-blue.jpg" alt="arsh-img-column-2-photo-5">
+                    <img src="/resources/gallery/arsh-red-black.jpg" alt="arsh-img-column-2-photo-6">
+                    <img src="/resources/gallery/arsh-coat.jpg" alt="arsh-img-column-2-photo-7">
+                    <img src="/resources/gallery/arsh-car-eon.jpg" alt="arsh-img-column-2-photo-8">
+                    <img src="/resources/gallery/arsh-schoolbag-closeup.jpg" alt="arsh-img-column-2-photo-9">
+                    <img src="/resources/gallery/arsh-mirror-selfie.jpg" alt="arsh-img-column-2-photo-10">
+                    <img src="/resources/gallery/arsh-blazer.jpg" alt="arsh-img-column-2-photo-11">
+                    <img src="/resources/gallery/arsh-blue-white-bed.jpg" alt="arsh-img-column-2-photo-12">
+                </div>  
+                <div class="column" style="padding-left: 2px; padding-right: 4px;">
+                    <img src="/resources/gallery/arsh-selfie-home.jpg" alt="arsh-img-column-3-photo-1">
+                    <img src="/resources/gallery/arsh-nainital-mirror-selfie.jpg" alt="arsh-img-column-3-photo-2">
+                    <img src="/resources/gallery/arsh-party.jpg" alt="arsh-img-column-3-photo-3">
+                    <img src="/resources/gallery/arsh-boat1.jpg" alt="arsh-img-column-3-photo-4">
+                    <img src="/resources/gallery/arsh-boat2.jpg" alt="arsh-img-column-3-photo-5">
+                    <img src="/resources/gallery/arsh-portrait-bike.jpg" alt="arsh-img-column-3-photo-6">
+                    <img src="/resources/gallery/arsh-portrait-terrace.jpg" alt="arsh-img-column-3-photo-7">
+                    <img src="/resources/gallery/arsh-balcony.jpg" alt="arsh-img-column-3-photo-8">
+                    <img src="/resources/gallery/arsh-shop-selfie.jpg" alt="arsh-img-column-3-photo-9">
+                    <img src="/resources/gallery/arsh-with-bashu.jpg" alt="arsh-img-column-3-photo-10">
+                    <img src="/resources/gallery/arsh-ramoji.jpg" alt="arsh-img-column-3-photo-11">
+                    <img src="/resources/gallery/arsh-golconda1.jpg" alt="arsh-img-column-3-photo-12">
+                    <img src="/resources/gallery/arsh-nov19.jpg" alt="arsh-img-column-4-photo-1">
+                    <img src="/resources/gallery/arsh-mountain-top.jpg" alt="arsh-img-column-4-photo-2">
+                    <img src="/resources/gallery/arsh-jan-flag.JPG" alt="arsh-img-column-4-photo-3">
+                    <img src="/resources/gallery/arsh-jan-train.jpg" alt="arsh-img-column-4-photo-4">
+                    <img src="/resources/gallery/arsh-feb-unedited.jpg" alt="arsh-img-column-4-photo-5">
+                    <img src="/resources/gallery/arsh-ikea1.jpg" alt="arsh-img-column-4-photo-6">
+                    <img src="/resources/gallery/arsh-ikea2.jpg" alt="arsh-img-column-4-photo-7">
+                    <img src="/resources/gallery/arsh-hoel-taj1.jpg" alt="arsh-img-column-4-photo-8">
+                    <img src="/resources/gallery/arsh-hotel-taj2.jpg" alt="arsh-img-column-4-photo-9">
+                    <img src="/resources/gallery/arsh-golconda4.jpg" alt="arsh-img-column-4-photo-10">
+                    <img src="/resources/gallery/arsh-golconda3.jpg" alt="arsh-img-column-4-photo-11">
+                    <img src="/resources/gallery/arsh-golconda2.jpg" alt="arsh-img-column-4-photo-12">
+                    <img src="/resources/gallery/arsh-house-top.jpg" alt="arsh-img-column-4-photo-13">
+                </div>
+            </div>
         </div>
     </div>
+    <br><br>
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                    <span class="path">
+                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
+                        <span class="page-name">Gallery</span>
+                    </span>                  
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
 </body>
 </html>

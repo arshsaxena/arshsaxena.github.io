@@ -3,84 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
     <title>Arsh Saxena | Welcome to my official website!</title>
-    <meta name="description" content="Namaste. I am Arsh Saxena, an Indian, a student, a coder, a vlogger, and a video editor. Welcome to my website! @arsh.saxena02 I am Arsh, this is my official website desgined and published by me. I am an Indian. I have just begun coding. I am a student. I love tech. Follow me anywhere. More updates coming and improvements on the website coming soon. Stay tuned! Gallery GitHub">
+
+    <meta name="description" content="Namaste. I am Arsh Saxena, an Indian, a student, a coder, a vlogger, and a video editor. Welcome to my website!">
     <meta name="author" content="Arsh Saxena">
     <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student">
-    <link rel="stylesheet" href="./pages/first-page/style.css">
-    <link rel="icon" href="resources/first-page/icons/arsh.png">
+    
+    <link rel="stylesheet" href="/pages/first-page/style.css">
+    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
+    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="/pages/globals/global-preloader/global-preloader.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
     <link rel="apple-touch-icon" href="./resources/gallery/chhota-baccha/arsh-face-flag.jpg">
-    <meta name="google-site-verification" content="EZeecbvEye0PKh3XluxxtmK2eBNHX44LxqbNEYzVPLU" />
-    <script>    (function(c,l,a,r,i,t,y){
-    c[a]=c[a]||function(){
-    (c[a].q=c[a].q||[]).push(arguments)};
-    t=l.createElement(r);
-    t.async=1;
-    t.src="https://www.clarity.ms/tag/"+i;
-    y=l.getElementsByTagName(r)[0];
-    y.parentNode.insertBefore(t,y);
-    }
-    )(window, document, "clarity", "script", "47hygli2co");
-    </script>
 </head>
 <body>
-    <div class="navdiv">
-        <nav class="navbar">
-            <a href="pages/gallery/index.html" class="gallery"><b>GALLERY</b></a>
-            &nbsp; &nbsp; &nbsp; &nbsp;
-            <a href="pages/github/index.html" class="github"><b>GITHUB</b></a>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/pages/globals/global-footer/global-footer.html");
+        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <nav class="nav" id="nav"> 
         </nav>
+        <noscript>Please enable JavaScript!</noscript>
+        <div class="main-head">
+            <div class="bgimg">
+                <img src="../../resources/first-page/imgs/background.png" alt="arsh-background">
+            </div>
+            <br><br>
+            <div class="columns">
+                <div class="col1">
+                    <div class="img-div">
+                        <img src="/resources/first-page/imgs/text-images/arsh-cute.jpg" alt="arsh-image-1">
+                        <img src="/resources/first-page/imgs/text-images/arsh-face-flag.jpg" alt="arsh-image-2">
+                        <img src="/resources/first-page/imgs/text-images/arsh-schoolbag-closeup.jpg" alt="arsh-image-3">
+                        <img src="/resources/first-page/imgs/text-images/arsh-portrait-bike.jpg" alt="arsh-image-4">
+                        <img src="/resources/first-page/imgs/text-images/arsh-feb-unedited.jpg" alt="arsh-image-5">
+                    </div>
+                    <div class="namehead">
+                        <b><span class="at">@</span>arsh<span class="dot">.</span>saxena02</b>
+                    </div>
+                    <div class="namehead-description">
+                        <span class="typed-words"></span><span class="cursor1">|</span>
+                        <br>
+                        <span class="namehead-description-description"><span class="age">~</span><span id="age"></span> years old</span>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+                    <script>
+                        var typed = new Typed(".typed-words", {
+                        strings: ["ARSH SAXENA", "अर्श सक्सेना", "アーシュ サクセナ", "ارش سکسینا", "અર્શ સક્સેના", "আরশ সাক্সেনা", "ಅರ್ಶ್ ಸಕ್ಸೇನಾ", "അർഷ് സക്‌സേന", "ਅਰਸ਼ ਸਕਸੈਨਾ", "அர்ஷ் சக்சேனா", "అర్ష్ సక్సేనా", "ଆର୍ଶ ସାକ୍ସେନା |", "阿什·萨克塞纳", "Арш Саксена"],
+                        typeSpeed: 80,
+                        backSpeed: 120,
+                        backDelay: 720,
+                        startDelay: 0,
+                        loop: true,
+                        showCursor: false,
+                        cursorChar: "|",
+                        attr: null,
+                        });
+                    </script>
+                    <script>
+                        function animateValue(obj, start, end, duration) {
+                            let startTimestamp = null;
+                            const step = (timestamp) => {
+                                if (!startTimestamp) startTimestamp = timestamp;
+                                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                                obj.innerHTML = Math.floor(progress * (end - start) + start);
+                                if (progress < 1) {
+                                    window.requestAnimationFrame(step);
+                                }
+                            };
+                            window.requestAnimationFrame(step);
+                        }
+                        
+                        const obj = document.getElementById('age');
+                        animateValue(obj, 0, 15, 1000);
+                    </script>
+                </div>
+                <div class="col2">
+                    <div class="description">
+                            <span class="namaste"></span><span class="cursor2">|</span> <br>
+                            I am an <span class="indian"><span class="in">IN</span><span class="di">DI</span><span class="an">AN</span></span>. <br>
+                            I am a coder. <br>
+                            I am a student. <br>
+                            I am aVlogger. <br>
+                            I am aBlogger. <br>
+                            I love tech. <br>
+                            Follow me anywhere.
+                    </div>
+                </div>
+                <script>
+                    var typed = new Typed(".namaste", {
+                    strings: ["Hi.", "नमस्ते।", "こんにちは", "ہائے", "નમસ્તે", "হ্যালো", "ನಮಸ್ತೆ", "നമസ്‌തേ", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "నమస్తే", "வணக்கம்", "ନମସ୍କାର", "你好", "안녕", "Привет", "สวัสดี"],
+                    typeSpeed: 80,
+                    backSpeed: 120,
+                    backDelay: 720,
+                    startDelay: 0,
+                    loop: true,
+                    showCursor: false,
+                    cursorChar: "|",
+                    attr: null,
+                    });
+                </script>
+            </div>
+            <div class="social-links" id="social-links">
+                <div>
+                    <a href="https://instagram.com/arsh.saxena02" target="_blank">
+                        <img src="resources/first-page/icons/instagram.svg" height="55" class="instagram-icon" alt="instagram-icon">
+                    </a>
+                    <a href="https://github.com/arshsaxena" target="_blank">
+                        <img src="resources/first-page/icons/github.png" height="58" class="github-icon" alt="github-icon">
+                    </a>
+                    <a href="pages/contact/" target="_blank">
+                        <img src="resources/first-page/icons/gmail.svg" height="55" class="gmail-icon" alt="gmail-icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/arshsaxena/" target="_blank">
+                        <img src="resources/first-page/icons/linkedin.svg" height="54" class="linkedin-icon" alt="linkedin-icon">
+                    </a>
+                    <a href="https://t.me/arshsaxena" target="_blank">
+                        <img src="resources/first-page/icons/telegram.svg" height="55" class="telegram-icon" alt="telegram-icon">
+                    </a>              
+                    <a href="https://www.reddit.com/u/arshsaxena" target="_blank">
+                        <img src="resources/first-page/icons/reddit.png" height="58" class="reddit-icon" alt="reddit-icon">
+                    </a>
+                    <a href="https://www.twitter.com/arshsaxena02" target="_blank">
+                        <img src="resources/first-page/icons/twitter.svg" height="53" class="twitter-icon" alt="twitter-icon">
+                    </a>
+                    <a href="https://facebook.com/arsh.saxena02" target="_blank">
+                        <img src="resources/first-page/icons/facebook.png" height="58" class="facebook-icon" alt="facebook-icon">
+                    </a>
+                    <a href="https://gaana.com/playlist/arshsaxena-aaahx-favorite" target="_blank">
+                        <img src="resources/first-page/icons/gaana.png" height="58" class="gaana-icon" alt="gaana-icon">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="_blank">
+                        <img src="resources/first-page/icons/youtube.png" height="48" class="youtube-icon" alt="youtube-icon">
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="apps-container" style="padding-bottom: 30px;">
+                <div class="app-button-container">
+                    <div class="button-div">
+                        <div class="button-img-div">
+                            <img src="/resources/app/arsh-saxena-app-icon.jpg" alt="">
+                        </div>
+                        <div class="button-text-div">
+                            <h1>Arsh Saxena</h1>
+                            <h2>Official app.</h2>
+                            <div class="checkout-button-div">
+                                <button><b><a href="/pages/app/">CHECK OUT APP &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="apps-container">
+                <div class="app-button-container">
+                    <div class="button-div">
+                        <div class="button-img-div">
+                            <img src="/resources/app/ablogs-app-icon.JPG" alt="">
+                        </div>
+                        <div class="button-text-div">
+                            <h1>aBlogs by Arsh</h1>
+                            <h2>Latest news from tech world.</h2>
+                            <div class="checkout-button-div">
+                                <button><b><a href="https://arshsaxena.github.io/aBlogs">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-button-container">
+                    <div class="button-div">
+                        <div class="button-img-div">
+                            <img src="/resources/app/aconverter-app-icon.JPG" alt="">
+                        </div>
+                        <div class="button-text-div">
+                            <h1>aConverter by Arsh</h1>
+                            <h2>Convert in multiple units.</h2>
+                            <div class="checkout-button-div">
+                                <button><b><a href="https://arshsaxena.github.io/aConverter">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app-banner-mobile" id="app-banner-mobile">
+                <div class="app-banner-img-div">
+                    <img src="/resources/app/arsh-saxena-app-icon.jpg" alt="">
+                </div>
+                <div class="app-banner-text-div">
+                    <h1>Arsh Saxena</h1>
+                    <h2>Official app.</h2>
+                </div>
+                <div class="app-banner-checkout-button-div">
+                    <a href="/pages/app/"><button><b>Check out &nbsp;<i class="fa fa-angle-right"></i></b></button></a>
+                    <br>
+                    <button onclick="document.getElementById('app-banner-mobile').style.display = 'none';">Not now</button>
+                </div>
+            </div>
+            <br><br>
+        </div>
     </div>
-    <div class="maindiv">
-        <div class="namehead">
-            <span class="at">@</span>arsh<span class="dot">.</span>saxena02
-        </div>
-        <div class="namehead-description">
-            ARSH SAXENA
-        </div>
-        <br>
-        <div class="description">
-            <p>
-                I am an <span class="indian"><span class="in">IN</span><span class="di">DI</span><span class="an">AN</span></span>. <br>
-                I have just begun coding. <br>
-                I am a student. <br>
-                I love tech. <br>
-                Follow me anywhere. <br>
-                More updates and improvements on the website coming soon. Stay tuned!
-            </p>
-        </div>
-        <br>
-        <div class="social-links">
-            <p>
-                <a href="https://instagram.com/arsh.saxena02" target="blank"><img src="resources/first-page/icons/instagram.svg" height="32" width="44"></a>
-                &nbsp;
-                <a href="https://github.com/arshsaxena" target="blank"><img src="resources/first-page/icons/github.png" height="35" width="35"></a>
-                &nbsp;
-                <a href="mailto:arsh.saxena02@gmail.com" target="blank"><img src="resources/first-page/icons/gmail.svg" height="32" width="44"></a>
-                &nbsp;
-                <a href="https://www.linkedin.com/in/arshsaxena/" target="blank"><img src="resources/first-page/icons/linkedin.svg" height="31" width="44"></a>
-                &nbsp;
-                <a href="https://t.me/arshsaxena" target="blank"><img src="resources/first-page/icons/telegram.svg" height="32" width="44"></a>
-                &nbsp;                
-                <a href="https://www.reddit.com/u/arshsaxena" target="blank"><img src="resources/first-page/icons/reddit.png" height="31" width="32"></a>
-                &nbsp;
-                <a href="https://www.twitter.com/arshsaxena02" target="blank"><img src="resources/first-page/icons/twitter.svg" height="27" width="33"></a>
-                &nbsp;
-                <a href="https://facebook.com/arsh.saxena02" target="blank"><img src="resources/first-page/icons/facebook.png" height="30" width="16"></a>
-                &nbsp;
-                <a href="https://gaana.com/playlist/arshsaxena-aaahx-favorite" target="blank"><img src="resources/first-page/icons/gaana.png" height="30" width="20"></a>
-                &nbsp;
-                <a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="blank"><img src="resources/first-page/icons/youtube.png" height="25" width="35"></a>
-            </p>
-        </div>
-    </div>
-    <div class="callout">
-        <div class="callout-header"><b>ATTENTION!</b></div>
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-        <div class="callout-container">
-            Website may not function properply below <b>1366x768</b> resolution.
-        </div>
-    </div>
-   <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f163bbc76bdc49c6ba5bb191f8f226db"}'></script>
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footnote">
+                    * Check <a href="pages/credits/">Credits page</a> for above logo credits.
+                </div>
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer"> &nbsp; &nbsp;
+                    <span class="path">
+                        <span class="page-name">Home</span>
+                    </span>                  
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
 </body>
 </html>

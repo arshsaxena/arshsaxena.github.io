@@ -1,0 +1,205 @@
+html{
+    background-color: #1d1d1f;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: font-regular;
+    overflow-x: hidden;
+}
+b{
+    font-family: font-bold;
+}
+a{
+    text-decoration: none;
+}
+.maindiv{
+    text-align: left;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1024px;
+    margin: auto;
+}
+.maindiv a h1{
+    font-size: 21px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(51, 51, 51);
+    border-width: 1px;
+}
+/* Slideshow */
+.mySlides {
+    display: none
+}
+.slideshow-container img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 4px;
+    border-style: solid;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    margin-right: -8px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    } 
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    } 
+    to {
+        opacity: 1
+    }
+}
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 5px !important;
+    }
+}
+.download-link{
+    margin: 50px;
+    text-align: center;
+}
+.download-link h1{
+    margin: 0;
+    font-size: 50px;
+}
+.download-link h3{
+    margin: 0;
+    font-size: 30px;
+}
+.download-button{
+    margin: 50px;
+}
+a.download-button{
+    padding: 10px;
+    text-align: center !important;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 10px;
+}
+a.download-button:hover::after{
+    content: " ⤓";
+}
+/* Mobiles and some tabs */
+@media only screen and (max-device-width: 823px) {
+    body{
+        letter-spacing: 0;
+    }   
+    .container{
+        max-width: 100%;
+        margin: auto;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .maindiv{
+        text-align: left;
+        color: white;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .maindiv a h1{
+        font-size: 26px;
+        color: white;
+        padding-bottom: 5px;
+        border-width: 1px;
+        margin: 15px;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+    }
+    .prev:hover, .next:hover {
+        background-color: transparent;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .download-link{
+        margin: 10px;
+    }
+    .download-link h1{
+        margin: 0;
+        font-size: 25px;
+    }
+    .download-link h3{
+        margin: 0;
+        font-size: 20px;
+    }
+    .download-button{
+        margin: 0;
+        margin-top: 20px;
+    }
+    a.download-button{
+        padding: 10px;
+        text-align: center !important;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        background-color: green;
+        border-color: transparent;
+        border-radius: 10px;
+    }
+    a.download-button:hover::after{
+        content: " ⤓";
+    }
+}
