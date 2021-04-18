@@ -1,3 +1,0 @@
-Font: San Francisco Pro Text
-Developer: Apple Inc.
-Source: https://developer.apple.com/fonts/
