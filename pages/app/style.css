@@ -137,6 +137,7 @@ header .app-developer:hover{
     width: 230px;
     height: 497px;
     border-radius: 10%/4.1%;
+    border: #1d1d1f 1px solid;
 }
 .app-description div{
     width: 64.72789%;
