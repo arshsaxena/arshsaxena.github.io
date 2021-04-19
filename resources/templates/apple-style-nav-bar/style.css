@@ -1,0 +1,204 @@
+html{
+    background-color: black;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background: rgba(29, 29, 31, 0.8);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    z-index: 1;
+    height: 50px;
+}   
+.nav-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-content a {
+    display: block;
+    font-size: 17px;
+    line-height: 44px;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: rgba(245, 245, 247, 0.767);
+}
+.nav-content a:hover, .nav-icon:hover, .search-icon:hover {
+    color: white;
+}
+.nav-links {
+    padding-left: 70px;
+    padding-top: 3px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-icon {
+    display: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.bar-one{
+    height: 1px;
+    width: 18px;
+    background: white;
+    transition: 0.5s;
+}
+.bar-two{
+    height: 1px;
+    width: 18px;
+    background: white;
+    transition: 0.5s;
+}
+.bar {
+    height: 1px;
+    width: 18px;
+    background: white;
+    transition: 0.5s;
+}
+.search-icon {
+    opacity: 0;
+}
+.show .one {
+    transform: rotate(45deg) translateY(5.5px);
+}
+
+.show .two {
+    transform: rotate(-45deg) translateY(-5.5px);
+}
+.logo{
+    font-size: 23px !important;
+}
+.download-link{
+    margin: 50px;
+    text-align: center;
+}
+.download-link h1{
+    margin: 0;
+    font-size: 50px;
+}
+.download-link h3{
+    margin: 0;
+    font-size: 30px;
+}
+.download-button{
+    margin: 50px;
+}
+a.download{
+    padding: 10px;
+    text-align: center !important;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 10px;
+}
+a.download:hover::after{
+    content: " ⤓";
+}
+
+/* Menu Header */
+.header {
+	background: rgba(0, 0, 0, 0.9);
+	overflow-x: hidden;
+	height: 55px;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	transition: all 0.4s ease-out, background 1s ease-out;
+}
+.header.menu-open {
+	height: 100%;
+	background: #111;
+	transition: all 0.45s ease-out, background 0.8s ease-out;
+}
+
+@media only screen and (max-device-width: 980px) {
+    nav{
+        position: -webkit-sticky;
+        position: sticky;
+        background: rgb(29, 29, 31);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: none;
+    }
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 0;
+        width: 100%;
+        margin-top: 49px;
+        background: transparent;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .show .nav-links {
+        height: 100%;
+        background: rgb(0, 0, 0);
+    }
+    .nav-links a {
+        height: 0;
+        width: 0;
+        opacity: 0;
+        overflow-x: hidden;
+        margin-right: 50px;
+        margin-left: 50px;
+        transition: opacity 1.5s, height 2s;
+        font-size: 17px;
+    }
+    .home{
+        border-bottom-style: solid;
+        border-width: 1.5px;
+        border-color: rgb(51, 51, 51);
+        padding-top: 15px;
+        padding-bottom: 2.5px;
+    }
+    .mac, .ipad, .iphone, .watch, .tv, .music{
+        border-bottom-style: solid;
+        border-width: 1.5px;
+        border-color: rgb(51, 51, 51);
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+    }
+    .show .nav-links a {
+        opacity: 1;
+        width: auto;
+        height: auto;
+    }
+    .nav-links{
+        text-align: left;
+    }
+    .nav-icon {
+        order: 1;
+        display: grid;
+        height: 11.5px;
+        cursor: pointer;
+        transition: all 0.3s;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .one{
+        margin-top: 20px;
+    }
+    .two{
+        margin-top: 6.5px;
+    }
+    .logo {
+        order: 2;
+    }
+    .search-icon {
+        order: 3;
+    }
+}

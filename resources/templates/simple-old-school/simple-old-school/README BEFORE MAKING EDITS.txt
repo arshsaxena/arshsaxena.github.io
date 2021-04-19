@@ -1,0 +1,1 @@
+This website is not responsive, only for desktops.

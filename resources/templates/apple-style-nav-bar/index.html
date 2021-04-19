@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    
+    <title>Apple Style Navigation Bar | Arsh Saxena</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="/" class="logo">
+                
+            </a>
+            <div class="nav-icon">
+                <div class="bar one"></div>
+                <div class="bar two"></div>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="mac">&nbsp; Mac &nbsp;</a>
+                <a href="#" class="ipad">&nbsp; iPad &nbsp;</a>
+                <a href="#" class="iphone">&nbsp; iPhone &nbsp;</a>
+                <a href="#" class="watch">&nbsp; Watch &nbsp;</a>
+                <a href="#" class="tv">&nbsp; TV &nbsp;</a>
+                <a href="#" class="music">&nbsp; Music &nbsp;</a>
+                <a href="#" class="support">&nbsp; Support &nbsp;</a>
+            </div>
+            <svg class="search-icon" viewBox="0 0 3.7041668 11.641667" height="44" width="14">
+            </svg>
+    </nav>
+    <div class="download-link">
+        <h1>Apple-Style-Navigation-Bar-by-Arsh.zip</h1>
+        <br>
+        <h3>1.83KB</h3>
+        <div class="download-button"><a href="Apple-Style-Navigation-Bar-by-Arsh.zip" download class="download">Download</a></div>
+    </div>
+<script>
+    const navIcon = document.querySelector(".nav-icon");
+    const nav = document.querySelector("nav");
+
+    navIcon.onclick = function () {
+        nav.classList.toggle('show');
+    }
+</script>
+</body>
+</html>
