@@ -1,0 +1,136 @@
+html{
+    background-color: #1d1d1f;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: font-regular;
+    overflow-x: hidden;
+}
+b{
+    font-family: font-bold;
+}
+a{
+    text-decoration: none;
+}
+.maindiv{
+    text-align: left;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1024px;
+    margin: auto;
+}
+.maindiv a h1{
+    font-size: 21px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(51, 51, 51);
+    border-width: 1px;
+}
+/* Slideshow */
+.mySlides {
+    display: none
+}
+.slideshow-container img {
+    vertical-align: middle;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 4px;
+    border-style: solid;
+    width: 100%;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.download-link{
+    margin: 10px;
+    text-align: center;
+}
+.download-link h1{
+    margin: 0;
+    font-size: 50px;
+}
+.download-link h3{
+    margin: 0;
+    font-size: 30px;
+}
+.download-button{
+    margin: 50px;
+}
+a.download-button{
+    padding: 10px;
+    text-align: center !important;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: green;
+    border-color: transparent;
+    border-radius: 10px;
+}
+a.download-button:hover::after{
+    content: " ⤓";
+}
+
+/* Mobiles and some tabs */
+@media only screen and (max-device-width: 823px) {
+    body{
+        letter-spacing: 0;
+    }   
+    .container{
+        max-width: 100%;
+        margin: auto;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .maindiv{
+        text-align: left;
+        color: white;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .maindiv a h1{
+        font-size: 26px;
+        color: white;
+        padding-bottom: 5px;
+        border-width: 1px;
+        margin: 15px;
+    }
+    .download-link h1{
+        margin: 0;
+        font-size: 25px;
+    }
+    .download-link h3{
+        margin: 0;
+        font-size: 20px;
+    }
+    .download-button{
+        margin: 0;
+        margin-top: 20px;
+    }
+    a.download-button{
+        padding: 10px;
+        text-align: center !important;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        background-color: green;
+        border-color: transparent;
+        border-radius: 10px;
+    }
+    a.download-button:hover::after{
+        content: " ⤓";
+    }
+}

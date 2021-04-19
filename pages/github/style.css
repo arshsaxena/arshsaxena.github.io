@@ -1,0 +1,202 @@
+html{
+    background-color: #1d1d1f;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: SF-Pro-Text;
+    overflow-x: hidden;
+}
+b{
+    font-family: SF-Pro-Text-Bold;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1366px;
+    margin: auto;
+}
+.maindiv{
+    text-align: left;
+    color: white;
+}
+.username img{
+    height: 35px;
+}
+.username{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+.username a{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: skyblue;
+    transition-property: font-size;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.username a:hover{
+    font-size: 50px;
+}
+.head{
+    font-size: 35px;
+}
+.live-stats, .some-repo, .screenshot{
+    text-align: center;
+}
+.live-stats img{
+    pointer-events: all;
+    height: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.live-stats img:hover, .some-repo img:hover{
+    transform: scale(1.13); 
+}
+.live-stats img:last-of-type{
+    height: auto; 
+    width: 1024px;
+    border-radius: 5px;
+    border: 1px white solid;
+    padding: 0;
+    margin-top: 5px;
+}
+.live-stats img:last-of-type:hover{
+    transform: scale(1);
+}
+.some-repo img{
+    pointer-events: all;
+    width: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+.screenshot p{
+    text-align: center;
+}
+.img-desktop{
+    width: 88%;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 25px;
+    border-color: rgb(19, 19, 19);
+}
+.img-mobile{
+    display: none;
+    
+}
+
+/* Mobiles and some tabs */
+@media only screen and (max-device-width: 1024px) {
+    body{
+        letter-spacing: 0;
+    }   
+    .container{
+        padding-top: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .maindiv{
+        text-align: left;
+        color: white;
+    }
+    .username img{
+        height: 25px;
+    }
+    .username{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 0px;
+    }
+    .username a{
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+        color: skyblue;
+    }
+    .live-stats{
+        text-align: center;
+    }
+    .live-stats .head{
+        font-size: 25px;
+    }
+    .live-stats img{
+        height: 50%;
+        vertical-align: middle;
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .live-stats img:hover{
+        transform: scale(1); 
+    }
+    .live-stats img:last-of-type{
+        height: 50%; 
+        width: 90%;
+        border-radius: 10px;
+        border: 1px white solid;
+        padding: 0;
+        margin-top: 5px;
+    }
+    .img-1, .img-2, .img3, .img4{
+        width: 160px;
+    }
+    .some-repo{
+        text-align: center;
+    }
+    .some-repo .head{
+        font-size: 25px;
+    }
+    .some-repo img{
+        vertical-align: middle;
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .some-repo img:hover{
+        transform: scale(1); 
+    }
+    .img1, .img2, .img3, .img4, .img5{
+        width: 160px;
+    }
+    .screenshot{
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    .img-desktop{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+        margin: 0 auto;
+        width: 96%;
+        border-radius: 15px;
+    }
+}

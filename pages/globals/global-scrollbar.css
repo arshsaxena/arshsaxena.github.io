@@ -1,0 +1,35 @@
+html{
+    scroll-behavior: smooth !important;
+}
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 18px;
+}
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #424649;
+}
+body::-webkit-scrollbar-button {
+    display: none;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    body::-webkit-scrollbar {
+        background-color: transparent;
+        width: 0px;
+    }
+    body::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    body::-webkit-scrollbar-thumb {
+        background-color: #babac0;
+        border-radius: 16px;
+        border: 0px solid #424649;
+    }
+    body::-webkit-scrollbar-button {
+        display:none;
+}

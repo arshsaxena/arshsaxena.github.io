@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    
+    <title>Preloader | Arsh Saxena</title>
+    
+    <link rel="stylesheet" href="global-preloader.css">
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div id="preloader">
+        <div id="status"><img src="/resources/first-page/imgs/preloader.gif" alt=""></div>
+    </div>
+    <script>
+        $(window).on('load', function() {
+        $('#status').fadeOut();
+        $('#preloader').delay(350).fadeOut('slow');
+        $('body').delay(350).css({'overflow':'visible'});
+        })
+    </script>
+</body>
+</html>
