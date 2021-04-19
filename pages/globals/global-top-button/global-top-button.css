@@ -1,0 +1,36 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    background-color: #1d1d1f;
+    color: white;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+}
+#myBtn:hover {
+    background-color: black;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 99;
+      cursor: pointer;
+      padding: 5px;
+      border-radius: 10px;
+  }
+  #myBtn:hover {
+     background-color: black;
+  }
+}
