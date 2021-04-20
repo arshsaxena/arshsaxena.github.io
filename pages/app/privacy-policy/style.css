@@ -51,6 +51,13 @@ p a{
 p a:hover{
     text-decoration: underline;
 }
+.path a{
+    color: rgb(161, 161, 166);
+}
+.path a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 /* Mobiles and some tabs */
 @media only screen and (max-device-width: 823px) {
