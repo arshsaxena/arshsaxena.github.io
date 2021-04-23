@@ -1,0 +1,108 @@
+Date : 2021-04-23 03:18:07
+Directory : c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy
+Total : 53 files,  7311 codes, 113 comments, 134 blanks, all 7558 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| CSS      |         23 |      4,120 |         24 |         27 |      4,171 |
+| HTML     |         21 |      2,943 |         85 |         93 |      3,121 |
+| XML      |          7 |        232 |          4 |          6 |        242 |
+| Markdown |          2 |         16 |          0 |          8 |         24 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                 |         53 |      7,311 |        113 |        134 |      7,558 |
+| pages                                                                                                                                             |         42 |      6,787 |         79 |        112 |      6,978 |
+| pages\404                                                                                                                                         |          1 |         97 |          0 |          1 |         98 |
+| pages\about                                                                                                                                       |          2 |        919 |          1 |          5 |        925 |
+| pages\app                                                                                                                                         |          4 |        826 |         25 |          8 |        859 |
+| pages\app\privacy-policy                                                                                                                          |          2 |        179 |          1 |          4 |        184 |
+| pages\contact                                                                                                                                     |          2 |        363 |          0 |          5 |        368 |
+| pages\credits                                                                                                                                     |          2 |        162 |          1 |          4 |        167 |
+| pages\downloads                                                                                                                                   |          2 |        656 |          1 |          5 |        662 |
+| pages\first-page                                                                                                                                  |          1 |        511 |          1 |          1 |        513 |
+| pages\gallery                                                                                                                                     |          2 |        257 |          1 |          5 |        263 |
+| pages\github                                                                                                                                      |          2 |        301 |          1 |          6 |        308 |
+| pages\globals                                                                                                                                     |          8 |        834 |          2 |         25 |        861 |
+| pages\globals\global-footer                                                                                                                       |          2 |        438 |          0 |         11 |        449 |
+| pages\globals\global-navbar                                                                                                                       |          2 |        258 |          2 |          7 |        267 |
+| pages\globals\global-top-button                                                                                                                   |          2 |         68 |          0 |          5 |         73 |
+| pages\pages                                                                                                                                       |          1 |         64 |          1 |          1 |         66 |
+| pages\privacy                                                                                                                                     |          2 |        172 |          1 |          4 |        177 |
+| pages\sitemap                                                                                                                                     |          2 |        207 |          1 |          4 |        212 |
+| pages\templates                                                                                                                                   |          8 |      1,130 |         42 |         30 |      1,202 |
+| pages\templates\apple-style-nav-bar                                                                                                               |          2 |        201 |          2 |          6 |        209 |
+| pages\templates\modern-footer                                                                                                                     |          2 |        201 |          2 |          6 |        209 |
+| pages\templates\simple-old-school                                                                                                                 |          2 |        309 |          2 |          9 |        320 |
+| pages\terms-of-use                                                                                                                                |          2 |        221 |          1 |          5 |        227 |
+| resources                                                                                                                                         |          8 |        241 |          4 |         14 |        259 |
+| resources\about                                                                                                                                   |          1 |        112 |          1 |          1 |        114 |
+| resources\first-page                                                                                                                              |          7 |        129 |          3 |         13 |        145 |
+| resources\first-page\fonts                                                                                                                        |          1 |          9 |          0 |          8 |         17 |
+| resources\first-page\icons                                                                                                                        |          6 |        120 |          3 |          5 |        128 |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                          | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\404.html                                               | HTML     |         73 |          0 |          3 |         76 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\README.md                                              | Markdown |          7 |          0 |          0 |          7 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\index.html                                             | HTML     |        203 |         30 |          5 |        238 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\404\style.css                                    | CSS      |         97 |          0 |          1 |         98 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\about\index.html                                 | HTML     |        398 |          0 |          4 |        402 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\about\style.css                                  | CSS      |        521 |          1 |          1 |        523 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\app\index.html                                   | HTML     |        175 |         21 |          3 |        199 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\app\privacy-policy\index.html                    | HTML     |         88 |          0 |          3 |         91 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\app\privacy-policy\style.css                     | CSS      |         91 |          1 |          1 |         93 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\app\style.css                                    | CSS      |        472 |          3 |          1 |        476 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\contact\index.html                               | HTML     |         96 |          0 |          4 |        100 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\contact\style.css                                | CSS      |        267 |          0 |          1 |        268 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\credits\index.html                               | HTML     |         69 |          0 |          3 |         72 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\credits\style.css                                | CSS      |         93 |          1 |          1 |         95 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\downloads\index.html                             | HTML     |        475 |          0 |          4 |        479 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\downloads\style.css                              | CSS      |        181 |          1 |          1 |        183 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\first-page\style.css                             | CSS      |        511 |          1 |          1 |        513 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\gallery\index.html                               | HTML     |        180 |          0 |          4 |        184 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\gallery\style.css                                | CSS      |         77 |          1 |          1 |         79 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\github\index.html                                | HTML     |        102 |          0 |          4 |        106 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\github\style.css                                 | CSS      |        199 |          1 |          2 |        202 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-fonts.css                         | CSS      |         36 |          0 |          1 |         37 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-footer\global-footer.css          | CSS      |        255 |          0 |          1 |        256 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-footer\global-footer.html         | HTML     |        183 |          0 |         10 |        193 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-navbar\global-navbar.css          | CSS      |        217 |          2 |          4 |        223 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-navbar\global-navbar.html         | HTML     |         41 |          0 |          3 |         44 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-scrollbar.css                     | CSS      |         34 |          0 |          1 |         35 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-top-button\global-top-button.css  | CSS      |         35 |          0 |          1 |         36 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\globals\global-top-button\global-top-button.html | HTML     |         33 |          0 |          4 |         37 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\index.html                                       | HTML     |         67 |          0 |          3 |         70 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\pages\style.css                                  | CSS      |         64 |          1 |          1 |         66 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\privacy\index.html                               | HTML     |         88 |          0 |          3 |         91 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\privacy\style.css                                | CSS      |         84 |          1 |          1 |         86 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\sitemap\index.html                               | HTML     |        109 |          0 |          3 |        112 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\sitemap\style.css                                | CSS      |         98 |          1 |          1 |        100 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\apple-style-nav-bar\index.html         | HTML     |         68 |          0 |          5 |         73 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\apple-style-nav-bar\style.css          | CSS      |        133 |          2 |          1 |        136 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\index.html                             | HTML     |        192 |         34 |          8 |        234 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\modern-footer\index.html               | HTML     |         68 |          0 |          5 |         73 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\modern-footer\style.css                | CSS      |        133 |          2 |          1 |        136 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\simple-old-school\index.html           | HTML     |        106 |          0 |          9 |        115 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\simple-old-school\style.css            | CSS      |        203 |          2 |          0 |        205 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\templates\style.css                              | CSS      |        227 |          2 |          1 |        230 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\terms-of-use\index.html                          | HTML     |        129 |          0 |          3 |        132 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\pages\terms-of-use\style.css                           | CSS      |         92 |          1 |          2 |         95 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\about\python.svg                             | XML      |        112 |          1 |          1 |        114 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\fonts\README.md                   | Markdown |          9 |          0 |          8 |         17 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\form.svg                    | XML      |          1 |          0 |          0 |          1 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\gmail.svg                   | XML      |         38 |          1 |          1 |         40 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\instagram.svg               | XML      |         63 |          1 |          4 |         68 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\linkedin.svg                | XML      |          1 |          0 |          0 |          1 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\telegram.svg                | XML      |          1 |          0 |          0 |          1 |
+| c:\Users\sande\Desktop\iArsh\iDocuments\Very Important\website\arshsaxena.github.io - Copy\resources\first-page\icons\twitter.svg                 | XML      |         16 |          1 |          0 |         17 |
+| Total                                                                                                                                             |          |      7,311 |        113 |        134 |      7,558 |
++---------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
