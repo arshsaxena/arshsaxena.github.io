@@ -9,11 +9,11 @@ body{
     margin-right: auto;
     background-color: black;
     color: white;
-    font-family: SF-Pro-Text;
+    font-family: font-regular;
     overflow-x: hidden;
 }
 b{
-    font-family: SF-Pro-Text-Bold;
+    font-family: font-regular-Bold;
 }
 a{
     text-decoration: none;
@@ -71,7 +71,7 @@ a{
     width: 25%;
 }
 .fav-download button{
-    font-family: SF-Pro-Text;
+    font-family: font-regular;
     background-color: #1d1d1f;
     border-color: transparent;
     padding: 5px;
@@ -80,6 +80,8 @@ a{
 }
 .fav-download button:hover{
     background-color: green !important;
+    text-decoration: underline;
+    cursor: pointer;
 }
 .fav-download button:hover a{
     color: white !important;
