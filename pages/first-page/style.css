@@ -114,6 +114,7 @@ nav{
     text-align: center;
     font-size: 60px;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 .social-links img{
     vertical-align: bottom;
@@ -355,7 +356,7 @@ nav{
         padding-top: 0px;
         line-height: 50px;
         padding-top: 50px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
         width: 85%;
         margin: auto;
     }
@@ -400,10 +401,10 @@ nav{
         width: 90%;
     }
     .app-button-container{
-        width: 100%;
+        width: fit-content;
         text-align: left;
         display: block;
-        margin: 0;
+        margin: 0 auto;
     }
     .app-button-container:nth-child(2){
         padding-top: 15px;
