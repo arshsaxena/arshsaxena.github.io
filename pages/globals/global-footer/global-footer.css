@@ -99,19 +99,22 @@ footer .footer .footer-last-text a:hover{
     text-align: left;
     width: 42.33%;
     color: rgb(110, 110, 115);
+    line-height: 24px;
 }
 .line1 a{
     color: #2997ff;
 }
 .line2{
     text-align: center;
-    width: 22.33%;
+    width: 27.33%;
     color: rgb(110, 110, 115);
+    line-height: 24px;
 }
 .line3{
     text-align: right;
-    width: 37.33%;
+    width: 29.33%;
     color: rgb(110, 110, 115);
+    line-height: 24px;
 }
 .in{
     color: orangered;
