@@ -240,6 +240,7 @@ footer .footer .footer-last-text a:hover{
         color: rgb(110, 110, 115);
         width: 100%;
         padding-top: 10px;
+        height: 17px;
     }
     .line1 a{
         color: #2997ff;
@@ -249,11 +250,13 @@ footer .footer .footer-last-text a:hover{
         width: 100%;
         text-align: left;
         padding-top: 5px;
+        height: 17px;
     }
     .line3{
         padding-top: 3px;
         text-align: left;
         width: 100%;
         color: rgb(110, 110, 115);
+        height: 17px;
     }
 }
