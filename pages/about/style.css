@@ -14,6 +14,27 @@ body{
 b{
     font-family: SF-Pro-Text-Bold;
 }
+a{
+    text-decoration: none;
+    color: #007aff;
+}
+a:hover{
+    text-decoration: underline;
+}
+#link-nav.about{
+    font-weight: bold;
+    color: white;
+}
+#link-nav.about::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: width 0.2s ease-out;
+    background-color: lawngreen;
+}
 .main-head{
     max-width: 1005px;
     margin-left: auto;
@@ -83,8 +104,11 @@ b{
 .air-per div{
     width: 50%;
 }
-.per{
+.air{
     text-align: right;
+}
+.per{
+    text-align: left;
 }
 .high-school{
     width: 50%;
@@ -191,7 +215,7 @@ section#timeline:before {
     top: 1%;
     margin: 0 0 0 -1px;
     width: 2px;
-    height: 90%;
+    height: 95%;
     background: rgba(255, 255, 255, 0.2);
 }
 section#timeline article {
@@ -262,7 +286,7 @@ section#timeline article:nth-child(2n+2) div.inner h2:after {
 }
 section#timeline article:nth-child(1) div.inner h2 {
     background-color: #42378f;
-    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
 }
 section#timeline article:nth-child(2) div.inner h2{
     background-color: #20bf55;
@@ -319,6 +343,10 @@ section#timeline article:nth-child(14) div.inner h2{
 section#timeline article:nth-child(15) div.inner h2{
     background-color: #6b2210;
     background-image: linear-gradient(45deg, #6b2210 0%, #a65b31 74%);
+}
+section#timeline article:nth-child(16) div.inner h2{
+    background-color: #94c997;
+    background-image: linear-gradient(315deg, #94c997 0%, #daacec 74%);
 }
 
 /* Mobiles and some tabs */
@@ -475,7 +503,7 @@ section#timeline article:nth-child(15) div.inner h2{
         background: rgba(255, 255, 255, 0.2);
     }
     section#timeline:before {
-        height: 90.5%;
+        height: 95.5%;
     }
     section#timeline article div.inner {
         width: 75%;

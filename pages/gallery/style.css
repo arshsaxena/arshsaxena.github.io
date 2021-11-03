@@ -15,6 +15,20 @@ a{
     text-decoration: none !important;
     color: white;
 }
+#link-nav.gallery{
+    font-weight: bold;
+    color: white;
+}
+#link-nav.gallery::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: width 0.2s ease-out;
+    background-color: lawngreen;
+}
 a h1{
     text-align: center;
     transition-property: transform;

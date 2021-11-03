@@ -10,6 +10,20 @@ body {
     font-family: font-regular;
     color: white;
 }
+#link-nav.contact{
+    font-weight: bold;
+    color: white;
+}
+#link-nav.contact::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: width 0.2s ease-out;
+    background-color: lawngreen;
+}
 .container{
     background-image: url(/resources/contact/imgs/using-iphone.jpg);
     background-size: cover;

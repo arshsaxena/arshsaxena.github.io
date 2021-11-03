@@ -37,12 +37,30 @@
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/pages/about/">About</a></li>
                                 <li><a href="/pages/gallery/">Gallery</a></li>
-                                <li><a href="/pages/github/">GitHub</a></li>
-                                <li><a href="/pages/templates/">Templates</a></li>
                                 <li><a href="/pages/downloads/">Downloads</a></li>
+                                <li><a href="/pages/github/">GitHub</a></li>
                                 <li><a href="/pages/contact/">Contact</a></li>
                                 <li><a href="/pages/sitemap/">Site Map</a></li>                              
                             </ul>
+                        </div>
+                    </div>
+                    <div class="byarsh">
+                        <div class="footer-checkbox">
+                            <label for="byarshCheck" class="checkbox-label">
+                                <div class="label-div">
+                                    By Arsh
+                                </div>
+                            </label>
+                            <div class="check-div">
+                                <input type="checkbox" id="byarshCheck">
+                            </div>
+                        </div>
+                        <div class="footer-nav-col" id="byarsh">
+                            <span class="footer-col-heads">By Arsh<br></span>
+                            <ul>
+                                <li><a href="/pages/made-by-arsh/">Made by Arsh</a></li>
+                                <li><a href="/pages/templates/">Templates</a></li>           
+                            </ul>                            
                         </div>
                     </div>
                     <div class="connect">
@@ -83,10 +101,10 @@
                             <span class="footer-col-heads">Social<br></span>
                             <ul>
                                 <li><a href="https://facebook.com/arsh.saxena02" target="_blank">Facebook</a></li>
-                                <li><a href="https://gaana.com/playlist/arshsaxena-aaahx-favorite" target="_blank">Gaana </a></li>
+                                <li><a href="https://open.spotify.com/playlist/1BcNdeQ1JG3GVHF9cKG5Wb" target="_blank">Spotify</a></li>
                                 <li><a href="https://github.com/arshsaxena" target="_blank">GitHub</a></li>
                                 <li><a href="https://www.reddit.com/u/arshsaxena" target="_blank">Reddit</a></li>
-                                <li><a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="_blank">YouTube</a></li>                              
+                                <!-- <li><a href="https://www.youtube.com/channel/UC8QAtZHZy9DApConhuO5n-A" target="_blank">YouTube</a></li>                               -->
                             </ul>
                         </div>
                     </div>
@@ -166,6 +184,14 @@
                 $('#discover').fadeIn(250);
             } else {
                 $('#discover').fadeOut(250);
+            }                   
+        });
+
+        $('#byarshCheck').change(function(){
+            if (this.checked) {
+                $('#byarsh').fadeIn(250);
+            } else {
+                $('#byarsh').fadeOut(250);
             }                   
         });
 

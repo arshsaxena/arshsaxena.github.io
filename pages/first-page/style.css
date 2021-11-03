@@ -170,10 +170,10 @@ nav{
     padding-left: 15px;
     padding-right: 15px;
 }
-.gaana-icon{
-    height: 58px;
+.spotify-icon{
+    height: 63px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 4px;
 }
 .youtube-icon{
     height: 48px;
@@ -185,6 +185,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
+    padding-bottom: 20px;
     text-align: center;
     border-top: 1px #1d1d1f solid;
 }
@@ -401,7 +402,7 @@ nav{
         width: 90%;
     }
     .app-button-container{
-        width: fit-content;
+        width: 355px;
         text-align: left;
         display: block;
         margin: 0 auto;

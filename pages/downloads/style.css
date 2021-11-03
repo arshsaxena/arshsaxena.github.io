@@ -18,6 +18,20 @@ b{
 a{
     text-decoration: none;
 }
+#link-nav.downloads{
+    font-weight: bold;
+    color: white;
+}
+#link-nav.downloads::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    transition: width 0.2s ease-out;
+    background-color: lawngreen;
+}
 .maindiv{
     max-width: 980px;
     width: 100%;

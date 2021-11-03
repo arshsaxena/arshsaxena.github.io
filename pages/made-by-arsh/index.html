@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <meta name="robots" content="noindex">
+
+    <title>Made by Arsh | Arsh Saxena</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
+    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <meta name="theme-color" content="#1d1d1f">
+    <meta name="msapplication-navbutton-color" content="#1d1d1f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d1d1f">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
+</head>
+<body>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <span id="top-button"></span>
+    <nav class="nav" id="nav"> 
+    </nav>
+    <div class="container">
+        <div class="main-div">
+            <div class="project-container">
+                <div class="project" style="padding-bottom: 20px; border-bottom: 1px solid rgb(51, 51, 51);">
+                    <div class="image-div">
+                        <img src="/resources/made-by-arsh/solar-system.png" alt="screenshot" class="desktop-img">
+                        <img src="/resources/made-by-arsh/aconverter-mobile.png" alt="screenshot" class="mobile-img">
+                    </div>
+                    <div class="text-div">
+                        <div class="text-div-title">
+                            <b>aConverter</b>
+                        </div>
+                        <div class="text-div-description">
+                            Free online converter for converter for units of measurements.
+                            <br>
+                            <br>
+                            Convert length, mass, temperature, and speed in multiple units. 
+                            Many more quantities and units coming soon!
+                            <br>
+                            <div style="text-align: right; margin-top: 5px; margin-bottom: 5px;">- Arsh Saxena</div>
+                        </div>
+                        <div class="checkout-button-div">
+                            <button><b><a href="https://arshsaxena.github.io/aConverter/" target="_blank">CHECK OUT&nbsp;<i class="fa fa-angle-right"></i></a></b></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" style="padding-top: 20px;">
+                    <div class="image-div">
+                        <img src="/resources/made-by-arsh/aconverter.png" alt="screenshot">
+                    </div>
+                    <div class="text-div">
+                        <div class="text-div-title">
+                            <b>Solar System</b>
+                        </div>
+                        <div class="text-div-description">
+                            The solar system made with HTML, CSS, and JavaScript. See years passing with your eyes in seconds.
+                            <br>
+                            <br>
+                            It also includes Pluto!
+                            <div style="text-align: right; margin-top: 5px; margin-bottom: 5px;">- Arsh Saxena</div>
+                        </div>
+                        <div class="checkout-button-div">
+                            <button><b><a href="https://arshsaxena.github.io/SolarSystem/" target="_blank">CHECK OUT&nbsp;<i class="fa fa-angle-right"></i></a></b></button>
+                        </div>
+                        <div class="mobile-description" style="line-height: 1.2em !important;">
+                            Sorry, the solar system is not responsive.🙁
+                            <br>
+                            I know it's not right but I can't help it. Please try to use it in "Desktop Mode", it should work.😊
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                    <span class="path">
+                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
+                        <span class="page-name">Made by Arsh</span>
+                    </span>                  
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
+</body>
+</html>

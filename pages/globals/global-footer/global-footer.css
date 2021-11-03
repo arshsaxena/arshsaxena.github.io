@@ -52,8 +52,8 @@ footer a{
 .footer-nav-links{
     display: flex;
 }
-.footer-nav-links .discover, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
-    width: 25%;
+.footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
+    width: 20%;
 }
 .footer-col-heads{
     font-size: 17px;
@@ -173,7 +173,7 @@ footer .footer .footer-last-text a:hover{
     .footer-nav-links{
         display: block;
     }
-    .footer-nav-links .discover, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
+    .footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
         width: 100%;
     }
     .footer-nav-col{
@@ -198,7 +198,7 @@ footer .footer .footer-last-text a:hover{
     .footer-checkbox{
         display: inline;
     }
-    .discover, .connect, .social, .policy{
+    .discover, .byarsh, .connect, .social, .policy{
         border-bottom-style: solid;
         border-width: 1px;
         border-color: #404044;
@@ -239,7 +239,7 @@ footer .footer .footer-last-text a:hover{
     .line1{
         color: rgb(110, 110, 115);
         width: 100%;
-        padding-top: 10px;
+        padding-top: 0px;
         height: 17px;
     }
     .line1 a{

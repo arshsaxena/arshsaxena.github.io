@@ -37,8 +37,8 @@ a{
 .links{
     display: flex;
 }
-.col1, .col2, .col3, .col4{
-    width: 25%;
+.col1, .col2, .col3, .col4, .col5{
+    width: 20%;
 }
 .links .heads{
     font-size: 17px;
