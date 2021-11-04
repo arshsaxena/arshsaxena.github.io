@@ -117,6 +117,8 @@ nav{
     padding-bottom: 30px;
 }
 .social-links img{
+    border-radius: 15px;
+    height: 68px;
     vertical-align: bottom;
     transition-property: transform;
     transition-duration: 500ms;
@@ -129,55 +131,19 @@ nav{
     user-select: all !important;
 }
 .social-links img:hover{
-    transform: scale(1.3);
+    transform: scale(1.24);
 }
 .instagram-icon{
-    height: 55px;
-    padding-right: 15px;
+    margin-right: 15px;
 }
-.github-icon{
-    height: 58px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.linkedin-icon{
-    height: 54px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.telegram-icon{
-    height: 55px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.form-icon{
-    height: 55px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.reddit-icon{
-    height: 58px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.twitter-icon{
-    height: 53px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.facebook-icon{
-    height: 58px;
-    padding-left: 15px;
-    padding-right: 15px;
+.github-icon, .linkedin-icon, .telegram-icon, .form-icon, .reddit-icon, .twitter-icon, .facebook-icon{
+    border-radius: 15px;
+    height: 68px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .spotify-icon{
-    height: 63px;
-    padding-left: 15px;
-    padding-right: 4px;
-}
-.youtube-icon{
-    height: 48px;
-    padding-left: 15px;
+    margin-left: 15px;
 }
 .apps-container{
     max-width: 980px;
@@ -285,6 +251,9 @@ nav{
         text-align: center;
         width: 93%;
     }
+    .social-links img{
+        height: 55px;
+    }
     .social-links img:hover{
         transform: scale(1) !important;
     }
@@ -356,53 +325,25 @@ nav{
         text-align: center;
         padding-top: 0px;
         line-height: 50px;
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 30px;
         width: 85%;
         margin: auto;
     }
     .social-links img{
-        padding-left: 5px;
-        padding-right: 5px;
+        margin-left: 4px;
+        margin-right: 4px;
+        border-radius: 9px;
+        height: 45px;
     }
     .social-links img:hover{
         transform: scale(1)
-    }
-    .instagram-icon{
-        height: 40px;
-    }
-    .github-icon{
-        height: 43px;
-    }
-    .linkedin-icon{
-        height: 39px;
-    }
-    .telegram-icon{
-        height: 40px;
-    }
-    .form-icon{
-        height: 40px;
-    }
-    .reddit-icon{
-        height: 43px;
-    }
-    .twitter-icon{
-        height: 38px;
-    }
-    .facebook-icon{
-        height: 43px;
-    }
-    .spotify-icon{
-        height: 46px;
-    }
-    .youtube-icon{
-        height: 33px;
     }
     .apps-container{
         width: 90%;
     }
     .app-button-container{
-        width: 325px;
+        width: 313px;
         text-align: left;
         display: block;
         margin: 0 auto;
