@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
+    <title>Simple Old School | Templates | Arsh Saxena</title>
+    
+    <meta name="description" content="Templates | Arsh Saxena | Download cool website templates made by Arsh Saxena.">
+    <meta name="author" content="Arsh Saxena">
+    <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
+    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="theme-color" content="#1d1d1f">
+    <meta name="msapplication-navbutton-color" content="#1d1d1f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d1d1f">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh.png">
+</head>
+<body>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <nav class="nav" id="nav"> 
+        </nav>
+        <div class="maindiv">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="imgs/template-screenshot-1.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="imgs/template-screenshot-2.png" style="width:100%">
+                </div>                            
+                <div class="mySlides fade">
+                    <img src="imgs/template-screenshot-3.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="imgs/template-screenshot-4.png" style="width:100%">
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-angle-left"></i></a>
+                <a class="next" onclick="plusSlides(1)"><i class="fa fa-angle-right"></i></a>
+            </div>
+            <br><br>
+            <div class="download-link">
+                <h1>Simple-Old-School-by-Arsh.zip</h1>
+                <br>
+                <h3>2.12MB</h3>
+                <div class="download-button"><a href="Simple-Old-School-by-Arsh.zip" download class="download-button">Download</a></div>
+            </div>
+            
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </div>
+    <br><br>    
+    <span class="footer-conatiner">
+        <footer>
+            <div class="footer" id="footer-part">
+                <div class="footer-text">
+                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                    <span class="path">
+                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
+                        <span class="page-name">Templates</span>
+                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
+                        <span class="page-name">Simple Old School</span>
+                    </span>                  
+                </div>
+            </div>
+        </footer>
+        <footer id="footer"></footer>
+    </span>
+</body>
+</html>
