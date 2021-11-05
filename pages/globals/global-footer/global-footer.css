@@ -52,7 +52,7 @@ footer a{
 .footer-nav-links{
     display: flex;
 }
-.footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
+.footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .legal{
     width: 20%;
 }
 .footer-col-heads{
@@ -173,7 +173,7 @@ footer .footer .footer-last-text a:hover{
     .footer-nav-links{
         display: block;
     }
-    .footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .policy{
+    .footer-nav-links .discover, .footer-nav-links .byarsh, .footer-nav-links .connect, .footer-nav-links .social, .footer-nav-links .legal{
         width: 100%;
     }
     .footer-nav-col{
@@ -198,7 +198,7 @@ footer .footer .footer-last-text a:hover{
     .footer-checkbox{
         display: inline;
     }
-    .discover, .byarsh, .connect, .social, .policy{
+    .discover, .byarsh, .connect, .social, .legal{
         border-bottom-style: solid;
         border-width: 1px;
         border-color: #404044;

@@ -30,19 +30,21 @@ a{
     font-size: 40px;
     font-weight: 600;
 }
-ul{
+#brand-text ul{
     list-style-type: none;
     padding: 0;
+    margin-bottom: 0;
 }
-ul li{
+#brand-text ul li{
     font-size: 17px;
     padding-top: 2.5px;
     padding-bottom: 2.5px;
+    line-height: 1.6em;
 }
-ul li a{
+#brand-text ul li a{
     color: #2997ff;
 }
-ul li a:hover{
+#brand-text ul li a:hover{
     text-decoration: underline;
 }
 
@@ -77,19 +79,19 @@ ul li a:hover{
         font-size: 35px;
         letter-spacing: 0;
     }
-    ul{
+    #brand-text ul{
         list-style-type: none;
         padding: 0;
     }
-    ul li{
+    #brand-text ul li{
         font-size: 17px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    ul li a{
+    #brand-text ul li a{
         color: #2997ff;
     }
-    ul li a:hover{
+    #brand-text ul li a:hover{
         text-decoration: underline;
     }
 }

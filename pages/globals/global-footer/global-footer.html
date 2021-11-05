@@ -108,23 +108,23 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="policy">
+                    <div class="legal">
                         <div class="footer-checkbox">
-                            <label for="policyCheck" class="checkbox-label">
+                            <label for="legalCheck" class="checkbox-label">
                                 <div class="label-div">
-                                    Policy
+                                    Legal
                                 </div>
                             </label>
                             <div class="check-div">
-                                <input type="checkbox" id="policyCheck">
+                                <input type="checkbox" id="legalCheck">
                             </div>
                         </div>
-                        <div class="footer-nav-col" id="policy">
-                            <span class="footer-col-heads">Policy<br></span>
+                        <div class="footer-nav-col" id="legal">
+                            <span class="footer-col-heads">Legal<br></span>
                             <ul>
                                 <li><a href="/pages/terms-of-use/">Terms of Use</a></li>
-                                <li><a href="/pages/privacy/">Privacy</a></li>
-                                <li><a href="/pages/credits/">Credits</a></li>
+                                <li><a href="/pages/privacy-policy/">Privacy Policy</a></li>
+                                <li><a href="/pages/brand-resources-used/">Brand resources used</a></li>
                             </ul>                           
                         </div>
                     </div>
@@ -211,11 +211,11 @@
             }                   
         });
 
-        $('#policyCheck').change(function(){
+        $('#legalCheck').change(function(){
             if (this.checked) {
-                $('#policy').fadeIn(250);
+                $('#legal').fadeIn(250);
             } else {
-                $('#policy').fadeOut(250);
+                $('#legal').fadeOut(250);
             }                   
         });
     </script>

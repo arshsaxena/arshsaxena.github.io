@@ -90,6 +90,9 @@ header .app-developer:hover{
     border: none;
     border-radius: 50px;
 }
+.download-button-div button:hover{
+    background-color: #0064cf;
+}
 .download-button-div button a{
     color: white;
 }

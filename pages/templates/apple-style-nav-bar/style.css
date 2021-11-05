@@ -63,21 +63,24 @@ a{
     margin: 0;
     font-size: 30px;
 }
-.download-button{
+.download-button-div button{
+    font-family: font-regular;
+    font-size: 25px;
+    padding: 8px 13px;
     margin: 50px;
+    background-color: #007aff;
+    border: none;
+    border-radius: 50px;
 }
-a.download-button{
-    padding: 10px;
-    text-align: center !important;
-    text-decoration: none;
+.download-button-div button:hover{
+    background-color: #0064cf;
+}
+.download-button-div button a{
     color: white;
-    font-size: 30px;
-    background-color: green;
-    border-color: transparent;
-    border-radius: 10px;
 }
-a.download-button:hover::after{
-    content: " ⤓";
+.download-button-div button::before{
+    content: "􀁸";
+    color: white;
 }
 
 /* Mobiles and some tabs */
@@ -116,21 +119,20 @@ a.download-button:hover::after{
         margin: 0;
         font-size: 20px;
     }
-    .download-button{
-        margin: 0;
-        margin-top: 20px;
+    .download-button-div button{
+        font-family: font-regular;
+        font-size: 20px;
+        padding: 8px 13px;
+        margin: 50px;
+        background-color: #007aff;
+        border: none;
+        border-radius: 50px;
     }
-    a.download-button{
-        padding: 10px;
-        text-align: center !important;
-        text-decoration: none;
+    .download-button-div button a{
         color: white;
-        font-size: 25px;
-        background-color: green;
-        border-color: transparent;
-        border-radius: 10px;
     }
-    a.download-button:hover::after{
-        content: " ⤓";
+    .download-button-div button::before{
+        content: "􀁸";
+        color: white;
     }
 }
