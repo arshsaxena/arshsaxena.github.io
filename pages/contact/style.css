@@ -110,20 +110,21 @@ body {
     text-align: left;
 }
 .reset{
-    max-width: 980px;
+    width: 115px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
     background-color: transparent !important;
 }
 .reset-button{
+    width: 115px;
     padding: 10px;
     font-family: font-regular;
     font-size: 25px !important;
-    color: #2997ff;
-    background-color: black !important;
+    color: white !important;
+    background-color: #007aff !important;
     border-color: transparent;
-    border-radius: 10px;
+    border-radius: 50px !important;
     cursor: pointer;
 }
 .reset-button:hover{
@@ -131,7 +132,7 @@ body {
     background-color: red !important;
 }
 .submit{
-    max-width: 980px;
+    width: 115px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
@@ -141,10 +142,10 @@ body {
     padding: 10px;
     font-family: font-regular;
     font-size: 25px !important;
-    color: #2997ff;
-    background-color: black !important;
+    color: white !important;
+    background-color: #007aff !important;
     border-color: transparent;
-    border-radius: 10px;
+    border-radius: 50px !important;
     cursor: pointer;
 }
 .submit-button:hover{
@@ -246,10 +247,10 @@ body {
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
-        color: #2997ff;
-        background-color: black !important;
+        color: white !important;
+        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 10px;
+        border-radius: 50px !important;
         transition-property: none;
     }
     .reset-button:focus{
@@ -269,10 +270,10 @@ body {
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
-        color: #2997ff;
-        background-color: black !important;
+        color: white !important;
+        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 10px;
+        border-radius: 50px !important;
         transition-property: none;
     }
     .submit-button:focus{

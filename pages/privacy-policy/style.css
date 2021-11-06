@@ -42,6 +42,9 @@ a{
     color: rgb(196, 196, 196);
     margin: 0 0 15  px 0;
 }
+.privacy-text p:last-of-type{
+    margin-bottom: 0;
+}
 .privacy-text p b{
     font-size: 19px;
 }

@@ -86,19 +86,27 @@ a{
 }
 .fav-download button{
     font-family: font-regular;
-    background-color: #1d1d1f;
-    border-color: transparent;
-    padding: 5px;
-    border-color: transparent;
-    border-radius: 10px;
+    font-size: 16px !important;
+    padding: 2px 5px;
+    background-color: #007aff;
+    border: none;
+    border-radius: 50px;
+}
+.fav-download button a{
+    font-size: 16px;
 }
 .fav-download button:hover{
-    background-color: green !important;
-    text-decoration: underline;
-    cursor: pointer;
+    background-color: #0064cf;
 }
 .fav-download button:hover a{
-    color: white !important;
+    text-decoration: none !important;
+}
+.fav-download button a{
+    color: white;
+}
+.fav-download button::before{
+    content: "􀁸";
+    color: white;
 }
 .mac, .windows, .linux, .ios, .android{
     border-bottom-style: solid;
@@ -178,9 +186,26 @@ a{
     }
     .fav-download{
         text-align: left;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
     .fav-download button{
-        margin-top: 10px;
+        font-family: font-regular;
+        font-size: 16px;
+        padding: 2px 5px;
+        background-color: #007aff;
+        border: none;
+        border-radius: 50px;
+    }
+    .fav-download button:hover{
+        background-color: #0064cf;
+    }
+    .fav-download button:hover a{
+        text-decoration: none !important;
+    }
+    .fav-download button a{
+        color: white;
     }
     .list{
         display: inline;
