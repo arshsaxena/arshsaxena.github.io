@@ -415,7 +415,7 @@ section#timeline article:nth-child(16) div.inner h2{
         margin-bottom: 10px;
         display: block;
         padding: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
         overflow-x: hidden;
     }
     .high-school, .intermediate-school{
@@ -442,6 +442,9 @@ section#timeline article:nth-child(16) div.inner h2{
     .air-per div{
         width: 100%;
     }
+    .air{
+        text-align: left;
+    }
     .per{
         text-align: left;
     }
@@ -457,6 +460,7 @@ section#timeline article:nth-child(16) div.inner h2{
         padding: 0px;
         background-color: transparent;
         margin-left: 0px;
+        padding-bottom: 0;
     }
     .high-school div, .intermediate-school div{
         padding-bottom: 5px;
