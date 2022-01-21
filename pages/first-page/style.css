@@ -136,7 +136,7 @@ nav{
 .instagram-icon{
     margin-right: 15px;
 }
-.github-icon, .linkedin-icon, .telegram-icon, .form-icon, .reddit-icon, .twitter-icon, .facebook-icon{
+.github-icon, .linkedin-icon, .form-icon, .reddit-icon, .twitter-icon, .facebook-icon{
     border-radius: 15px;
     height: 68px;
     margin-left: 15px;
@@ -327,14 +327,14 @@ nav{
         line-height: 50px;
         padding-top: 20px;
         padding-bottom: 30px;
-        width: 85%;
+        width: 79.5%;
         margin: auto;
     }
     .social-links img{
         margin-left: 4px;
         margin-right: 4px;
         border-radius: 9px;
-        height: 45px;
+        height: 50px;
     }
     .social-links img:hover{
         transform: scale(1)
