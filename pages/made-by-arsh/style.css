@@ -128,6 +128,23 @@ div.python-project-description .python-project-description-detail{
     margin-top: 10px;
     line-height: 1.6em;
 }
+.footnote{
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgb(81, 81, 84);
+    border-width: 1px;
+    line-height: 1.4em;
+    font-size: 14px;
+}
+.footnote a{
+    color: #226eb6;
+}
+.footnote a:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    padding-top: 15px;
+}
 
 @media only screen and (max-device-width: 1023px) and (min-device-width: 824px) {
     .main-div{
