@@ -206,9 +206,9 @@ nav{
     color: white;
     letter-spacing: 1px;
 }
-.app-banner-mobile{
+/* .app-banner-mobile{
     display: none;
-}
+} */
 .footnote{
     padding-bottom: 10px;
     border-bottom: solid;
@@ -225,7 +225,7 @@ nav{
     padding-top: 15px;
 }
 
-@media only screen and (min-device-width: 813px) and (max-device-width: 1024px){
+@media screen and (min-width: 813px) and (max-width: 1024px){
     .col1{
         width: 53%;
         margin-right: 0;
@@ -343,7 +343,7 @@ nav{
         width: 90%;
     }
     .app-button-container{
-        width: 313px;
+        width: 323px;
         text-align: left;
         display: block;
         margin: 0 auto;
@@ -394,7 +394,7 @@ nav{
         color: white;
         letter-spacing: 1px;
     }
-    .app-banner-mobile{
+    /* .app-banner-mobile{
         display: block;
         position: fixed;
         bottom: 0;
@@ -452,5 +452,5 @@ nav{
         color: white;
         font-size: 15px;
         letter-spacing: 0;
-    }
+    } */
 }

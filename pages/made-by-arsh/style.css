@@ -146,7 +146,7 @@ div.python-project-description .python-project-description-detail{
     padding-top: 15px;
 }
 
-@media screen and (max-width: 1023px) and (min-device-width: 824px) {
+@media screen and (max-width: 1023px) and (min-width: 824px) {
     .main-div{
         width: 93%;
         margin-left: auto;

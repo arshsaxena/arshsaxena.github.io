@@ -100,7 +100,7 @@ a{
         opacity: 1
     }
 }
-@media only screen and (max-width: 300px) {
+@media screen and (max-width: 300px) {
     .prev, .next, .text {
         font-size: 5px !important;
     }

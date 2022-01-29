@@ -120,9 +120,9 @@ nav {
     nav{
         position: sticky;
         position: -webkit-sticky;
-        background: rgb(29, 29, 31, 0.8);
-        -webkit-backdrop-filter: saturate(180%) blur(20px);
-        backdrop-filter: saturate(180%) blur(20px);
+        background: rgb(29, 29, 31);
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
     }
     .nav-links {
         position: fixed;
