@@ -153,7 +153,7 @@ body {
     background-color: green !important;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
     html{
         background-color: #1d1d1f;
         width: 100%;

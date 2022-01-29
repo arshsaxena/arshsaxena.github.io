@@ -227,13 +227,13 @@ header .app-developer:hover{
 }
 
 /* Mobiles and some tabs */
-@media only screen and (max-device-width: 1024px) and (orientation: landscape){
+@media screen and (max-width: 1024px) and (orientation: landscape){
 .screenshots-ul-container ul li picture img{
     width: 157px;
     height: 339px;
     border-radius: 10%/4.1%;
 }}
-@media only screen and (max-device-width: 823px) {
+@media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;
         margin: 0px;

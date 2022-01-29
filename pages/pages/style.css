@@ -45,7 +45,7 @@ a{
 }
 
 /* Mobiles and some tabs */
-@media only screen and (max-device-width: 823px) {
+@media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;
         margin: 0px;

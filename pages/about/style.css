@@ -350,7 +350,7 @@ section#timeline article:nth-child(16) div.inner h2{
 }
 
 /* Mobiles and some tabs */
-@media only screen and (max-device-width: 1024px){
+@media screen and (max-width: 1024px){
     .img-div img{
         height: 98px;
         border-radius: 25px;
@@ -362,12 +362,12 @@ section#timeline article:nth-child(16) div.inner h2{
         padding-bottom: 40px;
     }
 }
-@media only screen and (max-device-width: 813px) and (orientation: landscape) {
+@media screen and (max-width: 813px) and (orientation: landscape) {
     section#timeline:before {
         left: 9.4% !important;
     }
 }
-@media only screen and (max-device-width: 813px) {
+@media screen and (max-width: 813px) {
     html{
         background-color: #1d1d1f;
         margin: 0px;

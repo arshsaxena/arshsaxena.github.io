@@ -113,16 +113,16 @@ nav {
 	transition: all 0.45s ease-out, background 0.8s ease-out;
 }
 
-@media only screen and (max-device-width: 980px) {
+@media screen and (max-width: 980px) {
     html{
         background-color: #1d1d1f;
     }
     nav{
         position: sticky;
         position: -webkit-sticky;
-        background: rgb(29, 29, 31);
-        -webkit-backdrop-filter: blur(20px);
-        backdrop-filter: none;
+        background: rgb(29, 29, 31, 0.8);
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
     }
     .nav-links {
         position: fixed;
