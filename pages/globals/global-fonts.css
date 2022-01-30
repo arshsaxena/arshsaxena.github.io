@@ -25,6 +25,7 @@
 
 body{
     font-family: font-regular !important;
+    font-weight: 400;
 }
 b{
     font-family: font-bold !important;
