@@ -81,7 +81,6 @@ nav{
     font-size: 30px;
     letter-spacing: 1px;
     color: #d6d5d5;
-    padding-left: 59px;
 }
 .namaste{
     font-size: 35px;
@@ -109,6 +108,10 @@ nav{
 }
 .an{
     color: green;
+}
+
+.profession div{
+    display: inline-block;
 }
 .social-links{
     text-align: center;
@@ -228,7 +231,7 @@ nav{
 @media screen and (min-width: 813px) and (max-width: 1024px){
     .col1{
         width: 53%;
-        margin-right: 0;
+        margin-right: 15px;
     }
     .img-div img{
         height: 79px;
@@ -241,7 +244,7 @@ nav{
         font-size: 25px;
     }
     .col2{
-        margin-left: 0;
+        margin-left: 15px;
     }
     .description{
         font-size: 25px;
@@ -320,6 +323,11 @@ nav{
     .namaste{
         font-size: 28px;
         line-height: 50px;
+    }
+    .profession{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .social-links{
         text-align: center;
