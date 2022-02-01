@@ -58,14 +58,19 @@ footer a{
 .footer-col-heads{
     font-size: 17px;
     color: rgb(245, 245, 247);
+    font-weight: 900;
 }
 .footer-nav-col ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+.footer-nav-col ul li:first-of-type{
+    margin-top: 5px;
+}
 .footer-nav-col ul li{
     width: 100%;
+    margin-bottom: 1px;
 }
 .footer-nav-col a:hover{
     color: white;
@@ -178,6 +183,9 @@ footer .footer .footer-last-text a:hover{
     .footer-nav-col{
         display: none;
         margin-bottom: 10px;
+    }
+    .footer-nav-col ul li:first-of-type{
+        margin-top: 0px;
     }
     .footer-nav-col ul li{
         list-style-type: none;
