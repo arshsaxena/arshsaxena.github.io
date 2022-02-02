@@ -110,7 +110,7 @@ body {
     text-align: left;
 }
 .reset{
-    width: 115px;
+    width: 150px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
@@ -120,19 +120,19 @@ body {
     width: 115px;
     padding: 10px;
     font-family: font-regular;
-    font-size: 25px !important;
+    font-size: 20px !important;
     color: white !important;
-    background-color: #007aff !important;
+    background-color: red !important;
     border-color: transparent;
     border-radius: 50px !important;
     cursor: pointer;
 }
 .reset-button:hover{
     color: white;
-    background-color: red !important;
+    background-color: rgb(192, 0, 0) !important;
 }
 .submit{
-    width: 115px;
+    width: 150px;
     text-align: center;
     margin: auto;
     padding-bottom: 25px;
@@ -141,16 +141,16 @@ body {
 .submit-button{
     padding: 10px;
     font-family: font-regular;
-    font-size: 25px !important;
+    font-size: 20px !important;
     color: white !important;
-    background-color: #007aff !important;
+    background-color: green !important;
     border-color: transparent;
     border-radius: 50px !important;
     cursor: pointer;
 }
 .submit-button:hover{
     color: white;
-    background-color: green !important;
+    background-color: rgb(0, 88, 0) !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -241,20 +241,20 @@ body {
         background-color: #1d1d1f;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        width: 100%;
     }
     .reset-button{
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
         color: white !important;
-        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 50px !important;
+        border-radius: 10px !important;
         transition-property: none;
     }
     .reset-button:focus{
-        background-color: green;
+        background-color: rgb(192, 0, 0);
         color: white;
     }
     .submit{
@@ -264,20 +264,20 @@ body {
         background-color: #1d1d1f;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
+        width: 100%;
     }
     .submit-button{
         padding: 10px;
         font-family: font-regular;
         font-size: 23px !important;
         color: white !important;
-        background-color: #007aff !important;
         border-color: transparent;
-        border-radius: 50px !important;
+        border-radius: 10px !important;
         transition-property: none;
     }
     .submit-button:focus{
-        background-color: green;
+        background-color: rgb(0, 88, 0);
         color: white;
     }
 }
