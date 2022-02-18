@@ -46,6 +46,9 @@ nav {
     flex-direction: row;
     justify-content: space-between;
 }
+.nav-links ul{
+    display: none;
+}
 #link-nav{
     position: relative;
 }
@@ -135,6 +138,29 @@ nav {
         flex-direction: column;
         justify-content: flex-start;
         transition: all 2s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .nav-links a:not(.nav-links ul li a){
+        display: none;
+    }
+    .nav-links ul{
+        list-style-type: none;
+        display: block;
+        max-width: 664px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 40px 0px;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
+    .nav-links ul li{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-links ul li a{
+        margin: 0;
     }
     #link-nav{
         position: relative;
