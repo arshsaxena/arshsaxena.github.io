@@ -67,7 +67,7 @@ a h1:hover{
     display: none;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 1024px) {
     .row-for-pc{
         display: none;

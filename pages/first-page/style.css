@@ -261,7 +261,7 @@ nav{
         transform: scale(1) !important;
     }
 }
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 813px) {
     html{
         background-color: #1d1d1f;
@@ -288,7 +288,7 @@ nav{
     }
     .namehead{
         color: white;
-        font-size: 34.25px;
+        font-size: 32.25px;
         font-weight: bolder;
         text-align: center;
     }
@@ -351,7 +351,8 @@ nav{
         width: 90%;
     }
     .app-button-container{
-        width: 330px;
+        max-width: 330px;
+        width: 100%;
         text-align: left;
         display: block;
         margin: 0 auto;

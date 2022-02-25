@@ -55,7 +55,7 @@ p a:hover{
     text-decoration: underline;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;

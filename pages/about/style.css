@@ -344,7 +344,7 @@ section#timeline article:nth-child(16) div.inner h2{
     background-image: linear-gradient(315deg, #94c997 0%, #daacec 74%);
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 1024px){
     .main-head{
         max-width: 980px;

@@ -79,7 +79,7 @@ a{
     color: white;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 823px) {
     body{
         letter-spacing: 0;

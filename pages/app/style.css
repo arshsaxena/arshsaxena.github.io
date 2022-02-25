@@ -226,7 +226,7 @@ header .app-developer:hover{
     font-size: 13px;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 1024px) and (orientation: landscape){
 .screenshots-ul-container ul li picture img{
     width: 157px;

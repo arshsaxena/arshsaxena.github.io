@@ -34,7 +34,7 @@ a{
 }
 .maindiv{
     max-width: 980px;
-    width: 100%;
+    width: 95%;
     margin: auto;
     font-size: 20px;
 }
@@ -140,7 +140,7 @@ a{
     padding-bottom: 5px;
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;

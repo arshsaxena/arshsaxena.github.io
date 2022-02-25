@@ -184,7 +184,7 @@ a{
     }
 }
 
-/* Mobiles and some tabs */
+
 @media screen and (max-width: 1023px) {
     body{
         letter-spacing: 0;
