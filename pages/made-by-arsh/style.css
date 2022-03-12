@@ -28,8 +28,6 @@ a{
     transition: width 0.2s ease-out;
     background-color: lawngreen;
 }
-.main-div{
-}
 .project-container{
     width: 940px;
     margin-left: auto;
@@ -92,7 +90,7 @@ a{
 }
 .list{
     width: 980px;
-    column-count: 2;
+    column-count: 3;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -106,7 +104,7 @@ a{
     list-style-type: none;
     padding: 0;
     display: inline-block;
-    padding: 20px;
+    padding: 10px 10px 20px;
     background-color: #1d1d1f;
     border-radius: 20px;
 }
@@ -172,9 +170,6 @@ div.python-project-description .python-project-description-detail{
     }
     a{
         text-decoration: none;
-    }
-    .main-div{
-        
     }
     .project-container{
         width: 85%;

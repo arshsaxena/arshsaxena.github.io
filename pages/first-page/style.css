@@ -149,12 +149,13 @@ nav{
     margin-left: 15px;
 }
 .apps-container{
-    max-width: 980px;
+    max-width: 1024px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
     text-align: center;
     border-top: 1px #1d1d1f solid;
 }
@@ -164,7 +165,8 @@ nav{
     width: fit-content;
     text-align: left;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 7.5px;
+    padding-top: 15px;
 }
 .button-div{
     background-color: #1d1d1f;
@@ -356,9 +358,6 @@ nav{
         text-align: left;
         display: block;
         margin: 0 auto;
-    }
-    .app-button-container:nth-child(2){
-        padding-top: 15px;
     }
     .button-div{
         background-color: #1d1d1f;
