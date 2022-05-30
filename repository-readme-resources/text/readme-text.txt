@@ -1,8 +1,10 @@
-This reopsitory contains codes and resources of my offical website, arshsaxena.in.
-Website may not function properply below 1366x768 resolution.
+Arsh's Official Website (arshsaxena.in) on an Apple Mac Pro running macOS Catalina 10.15.3
 
-NOTE: If you are using my site as a template for your website, I would be glad if you add a link to the original site with my name in footer.
+This reopsitory contains codes and resources of my offical website, arshsaxena.in.
+Download my app.
+
+NOTE: If you are using my site as a template for your portfolio website, please add a link to the original site with my name in footer.
 
 <<WEBSITE SCREENSHOT>>
 
-Arsh's Official Website (arshsaxena.in) on an Apple Mac Pro running macOS Catalina 10.15.3
+Arsh's official website (arshsaxena.in) on an Apple MacBook Pro M1 running macOS Monterey 12.0.1.
