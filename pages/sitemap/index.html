@@ -10,12 +10,13 @@
     <title>Site Map | Arsh Saxena</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
-    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
-    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <meta name="theme-color" content="#1d1d1f">
     <meta name="msapplication-navbutton-color" content="#1d1d1f">
@@ -31,19 +32,23 @@
     </script>
     <script>
         $(function(){
-        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
-        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
-        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
         });
     </script>
     <div class="container">
         <span id="top-button"></span>
-        <nav class="nav" id="nav"> 
-        </nav>
-        <div class="maindiv">
-            <a href="#"><h1>Arsh Saxena Site Map</h1></a>
+        <div class="nav-container">
+            <nav class="nav" id="nav"> 
+            </nav>
+        </div>
+        <div class="main-div">
+            <div class="page-head">
+                Arsh Saxena Site Map
+            </div>
             <div class="links">
-                <div class="col1">
+                <div class="col col1">
                     <span class="heads">Discover</span>
                     <br>
                     <a href="/">Home</a>
@@ -52,22 +57,20 @@
                     <br>
                     <a href="/pages/gallery/">Gallery</a>
                     <br>
-                    <a href="/pages/github/">GitHub</a>
-                    <br>
                     <a href="/pages/downloads/">Downloads</a>
                     <br>
                     <a href="/pages/contact">Contact</a>
                 </div>
-                <div class="col2">
+                <div class="col col2">
                     <span class="heads">By Arsh</span>
                     <br>
                     <a href="/pages/made-by-arsh/">Made by Arsh</a>
                     <br>
-                    <a href="/pages/templates/">Templates</a>
+                    <a href="/pages/made-by-arsh/#templates">Templates</a>
                     <br>
                 </div>
-                <div class="col3">
-                    <span class="heads">Contact</span>
+                <div class="col col3">
+                    <span class="heads">Connect</span>
                     <br>
                     <a href="/pages/app/">App</a>
                     <br>
@@ -77,9 +80,9 @@
                     <br>
                     <a href="https://www.linkedin.com/in/arshsaxena/" target="_blank">LinkedIn</a>      
                     <br>
-                    <a href="https://www.twitter.com/arshsaxena02" target="_blank">Twitter</a>
+                    <a href="https://www.twitter.com/arshsaxena02" target="_blank">X</a>
                 </div>
-                <div class="col4">
+                <div class="col col4">
                     <span class="heads">Social</span>
                     <br>
                     <a href="https://facebook.com/arsh.saxena02" target="_blank">Facebook</a>
@@ -90,32 +93,30 @@
                     <br>
                     <a href="https://www.reddit.com/u/arshsaxena" target="_blank">Reddit</a>
                 </div>
-                <div class="col5">
+                <div class="col col5">
                     <span class="heads">Legal</span>
                     <br>
-                    <a href="/pages/terms-of-use/">Terms of Use</a>
+                    <a href="/pages/legal/terms-of-use/">Terms of Use</a>
                     <br>
-                    <a href="/pages/privacy-policy/">Privacy Policy</a>
+                    <a href="/pages/legal/privacy-policy/">Privacy Policy</a>
                     <br>
-                    <a href="/pages/brand-resources-used/">Brand resources used</a>
+                    <a href="/pages/legal/brand-resources-used/">Brand resources used</a>
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <span class="footer-conatiner">
-        <footer>
-            <div class="footer" id="footer-part">
-                <div class="footer-text">
-                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
-                    <span class="path">
-                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
-                        <span class="page-name">Site Map</span>
-                    </span>                  
+        <div class="footer-conatiner">
+            <footer>
+                <div class="footer" id="footer-part">
+                    <div class="footer-text">
+                        <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                        <span class="path">
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Site Map</span>
+                        </span>                  
+                    </div>
                 </div>
-            </div>
-        </footer>
-        <footer id="footer"></footer>
-    </span>
-</body>
+            </footer>
+            <footer id="footer"></footer>
+        </div>
+    </div>
 </html>

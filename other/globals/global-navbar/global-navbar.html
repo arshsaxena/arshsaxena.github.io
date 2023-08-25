@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <title>Navigation Bar | Arsh Saxena</title>
+    
+    <link rel="stylesheet" href="global-navbar.css">
+    <meta name="theme-color" content="#1d1d1f">
+    <meta name="msapplication-navbutton-color" content="#1d1d1f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d1d1f">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh-favicon.png">
+</head>
+<body>
+    <div class="nav-content">
+        <a href="/" class="logo">
+            <img src="/resources/first-page/icons/arsh.png" alt="">
+        </a>
+        <div class="nav-icon">
+            <div class="bar-container">
+                <div class="bar one"></div>
+                <div class="bar two"></div>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="/pages/about/" class="about" id="link-nav">&nbsp; About &nbsp;</a>
+            <a href="/pages/gallery/" class="gallery" id="link-nav">&nbsp; Gallery &nbsp;</a>
+            <a href="/pages/made-by-arsh/" class="made-by-arsh" id="link-nav">&nbsp; Made by Arsh &nbsp;</a>
+            <a href="/pages/contact/" class="contact" id="link-nav">&nbsp; Contact &nbsp;</a>
+            <ul>
+                <li>
+                    <a href="/pages/about/" class="mob-menu-link about" id="link-nav">About</a>
+                </li>
+                <li>
+                    <a href="/pages/gallery/" class="mob-menu-link gallery" id="link-nav">Gallery</a>
+                </li>
+                <li>
+                    <a href="/pages/made-by-arsh/" class="mob-menu-link made-by-arsh" id="link-nav">Made by Arsh</a>
+                </li>
+                <li>
+                    <a href="/pages/contact/" class="mob-menu-link contact" id="link-nav" style="border: none;">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <style>
+        .fixed-position {
+            position: fixed;
+        }
+    </style>
+    <script>
+        const navIcon = document.querySelector(".nav-icon");
+        const nav = document.querySelector("nav");
+        const body = document.querySelector("body");
+
+        navIcon.onclick = function () {
+            nav.classList.toggle('show');
+            body.classList.toggle('fixed-position');
+        }
+    </script>
+</body>
+</html>

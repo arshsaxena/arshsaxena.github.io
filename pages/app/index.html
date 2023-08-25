@@ -13,12 +13,13 @@
     <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student, ARSH SAXENA, अर्श सक्सेना, アーシュ サクセナ, ارش سکسینا, અર્શ સક્સેના, আরশ সাক্সেনা, ಅರ್ಶ್ ಸಕ್ಸೇನಾ, അർഷ് സക്‌സേന, ਅਰਸ਼ ਸਕਸੈਨਾ, அர்ஷ் சக்சேனா, అర్ష్ సక్సేనా, ଆର୍ଶ ସାକ୍ସେନା |, 阿什·萨克塞纳, ארש סקסנה, Арш Саксена, Photographer, Video editor, aconverter, aeducational, qr, solar system">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
-    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
-    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <meta name="theme-color" content="#1d1d1f">
     <meta name="msapplication-navbutton-color" content="#1d1d1f">
@@ -34,16 +35,17 @@
     </script>
     <script>
         $(function(){
-        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
-        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
-        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
         });
     </script>
-    <span id="top-button"></span>
-    <nav class="nav" id="nav"> 
-    </nav>
     <div class="container">
-        <br>
+        <span id="top-button"></span>
+        <div class="nav-container">
+            <nav class="nav" id="nav"> 
+            </nav>
+        </div>
         <div class="main-div">
             <section class="app-download-div">
                 <div class="app-img-div">
@@ -53,9 +55,9 @@
                 </div>
                 <div class="app-info-div">
                     <header>
-                        <h1 class="app-name">Arsh Saxena</h1>
-                        <h2 class="app-name-subtext">Official app.</h2>
-                        <h2 class="app-developer"><a href="/">Arsh Saxena</a></h2>
+                        <div class="app-name">Arsh Saxena</div>
+                        <div class="app-name-subtext">Official app.</div>
+                        <div class="app-developer"><a href="/">Arsh Saxena</a></div>
                         <div class="app-price">Free</div>
                         <div class="download-button-div">
                             <button><b><a href="https://github.com/arshsaxena/ArshSaxena-App/blob/main/ArshSaxena.apk?raw=true">&nbsp; DOWNLOAD</a></b></button>
@@ -65,7 +67,9 @@
                 </div>
             </section>
             <section class="app-screenshots">
-                <h2 class="div-headline">Screenshots</h2>
+                <b class="div-headline">Screenshots</b>
+                <br>
+                <br>
                 <div class="screenshots-container">
                     <div class="screenshots-ul-container">
                         <ul>
@@ -111,14 +115,18 @@
                 </div>
             </section>
             <section class="app-whats-new">
-                <h2 class="div-headline">What's New</h2>
+                <b class="div-headline">What's New</b>
+                <br>
+                <br>
                 <div class="new-info">
                     <div class="new-version-date">Version 1.0</div>
                     <div class="new-description">Initial release.</div>
                 </div>
             </section>
             <section class="app-information" style="padding-bottom: 3px;">
-                <h2 class="div-headline">Information</h2>
+                <b class="div-headline">Information</b>
+                <br>
+                <br>
                 <div class="info-category-container">
                     <div class="container-subdiv">
                         <div class="info-category">
@@ -167,7 +175,9 @@
                 </div>
             </section>
             <section class="also-download">
-                <h2 class="div-headline">Also Download</h2>
+                <b class="div-headline">Also Download</b>
+                <br>
+                <br>
                 <!-- <a href="https://www.arshsaxena.in/aBlogs/pages/app" target="_blank">
                     <picture>
                         <img src="/resources/app/ablogs-app-icon.jpg" alt="">
@@ -188,21 +198,19 @@
                 </a>
             </section>
         </div>
-    </div>
-    <br><br>
-    <span class="footer-conatiner">
-        <footer>
-            <div class="footer" id="footer-part">
-                <div class="footer-text">
-                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
-                    <span class="path">
-                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
-                        <span class="page-name">Arsh Saxena App - Android</span>
-                    </span>                  
+        <div class="footer-conatiner">
+            <footer>
+                <div class="footer" id="footer-part">
+                    <div class="footer-text">
+                        <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                        <span class="path">
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Arsh Saxena App - Android</span>
+                        </span>                  
+                    </div>
                 </div>
-            </div>
-        </footer>
-        <footer id="footer"></footer>
-    </span>
-</body>
+            </footer>
+            <footer id="footer"></footer>
+        </div>
+    </div>
 </html>

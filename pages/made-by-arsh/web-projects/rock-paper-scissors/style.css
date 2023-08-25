@@ -1,0 +1,27 @@
+#gameDiv{
+    font-family: "Samsung Sharp Sans";
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgreen;
+    text-align: center;
+}
+.choiceButton{
+    line-height: 30px;
+    width: 150px;
+    border: 3px solid;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-family: "Samsung Sharp Sans";
+    cursor: pointer;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+#resultText{
+    color: black;
+}

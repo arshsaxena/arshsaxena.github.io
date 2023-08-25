@@ -13,12 +13,13 @@
     <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student, ARSH SAXENA, अर्श सक्सेना, アーシュ サクセナ, ارش سکسینا, અર્શ સક્સેના, আরশ সাক্সেনা, ಅರ್ಶ್ ಸಕ್ಸೇನಾ, അർഷ് സക്‌സേന, ਅਰਸ਼ ਸਕਸੈਨਾ, அர்ஷ் சக்சேனா, అర్ష్ సక్సేనా, ଆର୍ଶ ସାକ୍ସେନା |, 阿什·萨克塞纳, ארש סקסנה, Арш Саксена, Photographer, Video editor, aconverter, aeducational, qr, solar system">
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
-    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
-    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <meta name="theme-color" content="#1d1d1f">
     <meta name="msapplication-navbutton-color" content="#1d1d1f">
@@ -34,18 +35,22 @@
     </script>
     <script>
         $(function(){
-        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
-        $("#footer").load("/pages/globals/global-footer/global-footer.html"); 
-        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
         });
     </script>
-    <span id="top-button"></span>
-    <nav class="nav" id="nav"> 
-    </nav>
     <div class="container">
-        <div class="maindiv">
+        <span id="top-button"></span>
+        <div class="nav-container">
+            <nav class="nav" id="nav"> 
+            </nav>
+        </div>
+        <div class="main-div">
             <div class="favorite">
-                <h3 class="h3-header">Favorites</h3>
+                <div class="h3-header">
+                    <b>Downloads</b>
+                </div>
                 <div class="fav-head">
                     <div class="fav-name">
                         <b>Wallpaper Collection</b>
@@ -56,7 +61,7 @@
                     </div>
                     <div class="fav-size">54.3 MB</div>
                     <div class="fav-download">
-                        <button><b><a href="https://1drv.ms/u/s!AsFB4rEe_kI6gQRRNSOCdAEJPIgR?e=jsSv2f">&nbsp; DOWNLOAD</a></b></button>
+                        <button><b><a href="https://1drv.ms/u/s!AsFB4rEe_kI6gQRRNSOCdAEJPIgR?e=jsSv2f" target="_blank">&nbsp; DOWNLOAD</a></b></button>
                     </div>
                 </div>
                 <div class="fav-head">
@@ -69,99 +74,88 @@
                     </div>
                     <div class="fav-size">39.7 MB</div>
                     <div class="fav-download">
-                        <button><b><a href="https://github.com/arshsaxena/PythonGames">&nbsp; DOWNLOAD</a></b></button>
+                        <button><b><a href="https://github.com/arshsaxena/PythonGames" tabindex="_blank">&nbsp; DOWNLOAD</a></b></button>
                     </div>
                 </div>
             </div>
             <br>    
             <div class="softwares">
                 <h3 class="h3-header">
-                    Apps and Softwares I Use
+                    <b>Apps and Softwares I Use</b>
                     <br>
-                    <span class="fav-last-updated" style="font-weight: lighter;"><i>Last updated 7 November 2021 • 01:37 AM</i></span>
+                    <span class="fav-last-updated"><i>Last updated 7 July 2023 • 01:37 AM</i></span>
                 </h3>
                 <div class="os">
-                    <div class="mac">
-                        <h2 class="os-header">Mac</h2>
+                    <div class="os-category mac">
+                        <div class="os-header">macOS</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Coding</li>
                                     <li><a target="_blank" href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
-                                    <li><a target="_blank" href="https://www.jetbrains.com/pycharm/download/#section=mac">PyCharm</a></li>
-                                    <li><a target="_blank" href="https://www.anaconda.com/products/individual">Jupyter Notebook</a></li>
-                                    <li><a target="_blank" href="https://www.atom.io/">Atom</a></li>
                                     <li><a target="_blank" href="https://desktop.github.com/">GitHub Desktop</a></li>
-                                    <li><a target="_blank" href="https://www.python.org/downloads/">Python</a></li>
+                                    <li><a target="_blank" href="https://www.python.org/downloads/">Python IDLE</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Broswer</li>
                                     <li><a target="_blank" href="https://www.google.com/intl/en_in/chrome/">Google Chrome</a></li>
                                     <li><a target="_blank" href="https://brave.com/download/">Brave Broswer</a></li>
                                     <li><a target="_blank" href="https://www.apple.com/in/safari/">Apple Safari</a></li>
-                                    <li><a target="_blank" href="https://www.mozilla.org/en-US/firefox/windows/">Mozilla Firefox</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Photo Editing</li>
                                     <li><a target="_blank" href="https://www.adobe.com/creativecloud/plans.html?promoid=6JMR7GH1&mv=other">Adobe PhotoShop</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">News</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/the-times-of-india/id427589329">TOI</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/the-economic-times/id474766725">ET</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Social</li>
                                     <li><a target="_blank" href="https://support.apple.com/en-in/explore/messages">iMessage</a></li>
                                     <li><a target="_blank" href="https://support.apple.com/en-in/HT208176">FaceTime</a></li>
                                     <li><a target="_blank" href="https://www.whatsapp.com/download/">WhatsApp</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/twitter/id1482454543">Twitter</a></li>
+                                    <li><a target="_blank" href="https://apps.apple.com/in/app/twitter/id1482454543">X</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/telegram/id747648890?mt=12">Telegram</a></li>
-                                    <li><a target="_blank" href="https://signal.org/en/download/macos/">Signal</a></li>
                                     <li><a target="_blank" href="https://discord.com/download">Discord</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12">Facebook Messenger</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Music and Video Playback</li>
                                     <li><a target="_blank" href="https://iina.io/">IINA</a></li>
-                                    <li><a target="_blank" href="https://support.apple.com/en-in/guide/quicktime-player/welcome/mac">QuickTime Player</a></li>
-                                    <li><a target="_blank" href="https://www.videolan.org/vlc/download-macosx.html">VLC Media Player</a></li>
+                                    <li><a target="_blank" href="https://www.apple.com/in/apple-music/">Apple Music</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Video Editing</li>
-                                    <li><a target="_blank" href="https://fxhome.com/hitfilm-express">HitFilm Express</a></li>
-                                    <li><a target="_blank" href="https://www.adobe.com/in/products/premiere.html?sdid=STLMM87Z&mv=search&ef_id=EAIaIQobChMIj5KQm4u-7gIV18CWCh1KGgsBEAAYASAAEgIjz_D_BwE:G:s&s_kwcid=AL!3085!3!399877718319!e!!g!!premiere%20pro!221167988!17525565428&gclid=EAIaIQobChMIj5KQm4u-7gIV18CWCh1KGgsBEAAYASAAEgIjz_D_BwE">Adobe Premiere Pro</a></li>
+                                    <li><a target="_blank" href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Productivity</li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/microsoft-word/id462054704?mt=12">Microsoft Word</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/microsoft-excel/id462058435?mt=12">Microsoft Excel</a></li>
-                                    <li><a target="_blank" href="https://support.apple.com/en-in/guide/mail/welcome/mac">Apple Mail</a></li>
                                     <li><a target="_blank" href="https://support.apple.com/en-in/guide/notes/welcome/mac">Apple Notes</a></li>
-                                    <li><a target="_blank" href="https://support.apple.com/en-in/guide/reminders/welcome/mac">Apple Reminders</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/fantastical-calendar-tasks/id975937182?mt=12">Fantastical</a></li>
                                     <li><a target="_blank" href="https://zoom.us/download">Zoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Other</li>
                                     <li><a target="_blank" href="https://www.vmware.com/in/products/fusion.html">VMware Fusion Pro</a></li>
-                                    <li><a target="_blank" href="https://acrobat.adobe.com/in/en/acrobat/acrobat-pro.html">Adobe Acrobat Reader DC</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/microsoft-powerpoint/id462062816?mt=12">Microsoft PowerPoint</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12">The Unarchiver</a></li>
                                     <li><a target="_blank" href="https://freemacsoft.net/appcleaner/">AppCleaner</a></li>
@@ -174,56 +168,48 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="windows">
-                        <h2 class="os-header">Windows</h2>
+                    <div class="os-category windows">
+                        <div class="os-header">Windows</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Coding</li>
                                     <li><a target="_blank" href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
-                                    <li><a target="_blank" href="https://www.jetbrains.com/pycharm/download/#section=windows">PyCharm</a></li>
-                                    <li><a target="_blank" href="https://www.anaconda.com/products/individual">Jupyter Notebook</a></li>
-                                    <li><a target="_blank" href="https://atom.io/">Atom</a></li>
-                                    <li><a target="_blank" href="https://notepad-plus-plus.org/downloads/">Notepad++</a></li>
                                     <li><a target="_blank" href="https://desktop.github.com/">GitHub Desktop</a></li>
                                     <li><a target="_blank" href="https://developer.android.com/studio">Android Studio</a></li>
-                                    <li><a target="_blank" href="https://www.python.org/downloads/">Python</a></li>
+                                    <li><a target="_blank" href="https://www.python.org/downloads/">Python IDLE</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Broswer</li>
                                     <li><a target="_blank" href="https://www.google.com/intl/en_in/chrome/">Google Chrome</a></li>
                                     <li><a target="_blank" href="https://brave.com/download/">Brave Broswer</a></li>
-                                    <li><a target="_blank" href="https://www.mozilla.org/en-US/firefox/windows/">Mozilla Firefox</a></li>
                                     <li><a target="_blank" href="https://www.microsoft.com/en-us/edge/features">Microsoft Edge</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Video Editing</li>
-                                    <li><a target="_blank" href="https://fxhome.com/hitfilm-express">HitFilm Express</a></li>
-                                    <li><a target="_blank" href="https://www.adobe.com/in/products/premiere.html?sdid=STLMM87Z&mv=search&ef_id=EAIaIQobChMIj5KQm4u-7gIV18CWCh1KGgsBEAAYASAAEgIjz_D_BwE:G:s&s_kwcid=AL!3085!3!399877718319!e!!g!!premiere%20pro!221167988!17525565428&gclid=EAIaIQobChMIj5KQm4u-7gIV18CWCh1KGgsBEAAYASAAEgIjz_D_BwE">Adobe Premiere Pro</a></li>
+                                    <li><a target="_blank" href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Music and Video Playback</li>
                                     <li><a target="_blank" href="https://www.videolan.org/vlc/download-windows.html">VLC Media Player</a></li>
-                                    <li><a target="_blank" href="https://www.microsoft.com/en-in/p/gaana/9wzdncrfhx4f?activetab=pivot:overviewtab">Gaana</a></li>
                                     <li><a target="_blank" href="https://www.microsoft.com/en-us/p/spotify-music/9ncbcszsjrsb?activetab=pivot:overviewtab">Spotify</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Social</li>
                                     <li><a target="_blank" href="https://www.whatsapp.com/download/">WhatsApp</a></li>
                                     <li><a target="_blank" href="https://desktop.telegram.org/">Telegram</a></li>
-                                    <li><a target="_blank" href="https://signal.org/en/download/windows/">Signal</a></li>
                                     <li><a target="_blank" href="https://discord.com/download">Discord</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Productivity</li>
                                     <li><a target="_blank" href="https://www.microsoft.com/en-in/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf?activetab=pivot%3aoverviewtab">Microsoft Word</a></li>
@@ -231,46 +217,38 @@
                                     <li><a target="_blank" href="https://zoom.us/download">Zoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Photo Editing</li>
                                     <li><a target="_blank" href="https://www.adobe.com/creativecloud/plans.html?promoid=6JMR7GH1&mv=other">Adobe PhotoShop</a></li>
                                     <li><a target="_blank" href="https://support.microsoft.com/en-us/windows/get-microsoft-paint-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9">Microsoft Paint</a></li>
-                                    <li><a target="_blank" href="https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab">Microsoft Paint 3D</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Other</li>
                                     <li><a target="_blank" href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html">VMware Workstation Pro</a></li>
                                     <li><a target="_blank" href="https://acrobat.adobe.com/in/en/acrobat/acrobat-pro.html">Adobe Acrobat Reader DC</a></li>
                                     <li><a target="_blank" href="https://www.microsoft.com/en-in/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf?activetab=pivot%3aoverviewtab">Microsoft PowerPoint</a></li>
                                     <li><a target="_blank" href="https://www.dev47apps.com/">DroidCam</a></li>
-                                    <li><a target="_blank" href="https://www.e2esoft.com/ivcam/">iVCam</a></li>
                                     <li><a target="_blank" href="https://www.airdroid.com/get.html">AirDroid</a></li>
                                     <li><a target="_blank" href="https://atomisystems.com/download/">ActivePresenter</a></li>
-                                    <li><a target="_blank" href="https://anydesk.com/en/downloads/windows">AnyDesk</a></li>
-                                    <li><a target="_blank" href="https://www.teamviewer.com/en/download/windows/">TeamViewer</a></li>
-                                    <li><a target="_blank" href="https://www.videoder.com/download/">Videoder</a></li>
                                     <li><a target="_blank" href="https://spacedesk.net/">spacedesk</a></li>
                                     <li><a target="_blank" href="https://www.microsoft.com/en-us/p/windynamicdesktop/9nm8n7dq3z5f?activetab=pivot:overviewtab">WinDynamicDeskop</a></li>
-                                    <li><a target="_blank" href="https://github.com/ChrisAnd1998/TaskbarX">TaskbarX</a></li>
-                                    <li><a target="_blank" href="https://github.com/ArcadeRenegade/SidebarDiagnostics">Sidebar Diagnostics</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <div class="linux">
-                        <h2 class="os-header">Linux (Ubuntu & Kali)</h2>
+                    <div class="os-category linux">
+                        <div class="os-header">Linux (Ubuntu & Kali)</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Coding</li>
                                     <li><a target="_blank" href="https://code.visualstudio.com/download">Visual Studio Code</a></li>
-                                    <li><a target="_blank" href="https://www.jetbrains.com/pycharm/download/#section=linux">PyCharm</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Broswer</li>
                                     <li><a target="_blank" href="https://www.google.com/intl/en_in/chrome/">Google Chrome</a></li>
@@ -279,28 +257,25 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="ios">
-                        <h2 class="os-header">iOS</h2>
+                    <div class="os-category ios">
+                        <div class="os-header">iOS</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Productivity</li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/google/id284815942">Google</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/gmail-email-by-google/id422689480">Gmail</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/mail/id1108187098">Apple Mail</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/notes/id1110145109">Apple Notes</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/reminders/id1108187841">Apple Reminders</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/fantastical-calendar-tasks/id718043190">Fantastical</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/google-calendar-get-organised/id909319292">Google Calendar</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/id546505307">Zoom</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/google-meet/id1013231476">Google Meet</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Social</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/instagram/id389801252">Instagram</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/twitter/id333903271">Twitter</a></li>
+                                    <li><a target="_blank" href="https://apps.apple.com/in/app/twitter/id333903271">X</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/whatsapp-messenger/id310633997">WhatsApp</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/telegram-messenger/id686449807">Telegram</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/reddit/id1064216828">Reddit</a></li>
@@ -308,7 +283,14 @@
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/facetime/id1110145091">FaceTime</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
+                                <ul>
+                                    <li class="category-headers">Broswer</li>
+                                    <li><a target="_blank" href="https://apps.apple.com/in/app/google-chrome/id535886823">Google Chrome</a></li>
+                                    <li><a target="_blank" href="https://www.apple.com/in/safari/">Apple Safari</a></li>
+                                </ul>
+                            </li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Smart Home</li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/amazon-alexa/id944011620">Amazon Alexa</a></li>
@@ -316,7 +298,7 @@
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/google-home/id680819774">Google Home</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Entertainment</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/youtube-watch-listen-stream/id544007664">YouTube</a></li>
@@ -327,49 +309,35 @@
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/hotstar-live-cricket-movies/id934459219">Disney+ Hotstar</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/discovery-plus/id1497257119">discovery+</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/zee5-shows-live-tv-movies/id743691886">ZEE5</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/amazon-prime-video/id545519333">Amazon Music</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/jiotv-live-tv-catch-up/id1060965205">JioTV</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/jiocinema/id1067316596">JioCinema</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/mx-player/id1429703801">MX Player</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/spotify-new-music-and-podcasts/id324684580">Spotify</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/gaana-music-songs-podcasts/id585270521">Gaana</a></li>
                                 </ul>
                             </li>
-                            <li>
-                                <ul>
-                                    <li class="category-headers">Broswer</li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/google-chrome/id535886823">Google Chrome</a></li>
-                                    <li><a target="_blank" href="https://www.apple.com/in/safari/">Apple Safari</a></li>
-                                </ul>
-                            </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">News</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/the-times-of-india/id427589329">TOI</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/ndtv/id377869410">NDTV</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Shopping</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/amazon-india-shop-and-pay/id1478350915">Amazon</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/flipkart-online-shopping-app/id742044692">Flipkart</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Photo Editing</li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/google-photos/id962194608">Google Photos</a></li>
                                     <li><a target="_blank" href="https://www.apple.com/in/ios/photos/">Apple Photos</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/adobe-lightroom-photo-editor/id878783582">Adobe LightRoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Other</li>
-                                    <li><a target="_blank" href="https://apps.apple.com/us/app/airdroid-file-transfer-share/id1194539178">AirDroid</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/google-maps-transit-food/id585027354">Google Maps</a></li>
-                                    <li><a target="_blank" href="https://apps.apple.com/in/app/android-tv/id1078761166">Android TV Remote</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/in/app/google-translate/id414706506">Google Translate</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/speedtest-by-ookla/id300704847">Ookla Speedtest</a></li>
                                     <li><a target="_blank" href="https://apps.apple.com/us/app/spacedesk-multi-monitor-app/id1069217220">spacedesk</a></li>
@@ -379,49 +347,48 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="ios">
-                        <h2 class="os-header">Android</h2>
+                    <div class="os-category android">
+                        <div class="os-header">Android</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li><a href="https://github.com/arshsaxena/ArshSaxena-App/blob/main/ArshSaxena.apk?raw=true" style="font-size: 19px;">Arsh Saxena App</a></li>
                                     <li><a href="https://www.arshsaxena.in/aConverter/pages/app" style="font-size: 19px;">aConverter by Arsh</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Social</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.adobe.lrmobile">Instagram</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.twitter.android">Twitter</a></li>
+                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.twitter.android">X</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.whatsapp">WhatsApp</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Telegram</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.reddit.frontpage">Reddit</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.facebook.katana">Facebook</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.facebook.orca">Facebook Messenger</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Photo Editing</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.apps.photos">Google Photos</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.adobe.lrmobile">Adobe LightRoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Broswer</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.android.chrome">Google Chrome</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Smart Home</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.amazon.dee.app&hl=en_IN&gl=US">Amazon Alexa</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.tao.wiz&hl=en_IN&gl=US">WiZ</a></li>
+                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.syska.smart&hl=en&gl=US">Syska Smart Home</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app&hl=en_IN&gl=US">Google Home</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Productivity</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox">Google</a></li>
@@ -431,7 +398,7 @@
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings">Zoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Entertainment</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.youtube">YouTube</a></li>
@@ -442,21 +409,16 @@
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=in.startv.hotstar">Disney+ Hotstar</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.discoveryplus.mobile.android&hl=en_IN&gl=US">discovery+</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.spotify.music&hl=en_IN&gl=US">Spotify</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.amazon.mp3&hl=en_IN&gl=US">Amazon Music</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.jio.jioplay.tv&hl=en_IN&gl=US">JioTV</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.jio.media.ondemand&hl=en_IN&gl=US">JioCinema</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.mxtech.videoplayer.online&hl=en_IN&gl=US">MX Player</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.gaana">Gaana</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Personalization</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher&hl=en_IN&gl=US">Nova Launcher</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.wallpaperscraft.wallpaper&hl=en_IN&gl=US">Wallcraft</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Shopping</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=in.amazon.mShop.android.shopping&referrer=mat_click_id%3D377d3adcf1a94e388e1892860af5ab83-20210128-188876%26link_click_id%3D883243913421601997&mat_click_id=377d3adcf1a94e388e1892860af5ab83-20210128-188876">Amazon</a></li>
@@ -465,14 +427,11 @@
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.ril.ajio">AJIO</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Other</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sand.airdroid&hl=en_IN&gl=US">AirDroid</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.tv.remote&hl=en_IN&gl=US">Android TV Remote</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest&hl=en_IN&gl=US">Ookla Speedtest</a></li>
-                                    <li><a target="_blank" href="https://www.videoder.com/download/">Videoder</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.github.android&hl=en_IN&gl=US">GitHub</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.dev47apps.droidcam&hl=en_IN&gl=US">DroidCam</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=ph.spacedesk.beta&hl=en_IN&gl=US">spacedesk</a></li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.tango.measure">Measure</a></li>
@@ -480,10 +439,10 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="andrpod-tv">
-                        <h2 class="os-header">Android TV</h2>
+                    <div class="os-category andriod-tv">
+                        <div class="os-header">Android TV</div>
                         <ul class="list">
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">OTT</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.youtube.tv">YouTube</a></li>
@@ -498,27 +457,25 @@
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.jio.media.stb.ondemand&hl=en_IN&gl=US">JioCinema</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Music</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.spotify.tv.android&hl=en_US&gl=US">Spotify</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.amazon.music.tv&hl=en_IN&gl=US">Amazon Music</a></li>
-                                    <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.gaana.fire_tv">Gaana</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Productivity</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings">Zoom</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Broswer</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.cloudmosa.puffinTV&hl=en_IN&gl=US">Puffin TV Browser</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="category-block-container">
                                 <ul>
                                     <li class="category-headers">Other</li>
                                     <li><a target="_blank" href="https://play.google.com/store/apps/details?id=ph.spacedesk.beta&hl=en_IN&gl=US">spacedesk</a></li>
@@ -532,21 +489,19 @@
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <span class="footer-conatiner">
-        <footer>
-            <div class="footer" id="footer-part">
-                <div class="footer-text">
-                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
-                    <span class="path">
-                        <span class="arrow"><i class="fa fa-angle-right"></i></span>
-                        <span class="page-name">Downloads</span>
-                    </span>                  
+        <div class="footer-conatiner">
+            <footer>
+                <div class="footer" id="footer-part">
+                    <div class="footer-text">
+                        <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                        <span class="path">
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Downloads</span>
+                        </span>                  
+                    </div>
                 </div>
-            </div>
-        </footer>
-        <footer id="footer"></footer>
-    </span>
-</body>
+            </footer>
+            <footer id="footer"></footer>
+        </div>
+    </div>
 </html>

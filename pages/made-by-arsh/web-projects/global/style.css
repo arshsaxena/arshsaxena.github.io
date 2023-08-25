@@ -1,0 +1,113 @@
+html{
+    background-color: #1d1d1f;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: "text-font-regular";
+    overflow-x: hidden;
+}
+b{
+    font-family: "text-font-bold";
+}
+a{
+    text-decoration: none;
+}
+.main-div{
+    max-width: 500px;
+    width: 100%;
+    margin: 50px auto;
+    background-color: #1d1d1f;
+    border-radius: 20px;
+    padding: 20px;
+}
+.main-div-mobile{
+    display: none;
+}
+.caution{
+    padding: 20px;
+    background-color: rgb(70, 80, 0);
+    color: rgb(250, 250, 53);
+    border: 2px rgb(250, 250, 53) solid;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.caution-symbol{
+    font-size: 30px;
+}
+.caution p{
+    padding-left: 15px;
+    font-family: "text-font-regular";
+    font-size: 18px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+.project-head{
+    font-family: "display-font-bold";
+    font-size: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .main-div-desktop{
+        display: none;
+    }
+    .main-div-mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 823px) {
+    body{
+        letter-spacing: 0;
+    }   
+    .container{
+        max-width: 100%;
+        margin: auto;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main-div{
+        max-width: 500px;
+        width: 92% !important;
+        margin: 20px auto;
+        border-radius: 20px;
+    }
+    .caution{
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 15px;
+        align-items: normal;
+    }
+    .caution-symbol{
+        font-size: 20px;
+    }
+    .caution p{
+        padding-left: 7.5px;
+        font-size: 15px;
+        line-height: 19px;
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    .main-div{
+        max-width: 500px;
+        width: 92% !important;
+        margin: 20px auto;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    .caution{
+        margin: 50px auto;
+        max-width: 300px;
+        width: 80%;
+    }
+}

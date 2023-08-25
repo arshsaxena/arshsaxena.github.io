@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <title>Top Button | Arsh Saxena</title>
+    
+    <link rel="stylesheet" href="global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <meta name="theme-color" content="#1d1d1f">
+    <meta name="msapplication-navbutton-color" content="#1d1d1f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d1d1f">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh-favicon.png">
+</head>
+<body>
+    <span onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-angle-up"></i>
+    </span>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+        }
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

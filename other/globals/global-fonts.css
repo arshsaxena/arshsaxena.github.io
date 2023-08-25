@@ -1,0 +1,387 @@
+@font-face {
+    font-family: "text-font-ultralight";
+    font-style: normal;
+    font-weight: 100;
+    src: url(/resources/first-page/fonts/text-font-ultralight.otf);
+}
+@font-face {
+    font-family: "display-font-ultralight";
+    font-style: normal;
+    font-weight: 100;
+    src: url(/resources/first-page/fonts/display-font-ultralight.otf);
+}
+@font-face {
+    font-family: "rounded-font-ultralight";
+    font-style: normal;
+    font-weight: 100;
+    src: url(/resources/first-page/fonts/rounded-font-ultralight.otf);
+}
+@font-face {
+    font-family: "text-font-ultralight-italic";
+    font-style: italic;
+    font-weight: 100;
+    src: url(/resources/first-page/fonts/text-font-ultralight-italic.otf);
+}
+@font-face {
+    font-family: "display-font-ultralight-italic";
+    font-style: italic;
+    font-weight: 100;
+    src: url(/resources/first-page/fonts/display-font-ultralight-italic.otf);
+}
+@font-face {
+    font-family: "text-font-thin";
+    font-style: normal;
+    font-weight: 200;
+    src: url(/resources/first-page/fonts/text-font-thin.otf);
+}
+@font-face {
+    font-family: "display-font-thin";
+    font-style: normal;
+    font-weight: 200;
+    src: url(/resources/first-page/fonts/display-font-thin.otf);
+}
+@font-face {
+    font-family: "rounded-font-thin";
+    font-style: normal;
+    font-weight: 200;
+    src: url(/resources/first-page/fonts/rounded-font-thin.otf);
+}
+@font-face {
+    font-family: "text-font-thin-italic";
+    font-style: italic;
+    font-weight: 200;
+    src: url(/resources/first-page/fonts/text-font-thin-italic.otf);
+}
+@font-face {
+    font-family: "display-font-thin-italic";
+    font-style: italic;
+    font-weight: 200;
+    src: url(/resources/first-page/fonts/display-font-thin-italic.otf);
+}
+@font-face {
+    font-family: "text-font-light";
+    font-style: normal;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/text-font-light.otf);
+}
+@font-face {
+    font-family: "display-font-light";
+    font-style: normal;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/display-font-light.otf);
+}
+@font-face {
+    font-family: "rounded-font-ligh";
+    font-style: normal;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/rounded-font-light.otf);
+}
+@font-face {
+    font-family: "mono-font-light";
+    font-style: normal;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/mono-font-light.otf);
+}
+@font-face {
+    font-family: "hindi-font-light";
+    font-style: normal;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/hindi-font-light.otf);
+}
+@font-face {
+    font-family: "text-font-light-italic";
+    font-style: italic;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/text-font-light-italic.otf);
+}
+@font-face {
+    font-family: "display-font-light-italic";
+    font-style: italic;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/display-font-light-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-light-italic";
+    font-style: italic;
+    font-weight: 300;
+    src: url(/resources/first-page/fonts/mono-font-light-italic.otf);
+}
+@font-face {
+    font-family: "text-font-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/text-font-regular.otf);
+}
+@font-face {
+    font-family: "display-font-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/display-font-regular.otf);
+}
+@font-face {
+    font-family: "rounded-font-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/rounded-font-regular.ttf);
+}
+@font-face {
+    font-family: "mono-font-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/mono-font-regular.otf);
+}
+@font-face {
+    font-family: "hindi-font-regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/hindi-font-regular.otf);
+}
+@font-face {
+    font-family: "text-font-regular-italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/text-font-regular-italic.otf);
+}
+@font-face {
+    font-family: "display-font-regular-italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/display-font-regular-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-regular-italic";
+    font-style: italic;
+    font-weight: 400;
+    src: url(/resources/first-page/fonts/mono-font-regular-italic.otf);
+}
+@font-face {
+    font-family: "text-font-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/text-font-medium.otf);
+}
+@font-face {
+    font-family: "display-font-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/display-font-medium.ttf);
+}
+@font-face {
+    font-family: "rounded-font-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/rounded-font-medium.otf);
+}
+@font-face {
+    font-family: "mono-font-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/mono-font-medium.otf);
+}
+@font-face {
+    font-family: "hindi-font-medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/hindi-font-medium.otf);
+}
+@font-face {
+    font-family: "text-font-medium-italic";
+    font-style: italic;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/text-font-medium-italic.otf);
+}
+@font-face {
+    font-family: "display-font-medium-italic";
+    font-style: italic;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/display-font-medium-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-medium-italic";
+    font-style: italic;
+    font-weight: 500;
+    src: url(/resources/first-page/fonts/mono-font-medium-italic.otf);
+}
+@font-face {
+    font-family: "text-font-semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/text-font-semibold.otf);
+}
+@font-face {
+    font-family: "display-font-semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/display-font-semibold.otf);
+}
+@font-face {
+    font-family: "rounded-font-semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/rounded-font-semibold.otf);
+}
+@font-face {
+    font-family: "mono-font-semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/mono-font-semibold.otf);
+}
+@font-face {
+    font-family: "hindi-font-semibold";
+    font-style: normal;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/hindi-font-semibold.otf);
+}
+@font-face {
+    font-family: "text-font-semibold-italic";
+    font-style: italic;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/text-font-semibold-italic.otf);
+}
+@font-face {
+    font-family: "display-font-semibold-italic";
+    font-style: italic;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/display-font-semibold-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-semibold-italic";
+    font-style: italic;
+    font-weight: 600;
+    src: url(/resources/first-page/fonts/mono-font-semibold-italic.otf);
+}
+@font-face {
+    font-family: "text-font-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/text-font-bold.otf);
+}
+@font-face {
+    font-family: "display-font-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/display-font-bold.otf);
+}
+@font-face {
+    font-family: "rounded-font-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/rounded-font-bold.otf);
+}
+@font-face {
+    font-family: "mono-font-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/mono-font-bold.otf);
+}
+@font-face {
+    font-family: "hindi-font-bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/hindi-font-bold.otf);
+}
+@font-face {
+    font-family: "text-font-bold-italic";
+    font-style: italic;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/text-font-bold-italic.otf);
+}
+@font-face {
+    font-family: "display-font-bold-italic";
+    font-style: italic;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/display-font-bold-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-bold-italic";
+    font-style: italic;
+    font-weight: 700;
+    src: url(/resources/first-page/fonts/mono-font-bold-italic.otf);
+}
+@font-face {
+    font-family: "text-font-heavy";
+    font-style: normal;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/text-font-heavy.otf);
+}
+@font-face {
+    font-family: "display-font-heavy";
+    font-style: normal;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/display-font-heavy.otf);
+}
+@font-face {
+    font-family: "rounded-font-heavy";
+    font-style: normal;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/rounded-font-heavy.otf);
+}
+@font-face {
+    font-family: "mono-font-heavy";
+    font-style: normal;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/mono-font-heavy.otf);
+}
+@font-face {
+    font-family: "text-font-heavy-italic";
+    font-style: italic;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/text-font-heavy-italic.otf);
+}
+@font-face {
+    font-family: "display-font-heavy-italic";
+    font-style: italic;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/display-font-heavy-italic.otf);
+}
+@font-face {
+    font-family: "mono-font-heavy-italic";
+    font-style: italic;
+    font-weight: 800;
+    src: url(/resources/first-page/fonts/mono-font-heavy-italic.otf);
+}
+@font-face {
+    font-family: "text-font-black";
+    font-style: normal;
+    font-weight: 900;
+    src: url(/resources/first-page/fonts/text-font-black.otf);
+}
+@font-face {
+    font-family: "display-font-black";
+    font-style: normal;
+    font-weight: 900;
+    src: url(/resources/first-page/fonts/display-font-black.otf);
+}
+@font-face {
+    font-family: "rounded-font-black";
+    font-style: normal;
+    font-weight: 900;
+    src: url(/resources/first-page/fonts/rounded-font-black.otf);
+}
+@font-face {
+    font-family: "text-font-black-italic";
+    font-style: italic;
+    font-weight: 900;
+    src: url(/resources/first-page/fonts/text-font-black-italic.otf);
+}
+@font-face {
+    font-family: "display-font-black-italic";
+    font-style: italic;
+    font-weight: 900;
+    src: url(/resources/first-page/fonts/display-font-black-italic.otf);
+}
+
+body{
+    font-family: "text-font-regular" !important;
+}
+b{
+    font-family: "text-font-bold" !important;
+}
+.i{
+    font-family: "text-font-regular-italic" !important;
+}
+@media screen and (max-width: 1024px){
+    body{
+        -webkit-text-size-adjust: 100%;
+    }
+}

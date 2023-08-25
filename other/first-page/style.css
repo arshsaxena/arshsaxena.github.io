@@ -1,0 +1,451 @@
+html{
+    background-color: #1d1d1f;
+}
+body{
+    height: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+    margin: 0;
+}
+.main-div{
+    width: 100%;
+    margin: 59px auto 50px;
+}
+.margin-add{
+    height: 50px;
+}
+.component{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.component-content{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-text{
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-info{
+    font-family: "mono-font-bold";
+    font-size: 17px;
+    color: #93939b;
+}
+.hero-info-about::after{
+    content: "•";
+    margin: 0 8px;
+    font-family: "text-font-regular" !important;
+}
+.in{
+    color: orangered;
+}
+.di{
+    color: white;
+}
+.an{
+    color: green;
+}
+.hero-name{
+    color: #f5f5f7;
+    font-family: "display-font-bold";
+    font-size: 75px;
+    line-height: 1.07143;
+    letter-spacing: -.005em;
+    margin: 20px auto;
+}
+.hero-intro{
+    font-family: "display-font-medium";
+    margin: 0 auto;
+    font-size: 22px;
+    letter-spacing: 0.7px;
+}
+.hero-intro .hero-intro-line1 div{
+    display: inline-block;
+    height: 27px;
+}
+.hero-intro .hero-intro-line2{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 50px;
+}
+.hero-social-links{
+    text-align: center;
+    margin: 20px auto 0;
+}
+.hero-social-links a{
+    text-decoration: none;
+}
+.hero-social-links img{
+    border-radius: 8px;
+    height: 40px;
+    vertical-align: bottom;
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    pointer-events: all !important;
+    -khtml-user-select: all !important;
+    -o-user-select: all !important;
+    -moz-user-select: all !important;
+    -webkit-user-select: auto !important;
+    user-select: all !important;
+}
+.hero-social-links img:hover, .hero-social-links img:focus{
+    transform: scale(1.2);
+}
+.sc-icon:first-of-type{
+    margin-right: 5px;
+}
+.sc-icon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sc-icon:last-of-type{
+    margin-left: 5px;
+}
+.hero-img{
+    max-width: 980px;
+    width: 100%;
+    margin: 50px auto;
+}
+.hero-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.hero-about{
+    max-width: 980px;
+    width: 92%;
+    margin: 0 auto;
+}
+.hero-about-content{
+    background-color: #1d1d1f;
+    border-radius: 15px;
+    padding: 20px;
+}
+.hero-about p{
+    color: #c9c9d5;
+    font-family: "text-font-regular";
+    font-size: 18px;
+    line-height: 1.4211;
+    letter-spacing: .001em;
+}
+.hero-about p:first-of-type{
+    margin-top: 0;
+}
+.hero-about p:last-of-type{
+    margin-bottom: 0;
+}
+.hero-about p a{
+    color: #0083FD;
+    cursor: pointer;
+    text-decoration: none;
+}
+.hero-about p a:hover{
+    text-decoration: underline;
+}
+.hero-apps{
+    max-width: 980px;
+    width: 92%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(20%, 1fr));
+    grid-gap: 1em;
+    margin: 50px auto 0;
+}
+.hero-apps .app-container{
+    padding: 10px;
+    background: #1d1d1f;
+    color: #c9c9d5;
+    border-radius: 15px;
+}
+.hero-apps .app-container .app-button{
+    width: 100%;
+    height: 104px;
+    display: flex;
+}
+.hero-apps .app-container .app-button-img img{
+    height: 104px;
+    width: 104px;
+    border-radius: 10px;
+}
+.hero-apps .app-container .app-info-container{
+    width: 100%;
+    margin-left: 20px;
+}
+.app-info-container .app-info .app-name{
+    font-family: "display-font-bold";
+    font-size: 25px;
+}
+.app-info-container .app-info .app-tagline{
+    font-size: 17px;
+    margin: 5px 0 23px;
+}
+.app-info-container .app-check-out-button{
+    height: fit-content;
+}
+.app-info-container .app-check-out-button p{
+    margin: 0;
+    text-align: right;
+}
+.app-info-container .app-check-out-button button{
+    font-family: "text-font-bold";
+    padding: 4px 7.5px;
+    background-color: #007aff;
+    border: none;
+    border-radius: 8px;
+}
+.app-info-container .app-check-out-button button i{
+    color: white;
+}
+.app-info-container .app-check-out-button button a{
+    font-size: 15px !important;
+    color: white;
+    text-decoration: none;
+}
+.app-info-container .app-check-out-button:hover button a, .app-info-container .app-check-out-button:focus button a{
+    text-decoration: underline;
+}
+.footnote{
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgb(81, 81, 84);
+    border-width: 1px;
+}
+.footnote a{
+    color: #226eb6;
+}
+.footnote a:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    padding-top: 15px;
+}
+
+/* @media only screen and (min-width: 1071px){
+    .hero-about{
+        max-width: 980px;
+        width: 100%;
+        margin: 0 auto;
+    }
+} */
+
+@media only screen and (max-width: 1024px){
+    .component {
+        width: 692px;
+    }
+    .component-content {
+        width: 576px;
+    }
+    .hero-img{
+        max-width: 1024px;
+        width: 100%;
+    }
+    .hero-img img{
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .hero-img{
+        max-width: 980px;
+        width: 100%;
+    }
+    .hero-img img{
+        width: 100%;
+        border-radius: 0;
+    }
+    .hero-about{
+        width: 92%;
+        margin: 0 auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
+@media only screen and (max-width: 814px){
+    .main-div{
+        margin: 59px auto 50px;
+    }
+    .hero-apps{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(100%, 0));
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 666px){
+    html{
+        background-color: #1d1d1f;
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .main-div{
+        margin: 50px auto;
+    }
+    .margin-add{
+        height: 50px;
+    }
+    .component {
+        max-width: 414px;
+        width: 100%;
+    }
+    .hero-intro.component{
+        width: 85%;
+    }
+    .hero-social-links.component{
+        width: 72%;
+    }
+    .component-content{
+        width: 100%;
+    }
+    .hero-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero-about{
+        max-width: 980px;
+        width: 92%;
+        margin: 0 auto;
+    }
+    .hero-info{
+        font-family: "mono-font-bold";
+        font-size: 14px;
+        color: #93939b;
+    }
+    .hero-name{
+        color: #f5f5f7;
+        font-family: "display-font-bold";
+        width: 80%;
+        font-size: 50px;
+        line-height: 1.07143;
+        letter-spacing: -.005em;
+        margin: 20px auto;
+    }
+    .hero-intro{
+        font-family: "display-font-medium";
+        margin: 0 auto;
+        font-size: 19px;
+        line-height: 1.16667;
+        letter-spacing: 0.7px;
+    }
+    .hero-intro .hero-intro-line2{
+        font-size: 25px;
+    }
+    .hero-social-links{
+        text-align: center;
+        margin: 10px auto 40px;
+        line-height: 60px;
+    }
+    .hero-social-links img{
+        border-radius: 7px;
+        height: 35px;
+        vertical-align: bottom;
+    }
+    .hero-social-links img:hover, .hero-social-links img:focus{
+        transform: scale(1);
+    }
+    .sc-icon:first-of-type{
+        margin-right: 3px;
+    }
+    .sc-icon{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .sc-icon:last-of-type{
+        margin-left: 3px;
+    }
+    .hero-img img{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .hero-about{
+        width: 92%;
+    }
+    .hero-about p{
+        color: #c9c9d5;
+        font-family: "text-font-regular";
+        font-size: 16px;
+        line-height: 1.4211;
+        letter-spacing: .001em;
+    }
+    .hero-apps .app-container{
+        padding: 10px;
+        /* background: #111111; */
+        color: #c9c9d5;
+        border-radius: 15px;
+    }
+    .hero-apps .app-container .app-button{
+        width: 100%;
+        height: 90px;
+        display: flex;
+    }
+    .hero-apps .app-container .app-button-img img{
+        height: 90px;
+        width: 90px;
+        border-radius: 10px;
+    }
+    .hero-apps .app-container .app-info-container{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .app-info-container .app-info .app-name{
+        font-family: "display-font-bold";
+        font-size: 23px;
+    }
+    .app-info-container .app-info .app-tagline{
+        font-size: 14px;
+        margin: 5px 0 16px;
+    }
+    .app-info-container .app-check-out-button{
+        height: fit-content;
+    }
+    .app-info-container .app-check-out-button p{
+        margin: 0;
+        text-align: right;
+    }
+    .app-info-container .app-check-out-button button{
+        font-family: "text-font-bold";
+        padding: 4px 7.5px;
+        background-color: #007aff;
+        border: none;
+        border-radius: 8px;
+    }
+    .app-info-container .app-check-out-button button i{
+        color: white;
+    }
+    .app-info-container .app-check-out-button button a{
+        font-size: 13px !important;
+        color: white;
+        text-decoration: none;
+    }
+    .app-info-container .app-check-out-button:focus button a{
+        text-decoration: underline;
+    }
+    .app-container img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .hero-name{
+        font-size: 37px;
+    }
+    .hero-intro{
+        font-size: 17px;
+    }
+}

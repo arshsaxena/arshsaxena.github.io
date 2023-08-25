@@ -7,37 +7,44 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color:  black;
-    font-family: font-regular;
-}
-b{
-    font-family: font-bold;
 }
 a{
     text-decoration: none;
-    color: white;
+}
+.main-div{
+    margin: 50px auto 60px;
 }
 .caption-text{
-    max-width: 702px;
+    font-family: "text-font-bold";
+    max-width: 732px;
     width: 100%;
     text-align: center;
-    color: white;
-    font-weight: 600;
-    font-size: 60px;
+    color: rgba(245, 245, 245, 0.879);
+    font-size: 55px;
     letter-spacing: 0px;
-    margin-right: auto;
-    margin-bottom: 54px;
-    margin-left: auto;
+    margin: 0px auto 54px;
 }
 .home-button{
-    width: 100%;
+    background-color: #007aff;
     text-align: center;
-    font-size: 35px;
+    border: 1px solid transparent;
+    font-family: "display-font-bold";
+    font-size: 26px;
     transition-property: font-size;
     transition-timing-function: ease-in-out;
     transition-duration: 500ms;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 30px;
+    border-radius: 50px;
 }
-.home-button:hover{
-    font-size: 45px;
+.home-button a{
+    color: rgba(238, 238, 238, 0.879);
+}
+.home-button:hover, .home-button:focus{
+    cursor: pointer;
+    background-color: #007bffd3;
 }
 .view-site-map{
     text-align: center;
@@ -49,7 +56,6 @@ a{
 .view-site-map a:hover{
     text-decoration: underline;
 }
-
 @media screen and (max-width: 980px) {
     html{
         background-color: #1d1d1f;
@@ -65,11 +71,11 @@ a{
         padding: 0px;
         overflow-x: hidden;
         background-color: black;
-        font-family: font-regular;
+        font-family: SF-Pro-Text;
         letter-spacing: 0px;
     }
     .caption-text{
-        max-width: 660px;
+        max-width: 500px;
         width: 90%;
         text-align: center;
         color: white;
@@ -79,20 +85,8 @@ a{
         letter-spacing: 0px;
     }
     .home-button{
-        width: 100%;
+        width: fit-content;
         text-align: center;
-        color: white;
-        font-size: 25px;
-    }
-    .home-button{
-        width: 100%;
-        text-align: center;
-        font-size: 30px;
-        transition-property: font-size;
-        transition-timing-function: ease-in-out;
-        transition-duration: 500ms;
-    }
-    .home-button:hover{
-        font-size: 30px;
+        font-size: 20px;
     }
 }

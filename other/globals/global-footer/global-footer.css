@@ -1,0 +1,312 @@
+.footer-container{
+    width: 100%;
+    background-color: #1d1d1f;
+}
+footer {
+    width: 100%;
+    padding-top: 10px;
+    background-color: #1d1d1f;
+    color: rgb(81, 81, 84);
+    font-family: text-font-regular;
+    height: 100%;
+}
+#footer-part{
+    padding-top: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+.footer{
+    max-width: 980px;
+    width: 92%;
+    margin: auto;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.footer-text img{
+    height: 23px;
+}
+.footer-text .path{
+    vertical-align: 5px;
+    line-height: 30px;
+    font-size: 17px;
+    color: rgb(161, 161, 166);
+}
+.footer-text .path .arrow{
+    padding: 10px;
+}
+.footer-nav a{
+    font-size: 15px;
+    color: rgb(161, 161, 166);
+}
+.footer-checkbox{
+    display: none;
+}
+.footer-nav-links{
+    display: flex;
+}
+.footer-category {
+    width: 20%;
+}
+.footer-col-heads{
+    font-size: 15px;
+    color: rgb(245, 245, 247);
+    font-family: "text-font-bold";
+}
+.footer-nav-col ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.footer-nav-col ul li:first-of-type{
+    margin-top: 5px;
+}
+.footer-nav-col ul li{
+    width: 100%;
+    margin: 7.5px 0;
+}
+.footer-nav-col a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-last-text{
+    padding-bottom: 15px;
+    font-family: "text-font-regular";
+}
+footer .footer .footer-last-text a{
+    color: #2997ff;
+    letter-spacing: 0px;
+}
+footer .footer .footer-last-text a:hover{
+    text-decoration: underline;
+}
+.border1{
+    padding-bottom: 7.5px;
+    border-bottom: solid;
+    border-color: rgb(81, 81, 84);
+    border-width: 1px;
+    color: rgb(110, 110, 115);
+    font-size: 15px;
+}
+.border2{
+    padding-top: 7.5px;
+    display: flex;
+    font-size: 15px;
+}
+.line1{
+    text-align: left;
+    width: 33.33%;
+    color: rgb(110, 110, 115);
+    line-height: 24px;
+}
+.line1 a{
+    color: #2997ff;
+}
+.line2{
+    text-align: center;
+    width: 33.33%;
+    color: rgb(110, 110, 115);
+    line-height: 24px;
+}
+.line3{
+    text-align: right;
+    width: 33.33%;
+    color: rgb(110, 110, 115);
+    line-height: 24px;
+}
+.in{
+    color: orangered;
+}
+.d{
+    color: white;
+}
+.ia{
+    color: green;
+}
+
+@media screen and (max-width: 980px) {
+    .footer-last-text{
+        padding-left: 0px;
+        text-align: left;
+    }
+    .footer footer div a{
+        color: #2997ff;
+        letter-spacing: 0px;
+    }
+    .footer-nav{
+        padding-left: 0px;
+    }
+    .footer-col-heads{
+        font-size: 14px;
+        color: rgb(245, 245, 247);
+        font-family: "text-font-bold";
+    }
+    .footer-nav a{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 14px !important;
+    }
+    .footer-nav-col ul li{
+        width: 100%;
+        margin: 4.5px 0;
+    }
+    .border1{
+        border-bottom: none;
+        font-size: 14px;
+    }
+    .border2{
+        display: inline;
+        font-size: 14px;
+    }
+    .line1{
+        color: rgb(110, 110, 115);
+        width: 100%;
+        padding-top: 5px;
+    }
+    .line1 a{
+        color: #2997ff;
+    }
+    .line2{
+        color: rgb(110, 110, 115);
+        width: 100%;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .line3{
+        padding-top: 10px;
+        text-align: left;
+        width: 100%;
+        color: rgb(110, 110, 115);
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .footer-container{
+        width: 92%;
+        margin: 0 auto;
+        background-color: #1d1d1f;
+    }
+    footer{
+        padding-top: 5px;
+    }
+    .footer {
+        width: 92%;
+        padding-bottom: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: #1d1d1f;
+        color: rgb(161, 161, 166);
+        font-size: 13px;
+    }
+    .footer-text img{
+        padding-left: 0px;
+        height: 23px;
+    }
+    .footer-text .path{
+        vertical-align:4px;
+        line-height: 30px;
+    }
+    .footer-text .path .arrow{
+        padding: 8px;
+    }
+    .footer-nav a{
+        color: rgb(81, 81, 84);
+    }
+    .footer-nav-links{
+        display: block;
+    }
+    .footer-category {
+        font-family: "display-font-medium";
+        width: 100%;
+    }
+    .footer-nav-col{
+        display: none;
+        margin-bottom: 10px;
+    }
+    .footer-nav-col ul li:first-of-type{
+        margin-top: 0px;
+    }
+    .footer-nav-col ul li{
+        font-family: "text-font-regular";
+        list-style-type: none;
+        margin: 0;
+        padding: 5px 10px;
+    }
+    .footer-nav-col a{
+        font-size: 14px;
+        color: rgb(161, 161, 166);
+    }
+    .footer-col-heads{
+        font-size: 15px;
+        color: rgb(245, 245, 247);
+        display: none;
+    }
+    .footer-checkbox{
+        display: inline;
+    }
+    .discover, .byarsh, .connect, .social, .legal{
+        border-bottom-style: solid;
+        border-width: 1px;
+        border-color: #404044;
+    }
+    .label-div{
+        font-size: 15px;
+        padding: 10px 0px;
+        color: rgb(245, 245, 247);
+    }
+    .label-div::after{
+        content: "+";
+        float: right;
+        margin-right: 5px;
+        transition: transform .3s ease, -webkit-transform .3s ease;
+    }
+    .check-div{
+        display: none;
+    }
+    .footer-last-text{
+        padding-left: 0px;
+        text-align: left;
+    }
+    .footer footer div a{
+        color: #2997ff;
+        letter-spacing: 0px;
+    }
+    .footer-nav{
+        padding-left: 0px;
+    }
+    .border1{
+        border-bottom: none;
+        font-size: 14px;
+    }
+    .border2{
+        display: inline;
+        font-size: 14px;
+    }
+    .line1{
+        color: rgb(110, 110, 115);
+        width: 100%;
+        padding-top: 5px;
+        line-height: 17px;
+        height: fit-content;
+    }
+    .line1 a{
+        color: #2997ff;
+    }
+    .line2{
+        color: rgb(110, 110, 115);
+        width: 100%;
+        text-align: left;
+        padding-top: 10px;
+        line-height: 17px;
+    }
+    .line3{
+        padding-top: 10px;
+        text-align: left;
+        width: 100%;
+        color: rgb(110, 110, 115);
+        line-height: 17px;
+    }
+}

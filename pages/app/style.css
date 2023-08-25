@@ -17,9 +17,8 @@ a{
 }
 .main-div{
     max-width: 980px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: 50px auto;
 }
 section{
     padding-top: 15px;
@@ -57,10 +56,10 @@ header{
     padding-left: 10px;
 }
 header .app-name{
+    font-family: "display-font-bold";
     margin: 0;
     font-size: 28px;
     line-height: 1.25;
-    font-weight: 700;
     letter-spacing: .023em;
 }
 header .app-name-subtext{
@@ -68,21 +67,19 @@ header .app-name-subtext{
     color: rgb(158, 158, 165);
     font-size: 22px;
     line-height: 1.22226;
-    font-weight: 400;
     letter-spacing: .027em;
 }
 header .app-developer{
     margin-top: 2px;
     font-size: 19px;
     line-height: 1.22226;
-    font-weight: 400;
     letter-spacing: .027em;
 }
 header .app-developer:hover{
     text-decoration: underline;
 }
 .download-button-div button{
-    font-family: font-regular;
+    font-family: "text-font-regular";
     font-size: 16px;
     padding: 8px 13px;
     margin-top: 20px;
@@ -111,7 +108,6 @@ header .app-developer:hover{
     flex-shrink: 1;
     font-size: 20px;
     line-height: 1.2;
-    font-weight: 700;
     letter-spacing: .024em;
 }
 .screenshots-ul-container{
@@ -149,7 +145,6 @@ header .app-developer:hover{
     margin: 0;
     padding: 0;
     font-size: 15px;
-    font-weight: 400;
     letter-spacing: 0.065px;
 }
 .app-whats-new .new-info{
@@ -226,13 +221,18 @@ header .app-developer:hover{
     font-size: 13px;
 }
 
-
 @media screen and (max-width: 1024px) and (orientation: landscape){
-.screenshots-ul-container ul li picture img{
-    width: 157px;
-    height: 339px;
-    border-radius: 10%/4.1%;
-}}
+    .main-div{
+        max-width: 980px;
+        width: 90%;
+    }
+    .screenshots-ul-container ul li picture img{
+        width: 157px;
+        height: 339px;
+        border-radius: 10%/4.1%;
+    }
+}
+
 @media screen and (max-width: 823px) {
     html{
         background-color: #1d1d1f;
@@ -251,9 +251,7 @@ header .app-developer:hover{
     .main-div{
         max-width: 980px;
         width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 8px;
+        margin: 20px auto;
     }
     section{
         padding-top: 15px;
@@ -276,13 +274,14 @@ header .app-developer:hover{
         display: flex;
         padding-top: 0;
     }
+    .app-img-div{
+        width: 50%;
+    }
     .app-img-div img{
-        width: 145.203px;
+        width: 100%;
         border-radius: 22.5%;
     }
     .app-info-div{
-        max-width: 73.06122%;
-        width: 73.06122%;
         margin-left: 1.93878%;
     }
     header{
@@ -293,7 +292,6 @@ header .app-developer:hover{
         margin: 0;
         font-size: 22px;
         line-height: 1.25;
-        font-weight: 700;
         letter-spacing: .023em;
     }
     header .app-name-subtext{
@@ -301,23 +299,21 @@ header .app-developer:hover{
         color: rgb(158, 158, 165);
         font-size: 13px;
         line-height: 1.22226;
-        font-weight: 400;
         letter-spacing: .027em;
     }
     header .app-developer{
         margin-top: 2px;
         font-size: 14px;
         line-height: 1.22226;
-        font-weight: 400;
         letter-spacing: .027em;
     }
     header .app-developer:hover{
         text-decoration: underline;
     }
     .download-button-div button{
-        font-family: font-regular;
-        font-size: 14px;
-        padding: 8px 13px;
+        font-family: "text-font-regular";
+        font-size: 12px;
+        padding: 4px 6.5px;
         margin-top: 20px;
         background-color: #007aff;
         border: none;
@@ -341,7 +337,6 @@ header .app-developer:hover{
         flex-shrink: 1;
         font-size: 20px;
         line-height: 1.2;
-        font-weight: 700;
         letter-spacing: .024em;
     }
     .screenshots-ul-container{
@@ -360,8 +355,6 @@ header .app-developer:hover{
         white-space: nowrap;
     }
     .screenshots-ul-container ul li{
-        /* width: 42.10821vw;
-        max-width: 42.10821vw; */
         display: inline-block;
         list-style-type: none;
     }
@@ -385,7 +378,6 @@ header .app-developer:hover{
         margin: 0;
         padding: 0;
         font-size: 15px;
-        font-weight: 400;
         letter-spacing: 0.065px;
     }
     .app-whats-new .new-info{
@@ -475,5 +467,73 @@ header .app-developer:hover{
     }
     .also-download .also-app-name-subtext{
         font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 668px) and (orientation: landscape){
+    .app-img-div{
+        width: 40%;
+    }
+    .app-img-div img{
+        width: 100%;
+        border-radius: 22.5%;
+    }
+    .app-info-div{
+        margin-left: 1.93878%;
+    }
+    header{
+        margin-top: 9px;
+        padding-left: 10px;
+    }
+    header .app-name{
+        margin: 0 0 10px;
+        font-size: 30px;
+        line-height: 1.25;
+        letter-spacing: .023em;
+    }
+    header .app-name-subtext{
+        margin: 0;
+        color: rgb(158, 158, 165);
+        font-size: 18px;
+        line-height: 1.22226;
+        letter-spacing: .027em;
+    }
+    header .app-developer{
+        margin-top: 2px;
+        font-size: 20px;
+        line-height: 1.22226;
+        letter-spacing: .027em;
+    }
+    header .app-developer:hover{
+        text-decoration: underline;
+    }
+    .download-button-div button{
+        font-family: "text-font-regular";
+        font-size: 18px;
+        padding: 8px 13px;
+        margin-top: 20px;
+        background-color: #007aff;
+        border: none;
+        border-radius: 50px;
+    }
+    .download-button-div button a{
+        color: white;
+    }
+    .download-button-div button::before{
+        content: "􀁸";
+        color: white;
+    }
+    .app-price{
+        font-size: 13px;
+        color: rgb(158, 158, 165);
+    }
+    .div-headline{
+        margin-bottom: 17px;
+        -webkit-flex-shrink: 1;
+        -ms-flex-negative: 1;
+        flex-shrink: 1;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: .024em;
     }
 }

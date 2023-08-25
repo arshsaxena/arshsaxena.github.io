@@ -6,60 +6,36 @@ body {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    background-color:  black;
-    font-family: font-regular;
-    color: white;
-}
-#link-nav.contact{
-    font-weight: bold;
-    color: white;
-}
-#link-nav.contact::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 100%;
-    transition: width 0.2s ease-out;
-    background-color: lawngreen;
 }
 .container{
     background-image: url(/resources/contact/imgs/using-iphone.jpg);
     background-size: cover;
 }
-.main-head{
-    padding-top: 33px;
+.main-div{
+    max-width: 980px;
+    width: 100%;
+    margin: 50px auto;
     text-align: left;
     color: white;
-    max-width: 1154px;
-    width: 100%;
-    margin: auto;
+}
+#link-nav.contact{
+    font-family: "text-font-bold";
+    color: white;
 }
 *{
     box-sizing: border-box;
 }
-.nav-links{
-    max-width: 1024px !important;
-    width: 100%;
-}
-.nav-content{
-    padding: 0px 0px !important;
-}
-.footer{
-    max-width: 1012px !important;
-}
-.contactform{
+.form-container{
     max-width: 980px;
     width: 100%; 
     margin: auto; 
-    padding: 0px 30px;
-    padding-top: 50px;
+    padding: 30px;  
     background-color: rgba(29, 29, 31, 0.5);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 30px;
-    min-height: 400px;
+}
+.contactform{
     display:  grid;
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
@@ -97,7 +73,7 @@ body {
     border: none;
     margin: 10px 0;
     width: 100%;
-    font-family: font-regular;
+    font-family: text-font-regular;
 }
 .contactform textarea{
     margin: 10px 0;
@@ -109,58 +85,46 @@ body {
     color: red;
     text-align: left;
 }
-.reset{
+.form-buttons-container{
+    display: flex;
+}
+.form-button-container{
     width: 150px;
     text-align: center;
     margin: auto;
-    padding-bottom: 25px;
     background-color: transparent !important;
+}
+.form-button{
+    width: 125px;
+    padding: 5px 0;
+    font-family: "display-font-bold" !important;
+    font-size: 21px !important;
+    color: white !important;
+    border-color: transparent;
+    border-radius: 50px !important;
+    cursor: pointer;
 }
 .reset-button{
-    width: 115px;
-    padding: 10px;
-    font-family: font-regular;
-    font-size: 20px !important;
-    color: white !important;
-    background-color: red !important;
-    border-color: transparent;
-    border-radius: 50px !important;
-    cursor: pointer;
+    background-color: rgb(213, 23, 23) !important;
+    margin-bottom: 0 !important;
 }
 .reset-button:hover{
-    color: white;
     background-color: rgb(192, 0, 0) !important;
 }
-.submit{
-    width: 150px;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 25px;
-    background-color: transparent !important;
-}
 .submit-button{
-    padding: 10px;
-    font-family: font-regular;
-    font-size: 20px !important;
-    color: white !important;
     background-color: green !important;
-    border-color: transparent;
-    border-radius: 50px !important;
-    cursor: pointer;
+    margin-bottom: 0 !important;
 }
 .submit-button:hover{
-    color: white;
     background-color: rgb(0, 88, 0) !important;
+}
+.footer{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    .nav-content{
-        padding: 0px 20px !important;
-    }
-    .nav-links{
-        padding-left: 0px !important;
-    }
-    .main-head{
+    .main-div{
         padding-right: 15px;
         padding-left: 15px;
     }
@@ -179,35 +143,31 @@ body {
         padding: 0px;
         overflow-x: hidden;
         background-color: black;
-        font-family: font-regular;
+        font-family: text-font-regular;
         letter-spacing: 0px;
     }
-    .nav-content{
-        padding: 0px 20px !important;
+    .main-div{
+        max-width: 980px;
+        width: 92%;
+        margin: 20px auto;
+        text-align: left;
+        color: white;
     }
-    .nav-links{
-        padding-left: 0px !important;
-    }
-    .main-head{
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .contactform{
+    .form-container{
+        max-width: 980px;
         width: 100%; 
         margin: auto; 
-        padding: 0px 15px;
-        padding-top: 25px;
-        padding-bottom: 0px;
+        padding: 15px;  
         background-color: rgba(29, 29, 31, 0.5);
-        backdrop-filter: blur(8px);
-        -webkit-backdrop-filter: blur(8px);
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        min-height: 400px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+    }
+    .contactform{
         display:  grid;
         grid-gap: 10px;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 'fname fname' 'lname lname' 'email email' 'subject subject' 'textarea textarea' 'reset submit';
+        grid-template-areas: 'fname fname' 'lname lname' 'email email' 'subject subject' 'textarea textarea' 'reset reset' 'submit submit';
     }
     .contactform label span{
         font-size: 20px;
@@ -235,7 +195,7 @@ body {
         border: none;
         margin: 10px 0;
         width: 100%;
-        font-family: font-regular;
+        font-family: text-font-regular;
     }
     .contactform textarea{
         margin: 10px 0;
@@ -246,50 +206,38 @@ body {
     .required-asteric{
         color: red;
     }
-    .reset{
-        max-width: 980px;
+    .form-buttons-container{
+        display: block;
+    }
+    .form-button-container{
+        width: 100%;
         text-align: center;
         margin: auto;
-        background-color: #1d1d1f;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        padding-bottom: 10px;
+        padding-bottom: 0px;
+        background-color: transparent !important;
+    }
+    .form-button{
         width: 100%;
+        padding: 5px 0;
+        font-family: "display-font-bold" !important;
+        font-size: 21px !important;
+        color: white !important;
+        border-color: transparent;
+        border-radius: 10px !important;
+        cursor: pointer;
     }
     .reset-button{
-        padding: 10px;
-        font-family: font-regular;
-        font-size: 23px !important;
-        color: white !important;
-        border-color: transparent;
-        border-radius: 10px !important;
-        transition-property: none;
+        background-color: rgb(213, 23, 23) !important;
+        margin: 0 !important;
     }
     .reset-button:focus{
-        background-color: rgb(192, 0, 0);
-        color: white;
-    }
-    .submit{
-        max-width: 980px;
-        text-align: center;
-        margin: auto;
-        background-color: #1d1d1f;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        padding-bottom: 10px;
-        width: 100%;
+        background-color: rgb(192, 0, 0) !important;
     }
     .submit-button{
-        padding: 10px;
-        font-family: font-regular;
-        font-size: 23px !important;
-        color: white !important;
-        border-color: transparent;
-        border-radius: 10px !important;
-        transition-property: none;
+        background-color: green !important;
+        margin: 0 !important;
     }
     .submit-button:focus{
-        background-color: rgb(0, 88, 0);
-        color: white;
+        background-color: rgb(0, 88, 0) !important;
     }
 }

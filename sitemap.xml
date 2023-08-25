@@ -22,27 +22,39 @@
         <loc>https://www.arshsaxena.in/pages/gallery/</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/github/</loc>
+        <loc>https://www.arshsaxena.in/pages/legal/privacy-policy</loc>
+    </url>
+    <url>
+        <loc>https://www.arshsaxena.in/pages/legal/terms-of-use</loc>
     </url>
     <url>
         <loc>https://www.arshsaxena.in/pages/made-by-arsh/</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/privacy-policy/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/templates/apple-style-nav-bar</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/templates/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/templates/modern-footer</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/templates/apple-style-nav-bar/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/templates/simple-old-school</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/templates/modern-footer/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/ping-pong/</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/templates/simple-old-school/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/rock-paper-scissors/</loc>
     </url>
     <url>
-        <loc>https://www.arshsaxena.in/pages/terms-of-use/</loc>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/snake-game/</loc>
+    </url>
+    <url>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/stopwatch/</loc>
+    </url>
+    <url>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/tic-tac-toe/</loc>
+    </url>
+    <url>
+        <loc>https://www.arshsaxena.in/pages/made-by-arsh/web-projects/</loc>
     </url>
 </urlset>

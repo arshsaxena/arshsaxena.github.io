@@ -12,14 +12,15 @@
     <meta name="author" content="Arsh Saxena">
     <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student, ARSH SAXENA, अर्श सक्सेना, アーシュ サクセナ, ارش سکسینا, અર્શ સક્સેના, আরশ সাক্সেনা, ಅರ್ಶ್ ಸಕ್ಸೇನಾ, അർഷ് സക്‌സേന, ਅਰਸ਼ ਸਕਸੈਨਾ, அர்ஷ் சக்சேனா, అర్ష్ సక్సేనా, ଆର୍ଶ ସାକ୍ସେନା |, 阿什·萨克塞纳, ארש סקסנה, Арш Саксена, Photographer, Video editor, aconverter, aeducational, qr, solar system">
     
-    <link rel="stylesheet" href="/pages/first-page/style.css">
-    <link rel="stylesheet" href="/pages/globals/global-fonts.css">
-    <link rel="stylesheet" href="/pages/globals/global-navbar/global-navbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-footer/global-footer.css">
-    <link rel="stylesheet" href="/pages/globals/global-scrollbar.css">
-    <link rel="stylesheet" href="/pages/globals/global-top-button/global-top-button.css">
-    <link rel="stylesheet" href="/pages/globals/global-preloader/global-preloader.css">
+    <link rel="stylesheet" href="/other/first-page/style.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="/other/globals/global-preloader/global-preloader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <meta name="theme-color" content="#1d1d1f">
     <meta name="msapplication-navbutton-color" content="#1d1d1f">
@@ -28,8 +29,8 @@
     <link rel="icon" href="/resources/first-page/icons/arsh-favicon.png">
     <link rel="apple-touch-icon" href="./resources/first-page/icons/arsh-favicon.png">
 
-    <meta name="msvalidate.01" content="DC6B1176FF0074A02A9E0710AC91421D" />
-    <script>
+    <!-- <meta name="msvalidate.01" content="DC6B1176FF0074A02A9E0710AC91421D" /> -->
+    <!-- <script>
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
@@ -52,7 +53,7 @@
             "https://www.arshsaxena.in"
           ]  
         }
-    </script>
+    </script> -->
 </head>
 <body>
     <script
@@ -62,259 +63,275 @@
     </script>
     <script> 
         $(function(){
-        $("#nav").load("/pages/globals/global-navbar/global-navbar.html"); 
-        $("#footer").load("/pages/globals/global-footer/global-footer.html");
-        $("#top-button").load("/pages/globals/global-top-button/global-top-button.html");
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html");
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
         });
     </script>
     <div class="container">
         <span id="top-button"></span>
-        <nav class="nav" id="nav"> 
-        </nav>
+        <div class="nav-container">
+            <nav class="nav" id="nav"> 
+            </nav>
+        </div>
         <noscript>Please enable JavaScript!</noscript>
-        <div class="main-head">
-            <div class="bgimg">
-                <img src="/resources/first-page/imgs/hero.png" alt="arsh-hero-image">
-            </div>
-            <br><br>
-            <div class="columns">
-                <div class="col1">
-                    <div class="img-div">
-                        <img src="/resources/first-page/imgs/text-images/arsh-cute.jpg" alt="arsh-image-1">
-                        <img src="/resources/first-page/imgs/text-images/arsh-face-flag.jpg" alt="arsh-image-2">
-                        <img src="/resources/first-page/imgs/text-images/arsh-schoolbag-closeup.jpg" alt="arsh-image-3">
-                        <img src="/resources/first-page/imgs/text-images/arsh-portrait-bike.jpg" alt="arsh-image-4">
-                        <img src="/resources/first-page/imgs/text-images/arsh-feb-unedited.jpg" alt="arsh-image-5">
-                    </div>
-                    <div class="namehead">
-                        <b><span class="at">@</span>arsh<span class="dot">.</span>saxena02</b>
-                    </div>
-                    <div class="namehead-description">
-                        <span class="typed-words"></span><span class="cursor1">|</span>
-                        <br>
-                        <span class="namehead-description-description"><span class="age">~</span><span id="age"></span></span>
-                    </div>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-                    <script>
-                        var typed = new Typed(".typed-words", {
-                        strings: ["ARSH SAXENA", "अर्श सक्सेना", "アーシュ サクセナ", "ارش سکسینا", "અર્શ સક્સેના", "আরশ সাক্সেনা", "ಅರ್ಶ್ ಸಕ್ಸೇನಾ", "അർഷ് സക്‌സേന", "ਅਰਸ਼ ਸਕਸੈਨਾ", "அர்ஷ் சக்சேனா", "అర్ష్ సక్సేనా", "ଆର୍ଶ ସାକ୍ସେନା |", "阿什·萨克塞纳", "ארש סקסנה", "Арш Саксена"],
-                        typeSpeed: 80,
-                        backSpeed: 120,
-                        backDelay: 720,
-                        startDelay: 0,
-                        loop: true,
-                        showCursor: false,
-                        cursorChar: "|",
-                        attr: null,
-                        });
-                    </script>
-                    <script>
-                        function animateValue(obj, start, end, duration) {
-                            let startTimestamp = null;
-                            const step = (timestamp) => {
-                                if (!startTimestamp) startTimestamp = timestamp;
-                                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                                obj.innerHTML = Math.floor(progress * (end - start) + start);
-                                if (progress < 1) {
-                                    window.requestAnimationFrame(step);
-                                }
-                            };
-                            window.requestAnimationFrame(step);
-                        }
-                        
-                        const obj = document.getElementById('age');
-                        animateValue(obj, 0, 16, 1000);
-                    </script>
-                </div>
-                <div class="col2">
-                    <div class="description">
-                            <span class="namaste"></span><span class="cursor2">|</span> <br>
-                            I am an <span class="indian"><span class="in">IN</span><span class="di">DI</span><span class="an">AN</span></span>. <br>
-                            <div class="profession">
-                                <div>Student. </div>
-                                <div>Coder. </div>
-                                <div>Photographer. </div>
-                                <div>Video editor. </div>
-                                <div>Tech enthusiast. </div>
-                                <div>Sneakerhead. </div>
-                            </div>
-                            📚 👨🏻‍💻 📷 📽 💻 👟 <br>
-                            Follow me anywhere.
+        <div class="main-div">
+            <div class="margin-add"></div>
+            <div class="hero-text">
+                <div class="hero-info component">
+                    <div class="hero-info-content component-content">
+                        <span class="hero-info-text hero-info-about">
+                            <span class="indian">
+                                🇮🇳
+                                <span class="in">IN</span><span class="di">DI</span><span class="an">AN</span>
+                            </span>
+                        </span>
+                        <span class="hero-info-text hero-info-age age">18</span>
                     </div>
                 </div>
+                <div class="hero-name component">
+                    <div class="hero-name-content component-content">
+                        <span class="hero-name-content-title"><span class="typed-words"></span></span>
+                    </div>
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
                 <script>
-                    var typed = new Typed(".namaste", {
-                        strings: ["Hi.", "नमस्ते।", "こんにちは", "ہائے", "નમસ્તે", "হ্যালো", "ನಮಸ್ತೆ", "നമസ്‌തേ", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ", "నమస్తే", "வணக்கம்", "ନମସ୍କାର", "你好", "안녕", "Привет", "היי", "สวัสดี"],
-                        typeSpeed: 80,
-                        backSpeed: 120,
-                        backDelay: 720,
-                        startDelay: 0,
-                        loop: true,
-                        showCursor: false,
-                        cursorChar: "|",
-                        attr: null,
+                    var typed = new Typed(".typed-words", {
+                    strings: ["Arsh Saxena"],
+                    typeSpeed: 75,
+                    showCursor: false,
                     });
                 </script>
-            </div>
-            <div class="social-links" id="social-links">
-                <div>
-                    <a href="https://instagram.com/arsh.saxena02" target="_blank">
-                        <img src="/resources/first-page/icons/instagram.png" class="instagram-icon" alt="instagram-icon">
-                    </a>
-                    <a href="https://github.com/arshsaxena" target="_blank">
-                        <img src="/resources/first-page/icons/github.png" class="github-icon" alt="github-icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/arshsaxena/" target="_blank">
-                        <img src="/resources/first-page/icons/linkedin.png" class="linkedin-icon" alt="linkedin-icon">
-                    </a>
-                    <a href="pages/contact/" target="_blank">
-                        <img src="/resources/first-page/icons/form.png" class="form-icon" alt="form-icon">
-                    </a>
-                    <a href="https://www.reddit.com/u/arshsaxena" target="_blank">
-                        <img src="/resources/first-page/icons/reddit.png" class="reddit-icon" alt="reddit-icon">
-                    </a>
-                    <a href="https://www.twitter.com/arshsaxena02" target="_blank">
-                        <img src="/resources/first-page/icons/twitter.png" class="twitter-icon" alt="twitter-icon">
-                    </a>
-                    <a href="https://facebook.com/arsh.saxena02" target="_blank">
-                        <img src="/resources/first-page/icons/facebook.png" class="facebook-icon" alt="facebook-icon">
-                    </a>
-                    <a href="https://open.spotify.com/playlist/5GrCNAmAXGSQ3VVA9JS9zw?si=65ef34622fad4e1d" target="_blank">
-                        <img src="/resources/first-page/icons/spotify.png" class="spotify-icon" alt="gaana-icon">
-                    </a>
-                </div>
-            </div>
-            <div class="apps-container">
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div">
-                            <img src="/resources/app/arsh-saxena-app-icon.jpg" alt="">
+                <div class="hero-intro component">
+                    <div class="hero-intro-content component-content">
+                        <div class="hero-intro-line1">
+                            <div>Student,</div>
+                            <div>developer,</div>
+                            <div>photographer,</div>
+                            <div>video editor,</div>
+                            <div>tech enthusiast,</div>
+                            <div>writer, and</div>
+                            <div>sneakerhead.</div>
                         </div>
-                        <div class="button-text-div">
-                            <h1>Arsh Saxena</h1>
-                            <h2>Official app.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="/pages/app/">CHECK OUT APP &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
+                        <div class="hero-intro-line2">
+                            📚 👨🏻‍💻 📷 📽 💻 🖊️ 👟 
                         </div>
                     </div>
                 </div>
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div">
-                            <img src="/resources/app/aeducational-app-icon.png" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>aEducational</h1>
-                            <h2>Destination to education.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/aEducational" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div">
-                            <img src="/resources/app/aconverter-app-icon.jpg" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>aConverter</h1>
-                            <h2>Convert in multiple units.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/aConverter" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div" style="background-color: white; border-radius: 22.5%;">
-                            <img src="/resources/first-page/icons/weather-app-icon.png" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>Weather</h1>
-                            <h2>Get any place's weather.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/weather" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-button-container">
-                    <div class="button-div" style="height: 104px;">
-                        <div class="button-img-div" style="background-color: white; border-radius: 22.5%; height: 100px;">
-                            <img src="/resources/first-page/icons/colors-app-icon.png" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>Colors</h1>
-                            <h2>Hex. RGB. RGBA.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/colors" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div">
-                            <img src="/resources/first-page/icons/qr-app-icon.png" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>QR Code Generator</h1>
-                            <h2>Type. Generate. QR.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/qr" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="app-button-container">
-                    <div class="button-div">
-                        <div class="button-img-div" style="background-color: white; border-radius: 22.5%;">
-                            <img src="/resources/first-page/icons/solarsystem-app-icon.png" alt="">
-                        </div>
-                        <div class="button-text-div">
-                            <h1>Solar System</h1>
-                            <h2>HTML, CSS, and JS.</h2>
-                            <div class="checkout-button-div">
-                                <button><b><a href="https://www.arshsaxena.in/SolarSystem" target="_blank">CHECK OUT &nbsp;<i class="fa fa-angle-right"></i></a></b></button>
-                            </div>
-                        </div>
+                <div class="hero-social-links component" id="ping-me">
+                    <div class="hero-social-links-content component-content">
+                        <a href="https://instagram.com/arsh.saxena02" target="_blank">
+                            <img src="/resources/first-page/icons/instagram.png" class="instagram-icon sc-icon" alt="instagram-icon">
+                        </a>
+                        <a href="https://github.com/arshsaxena" target="_blank">
+                            <img src="/resources/first-page/icons/github.png" class="github-icon sc-icon" alt="github-icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/arshsaxena/" target="_blank">
+                            <img src="/resources/first-page/icons/linkedin.png" class="linkedin-icon sc-icon" alt="linkedin-icon">
+                        </a>
+                        <a href="pages/contact/" target="_blank">
+                            <img src="/resources/first-page/icons/form.png" class="form-icon sc-icon" alt="form-icon">
+                        </a>
+                        <a href="https://www.reddit.com/u/arshsaxena" target="_blank">
+                            <img src="/resources/first-page/icons/reddit.png" class="reddit-icon sc-icon" alt="reddit-icon">
+                        </a>
+                        <a href="https://www.twitter.com/arshsaxena02" target="_blank">
+                            <img src="/resources/first-page/icons/x.png" class="x-icon sc-icon" alt="twitter-icon">
+                        </a>
+                        <a href="https://facebook.com/arsh.saxena02" target="_blank">
+                            <img src="/resources/first-page/icons/facebook.png" class="facebook-icon sc-icon" alt="facebook-icon">
+                        </a>
+                        <a href="https://open.spotify.com/playlist/5GrCNAmAXGSQ3VVA9JS9zw?si=65ef34622fad4e1d" target="_blank">
+                            <img src="/resources/first-page/icons/spotify.png" class="spotify-icon sc-icon" alt="gaana-icon">
+                        </a>
                     </div>
                 </div>
             </div>
-            <!-- <div class="app-banner-mobile" id="app-banner-mobile">
-                <div class="app-banner-img-div">
-                    <img src="/resources/app/arsh-saxena-app-icon.jpg" alt="">
+            <div class="hero-img">
+                <img src="/resources/first-page/imgs/hero.png" alt="arsh-hero-image">
+            </div>
+            <div class="hero-about">
+                <div class="hero-about-content">
+                    <p>
+                        Namaste. 🙋🏻‍♂️
+                    </p>
+                    <p>
+                        I'm Arsh Saxena, a developer, and student pursuing B.Tech. in Electronics and Communication Engineering. With a strong foundation in Physics, Chemistry, and Mathematics with Computer Science, I love coding.
+                    </p>
+                    <p>
+                        Beyond coding, I do photography, video editing, and photo editing. I am quite fluent in English, I also enjoy writing engaging content, particularly focusing on English composition for students. In my free time, I watch movies and TV shows, and I have a hobby of collecting sneakers.
+                    </p>
+                    <p>
+                        Some more about me on the <a href="/pages/about/">About</a> page.
+                    </p>
+                    <p>
+                        Let's connect, <a href="#ping-me">ping me</a> anywhere!🤘🏻
+                    </p>
                 </div>
-                <div class="app-banner-text-div">
-                    <h1>Arsh Saxena</h1>
-                    <h2>Official app.</h2>
+            </div>
+            <div class="hero-apps">
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img">
+                            <img src="/resources/app/arsh-saxena-app-icon.jpg" alt="arsh-saxena-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    Arsh Saxena
+                                </div>
+                                <div class="app-tagline">
+                                    Official app.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="/pages/app/">CHECK OUT APP</a> &nbsp;<i class="fa-solid fa-angle-right"></i>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="app-banner-checkout-button-div">
-                    <a href="/pages/app/"><button><b>Check out &nbsp;<i class="fa fa-angle-right"></i></b></button></a>
-                    <br>
-                    <button onclick="document.getElementById('app-banner-mobile').style.display = 'none';">Not now</button>
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img">
+                            <img src="/resources/app/aeducational-app-icon.png" alt="aeducational-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    aEducational
+                                </div>
+                                <div class="app-tagline">
+                                    Destination to education.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="https://www.arshsaxena.in/aEducational" target="_blank">CHECK OUT &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img">
+                            <img src="/resources/app/aconverter-app-icon.jpg" alt="aconverter-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    aConverter
+                                </div>
+                                <div class="app-tagline">
+                                    Convert in multiple units.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="https://www.arshsaxena.in/aConverter" target="_blank">CHECK OUT &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img" style="background-color: white; border-radius: 10px">
+                            <img src="/resources/first-page/icons/weather-app-icon.png" alt="weather-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    Weather
+                                </div>
+                                <div class="app-tagline">
+                                    Get any place's weather.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="https://www.arshsaxena.in/weather" target="_blank">CHECK OUT &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img">
+                            <img src="/resources/first-page/icons/qr-app-icon.png" alt="qr-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    QR Code Generator
+                                </div>
+                                <div class="app-tagline">
+                                    Type. Generate. QR.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="https://www.arshsaxena.in/qr" target="_blank">CHECK OUT &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-container">
+                    <div class="app-button">
+                        <div class="app-button-img" style="background-color: white; border-radius: 10px">
+                            <img src="/resources/first-page/icons/solarsystem-app-icon.png" alt="solarsystem-app-icon">
+                        </div>
+                        <div class="app-info-container">
+                            <div class="app-info">
+                                <div class="app-name">
+                                    Solar System
+                                </div>
+                                <div class="app-tagline">
+                                    HTML, CSS, and JS.
+                                </div>
+                            </div>
+                            <div class="app-check-out-button">
+                                <p>
+                                    <button>
+                                        <a href="https://www.arshsaxena.in/SolarSystem" target="_blank">CHECK OUT &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                                    </button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-conatiner">
+            <footer>
+                <div class="footer" id="footer-part">
+                    <div class="footnote">
+                        Check <a href="pages/brand-resources-used/">this page</a> for brand resources used.
+                    </div>
+                    <div class="footer-text">
+                        <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer"> &nbsp; &nbsp;
+                        <span class="path">
+                            <span class="page-name">Home</span>
+                        </span>                  
+                    </div>
+                </div>
+            </footer>
+            <footer id="footer"></footer>
         </div>
     </div>
-    <span class="footer-conatiner">
-        <footer>
-            <div class="footer" id="footer-part">
-                <div class="footnote">
-                    Check <a href="pages/brand-resources-used/">this page</a> for brand resources used.
-                </div>
-                <div class="footer-text">
-                    <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer"> &nbsp; &nbsp;
-                    <span class="path">
-                        <span class="page-name">Home</span>
-                    </span>                  
-                </div>
-            </div>
-        </footer>
-        <footer id="footer"></footer>
-    </span>
 </body>
 </html>

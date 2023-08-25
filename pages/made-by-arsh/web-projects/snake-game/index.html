@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <title>Snake Game | Web Projects | Made By Arsh | Arsh Saxena</title>
+    
+    <meta name="description" content="Templates | Arsh Saxena | Download cool website templates made by Arsh Saxena.">
+    <meta name="author" content="Arsh Saxena">
+    <meta name="keywords" content="Arsh Saxena, arsh.saxena02, GitHub, Coding, Indian, Student">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/pages/made-by-arsh/web-projects/global/style.css">
+    <link rel="stylesheet" href="/other/globals/global-fonts.css">
+    <link rel="stylesheet" href="/other/globals/global-navbar/global-navbar.css">
+    <link rel="stylesheet" href="/other/globals/global-footer/global-footer.css">
+    <link rel="stylesheet" href="/other/globals/global-scrollbar.css">
+    <link rel="stylesheet" href="/other/globals/global-top-button/global-top-button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta name="theme-color" content="#1d1d1f">
+    <meta name="msapplication-navbutton-color" content="#1d1d1f">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1d1d1f">
+
+    <link rel="icon" href="/resources/first-page/icons/arsh-favicon.png">
+</head>
+<body>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+        $("#nav").load("/other/globals/global-navbar/global-navbar.html"); 
+        $("#footer").load("/other/globals/global-footer/global-footer.html"); 
+        $("#top-button").load("/other/globals/global-top-button/global-top-button.html");
+        });
+    </script>
+    <div class="container">
+        <span id="top-button"></span>
+        <div class="nav-container">
+            <nav class="nav" id="nav"> 
+            </nav>
+        </div>
+        <div class="main-div-mobile">
+            <div class="caution">
+                <div class="caution-symbol">
+                    ‼️
+                </div>
+                <div class="caution-content-container">
+                    <p>
+                        This project is best experienced on a desktop. Unfortunately, they might not work on small screen devices. However, you can always try using in <b>Desktop Mode</b>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main-div main-div-desktop">
+            <div class="caution">
+                <div class="caution-symbol">
+                    ‼️
+                </div>
+                <div class="caution-content-container">
+                    <p>
+                        This project is best experienced on a desktop. Unfortunately, they might not work on small screen devices. However, you can always try using in <b>Desktop Mode</b>.
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="project-head">
+                Snake Game
+            </div>
+            <br>
+            <div id="gameContainer">
+                <canvas id="gameBoard" width="500" height="500"></canvas>
+                <div id="scoreText">0</div>
+                <button id="resetButton">RESET</button>
+            </div>
+            <script src="script.js"></script>
+        </div>
+        <div class="footer-conatiner">
+            <footer>
+                <div class="footer" id="footer-part">
+                    <div class="footer-text">
+                        <img src="/resources/first-page/icons/arsh.png" alt="arsh-img-footer">
+                        <span class="path">
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Made By Arsh</span>
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Web Projects</span>
+                            <span class="arrow"><i class="fa-solid fa-angle-right"></i></span>
+                            <span class="page-name">Snake Game</span>
+                        </span>                  
+                    </div>
+                </div>
+            </footer>
+            <footer id="footer"></footer>
+            </div>
+        </div>
+    </div>  
+</html>

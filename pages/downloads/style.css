@@ -9,52 +9,43 @@ body{
     margin-right: auto;
     background-color: black;
     color: white;
-    font-family: font-regular;
+    font-family: "text-font-regular";
     overflow-x: hidden;
 }
 b{
-    font-family: font-bold;
+    font-family: "text-font-bold";
 }
 a{
     text-decoration: none;
 }
 #link-nav.downloads{
-    font-weight: bold;
+    font-family: "text-font-bold";
     color: white;
 }
-#link-nav.downloads::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 100%;
-    transition: width 0.2s ease-out;
-    background-color: lawngreen;
-}
-.maindiv{
+.main-div{
     max-width: 980px;
-    width: 95%;
-    margin: auto;
+    width: 100%;
+    margin: 50px auto;
     font-size: 20px;
 }
-.maindiv a{
+.main-div a{
     color: #2997ff;
     font-size: 17px;
 }
-.maindiv a:hover{
+.main-div a:hover{
     text-decoration: underline;
 }
-.maindiv .h3-header{
+.main-div .h3-header{
     font-size: 21px;
     color: white;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom-style: solid;
     border-bottom-color: rgb(51, 51, 51);
     border-width: 1px;  
 }
 .favorite{
-        border-bottom-style: solid;
+    border-bottom-style: solid;
     border-bottom-color: rgb(51, 51, 51);
     border-width: 1px;
 }
@@ -85,18 +76,20 @@ a{
     width: 25%;
 }
 .fav-download button{
-    font-family: font-regular;
+    font-family: "text-font-regular";
     font-size: 16px !important;
-    padding: 2px 5px;
+    padding: 5px 8px;
     background-color: #007aff;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
 }
 .fav-download button a{
     font-size: 16px;
 }
 .fav-download button:hover{
     background-color: #0064cf;
+    cursor: pointer;
 }
 .fav-download button:hover a{
     text-decoration: none !important;
@@ -108,15 +101,16 @@ a{
     content: "􀁸";
     color: white;
 }
-.mac, .windows, .linux, .ios, .android{
+.os-header{
+    font-family: "display-font-bold";
+    font-size: 30px;
+    margin: 20px 0;
+}
+.os-category:not(:last-of-type) {
     border-bottom-style: solid;
     border-bottom-color: rgb(51, 51, 51);
     border-width: 1px;
     padding-bottom: 20px;
-}
-.android-tv{
-    border-bottom-style: none;
-    padding-bottom: 50px;
 }
 .list{
     max-width: 980px;
@@ -128,18 +122,31 @@ a{
 }
 .list ul{
     margin-top: 0;
-    margin-bottom: 10px;
     list-style-type: none;
     padding: 0;
     display: inline-block;
 }
 .category-headers{
     font-size: 19px;
+    font-family: "text-font-bold";
 }
-.list li ul li{
+.list .category-block-container{
+    background-color: #1d1d1f;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.list li ul li:not(:last-of-type){
     padding-bottom: 5px;
 }
 
+@media screen and (max-width: 1024px) {
+    .main-div{
+        max-width: 980px;
+        margin: 20px auto;
+        width: 92%;
+    }
+}
 
 @media screen and (max-width: 823px) {
     html{
@@ -153,15 +160,15 @@ a{
         padding: 0px;
         overflow-x: hidden;
     }
-    .maindiv{
-        max-width: 800px;
-        width: 90%;
-        margin: 20px;
+    .main-div{
+        max-width: 980px;
+        width: 92%;
+        margin: 20px auto;
     }
-    .maindiv h3{
-        font-size: 26px;
+    .main-div .h3-header{
+        font-size: 21px;
         color: white;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         border-width: 1px;
     }
     .fav-head{
@@ -191,7 +198,7 @@ a{
         margin-bottom: 5px;
     }
     .fav-download button{
-        font-family: font-regular;
+        font-family: "text-font-regular";
         font-size: 16px;
         padding: 2px 5px;
         background-color: #007aff;
@@ -218,7 +225,7 @@ a{
     .category-headers{
         font-size: 19px;
     }
-    li{
-        padding-bottom: 5px;
+    .list .category-block-container {
+        margin-bottom: 10px;
     }
 }

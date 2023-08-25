@@ -1,0 +1,31 @@
+#gameContainer{
+    font-family: "Samsung Sharp Sans";
+    text-align: center;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 237px;
+    margin: auto;
+    background-color: rgb(185, 248, 185);
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+#restartButton{
+    height: 50px;
+    width: 150px;
+    font-family: "Samsung Sharp Sans";
+    font-size: 25px;
+    text-align: center;
+    background-color: lightcoral;
+    border: 2px solid;
+    border-radius: 50px;
+    cursor: pointer;
+}
