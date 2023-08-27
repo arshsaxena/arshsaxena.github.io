@@ -240,6 +240,9 @@ nav {
 }
 
 /* Ignore, nothing to do with navigation bar. */
+html{
+    scroll-padding-top: 80px !important;
+}
 img {
     pointer-events: none;
     -khtml-user-select: none;

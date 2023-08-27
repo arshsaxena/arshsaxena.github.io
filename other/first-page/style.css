@@ -210,8 +210,8 @@ nav{
     color: white;
     text-decoration: none;
 }
-.app-info-container .app-check-out-button:hover button a, .app-info-container .app-check-out-button:focus button a{
-    text-decoration: underline;
+.app-info-container .app-check-out-button:hover button, .app-info-container .app-check-out-button:focus button{
+    background-color: #0061c9;
 }
 .footnote{
     padding-bottom: 10px;
@@ -433,8 +433,8 @@ nav{
         color: white;
         text-decoration: none;
     }
-    .app-info-container .app-check-out-button:focus button a{
-        text-decoration: underline;
+    .app-info-container .app-check-out-button:focus button{
+        background-color: #0061c9;
     }
     .app-container img{
         width: 100%;
